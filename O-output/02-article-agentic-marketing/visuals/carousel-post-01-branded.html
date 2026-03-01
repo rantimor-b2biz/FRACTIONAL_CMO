@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Carousel - Agentic AI vs Marketing Automation (Branded)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f0f0f0;
+            padding: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: center;
+        }
+
+        .slide {
+            width: 1080px;
+            height: 1080px;
+            background: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 80px;
+            position: relative;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+
+        .slide-number {
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            font-size: 18px;
+            color: #6B7280;
+            font-weight: 600;
+        }
+
+        .brand {
+            position: absolute;
+            bottom: 40px;
+            left: 40px;
+            font-size: 16px;
+            color: #6B7280;
+            font-weight: 500;
+        }
+
+        /* Slide 1 - Cover */
+        #slide1 {
+            background: linear-gradient(135deg, #0A1128 0%, #1A2238 100%);
+            color: white;
+        }
+
+        #slide1 h1 {
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 1.2;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        #slide1 .not-equal {
+            color: #00D9FF;
+            font-size: 72px;
+            font-weight: 900;
+        }
+
+        #slide1 .subtitle {
+            font-size: 28px;
+            font-weight: 400;
+            text-align: center;
+            opacity: 0.9;
+            max-width: 800px;
+        }
+
+        #slide1 .brand {
+            color: rgba(255,255,255,0.6);
+        }
+
+        #slide1 .slide-number {
+            color: rgba(255,255,255,0.4);
+        }
+
+        /* Slide 2 - The Mistake */
+        #slide2 {
+            background: white;
+        }
+
+        #slide2 .content {
+            text-align: center;
+            max-width: 900px;
+        }
+
+        #slide2 h2 {
+            font-size: 56px;
+            font-weight: 700;
+            color: #1F2937;
+            margin-bottom: 60px;
+            line-height: 1.3;
+        }
+
+        #slide2 .highlight {
+            color: #EF4444;
+            font-weight: 800;
+        }
+
+        #slide2 p {
+            font-size: 32px;
+            color: #6B7280;
+            line-height: 1.6;
+        }
+
+        /* Slide 3 - Comparison */
+        #slide3 {
+            background: white;
+            padding: 60px 80px;
+        }
+
+        #slide3 h2 {
+            font-size: 48px;
+            font-weight: 700;
+            color: #1F2937;
+            text-align: center;
+            margin-bottom: 80px;
+        }
+
+        .comparison {
+            display: flex;
+            gap: 80px;
+            align-items: stretch;
+            height: 600px;
+        }
+
+        .comparison-side {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 60px;
+            border-radius: 12px;
+        }
+
+        .comparison-side.left {
+            background: #F8F9FA;
+            border: 3px solid #E5E7EB;
+        }
+
+        .comparison-side.right {
+            background: linear-gradient(135deg, rgba(0, 217, 255, 0.1) 0%, rgba(0, 191, 216, 0.05) 100%);
+            border: 3px solid #00D9FF;
+        }
+
+        .comparison-label {
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            opacity: 0.6;
+        }
+
+        .comparison-side.left .comparison-label {
+            color: #6B7280;
+        }
+
+        .comparison-side.right .comparison-label {
+            color: #00BFD8;
+        }
+
+        .comparison-title {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 40px;
+        }
+
+        .comparison-side.left .comparison-title {
+            color: #6B7280;
+        }
+
+        .comparison-side.right .comparison-title {
+            color: #00D9FF;
+        }
+
+        .comparison-text {
+            font-size: 28px;
+            line-height: 1.5;
+        }
+
+        .comparison-side.left .comparison-text {
+            color: #6B7280;
+        }
+
+        .comparison-side.right .comparison-text {
+            color: #0A1128;
+            font-weight: 600;
+        }
+
+        .arrow {
+            font-size: 40px;
+            margin: 20px 0;
+        }
+
+        .comparison-side.left .arrow {
+            color: #9CA3AF;
+        }
+
+        .comparison-side.right .arrow {
+            color: #00D9FF;
+        }
+
+        /* Slide 4 - The Problem */
+        #slide4 {
+            background: white;
+        }
+
+        #slide4 .content {
+            max-width: 900px;
+            text-align: left;
+        }
+
+        #slide4 h2 {
+            font-size: 48px;
+            font-weight: 700;
+            color: #1F2937;
+            margin-bottom: 60px;
+        }
+
+        .problem-list {
+            list-style: none;
+        }
+
+        .problem-list li {
+            font-size: 28px;
+            color: #374151;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            padding-left: 50px;
+            position: relative;
+        }
+
+        .problem-list li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #EF4444;
+            font-weight: 700;
+            font-size: 32px;
+        }
+
+        .problem-list .condition {
+            font-weight: 600;
+            color: #1F2937;
+        }
+
+        /* Slide 5 - Key Insight */
+        #slide5 {
+            background: linear-gradient(135deg, #00D9FF 0%, #00BFD8 100%);
+            color: #0A1128;
+        }
+
+        #slide5 .quote {
+            font-size: 52px;
+            font-weight: 700;
+            line-height: 1.4;
+            text-align: center;
+            max-width: 900px;
+        }
+
+        #slide5 .quote-mark {
+            font-size: 120px;
+            opacity: 0.2;
+            line-height: 0.5;
+            margin-bottom: 20px;
+            color: #0A1128;
+        }
+
+        #slide5 .brand {
+            color: #0A1128;
+            font-weight: 600;
+        }
+
+        #slide5 .slide-number {
+            color: rgba(10, 17, 40, 0.4);
+        }
+
+        /* Slide 6 - Solution */
+        #slide6 {
+            background: white;
+        }
+
+        #slide6 .content {
+            text-align: center;
+            max-width: 900px;
+        }
+
+        #slide6 h2 {
+            font-size: 56px;
+            font-weight: 700;
+            color: #1F2937;
+            margin-bottom: 60px;
+        }
+
+        #slide6 p {
+            font-size: 36px;
+            color: #374151;
+            line-height: 1.6;
+            font-weight: 600;
+        }
+
+        #slide6 .emphasis {
+            color: #10B981;
+            font-weight: 800;
+        }
+
+        /* Slide 7 - CTA */
+        #slide7 {
+            background: linear-gradient(135deg, #0A1128 0%, #1A2238 100%);
+            color: white;
+        }
+
+        #slide7 .content {
+            text-align: center;
+            max-width: 800px;
+        }
+
+        #slide7 h2 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 60px;
+            line-height: 1.3;
+        }
+
+        #slide7 .link-box {
+            background: rgba(0, 217, 255, 0.1);
+            border: 2px solid #00D9FF;
+            border-radius: 12px;
+            padding: 40px;
+            margin: 60px 0;
+        }
+
+        #slide7 .link-text {
+            font-size: 24px;
+            opacity: 0.8;
+            margin-bottom: 20px;
+        }
+
+        #slide7 .link {
+            font-size: 28px;
+            font-weight: 600;
+            color: #00D9FF;
+        }
+
+        #slide7 .author {
+            font-size: 32px;
+            font-weight: 600;
+            margin-top: 60px;
+        }
+
+        #slide7 .author-title {
+            font-size: 20px;
+            opacity: 0.7;
+            margin-top: 10px;
+        }
+
+        #slide7 .brand {
+            color: rgba(255,255,255,0.6);
+        }
+
+        #slide7 .slide-number {
+            color: rgba(255,255,255,0.4);
+        }
+
+        /* Print styles for screenshots */
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .slide {
+                page-break-after: always;
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Slide 1: Cover -->
+    <div class="slide" id="slide1">
+        <div class="slide-number">1/7</div>
+        <h1>Agentic AI<br><span class="not-equal">≠</span><br>Marketing Automation 2.0</h1>
+        <div class="subtitle">Most B2B startups are about to make the same mistake they made in 2015.</div>
+        <div class="brand">Ran Timor</div>
+    </div>
+
+    <!-- Slide 2: The Mistake -->
+    <div class="slide" id="slide2">
+        <div class="slide-number">2/7</div>
+        <div class="content">
+            <h2>Most B2B startups think<br><span class="highlight">it's the same thing.</span></h2>
+            <p>Just smarter, faster, better automation.</p>
+        </div>
+        <div class="brand">rantimor.com</div>
+    </div>
+
+    <!-- Slide 3: Comparison -->
+    <div class="slide" id="slide3">
+        <div class="slide-number">3/7</div>
+        <h2>The Critical Difference</h2>
+        <div class="comparison">
+            <div class="comparison-side left">
+                <div class="comparison-label">Marketing Automation</div>
+                <div class="comparison-title">Executes</div>
+                <div class="arrow">↓</div>
+                <div class="comparison-text">Your Strategy</div>
+            </div>
+            <div class="comparison-side right">
+                <div class="comparison-label">Agentic AI</div>
+                <div class="comparison-title">Creates</div>
+                <div class="arrow">↓</div>
+                <div class="comparison-text">Strategy</div>
+            </div>
+        </div>
+        <div class="brand">rantimor.com</div>
+    </div>
+
+    <!-- Slide 4: The Problem -->
+    <div class="slide" id="slide4">
+        <div class="slide-number">4/7</div>
+        <div class="content">
+            <h2>What This Means</h2>
+            <ul class="problem-list">
+                <li><span class="condition">If your positioning is unclear,</span> the agent will optimize toward the wrong things.</li>
+                <li><span class="condition">If your ICP is too broad,</span> the agent will target more of the wrong people.</li>
+                <li><span class="condition">If your messaging is inconsistent,</span> the agent will test variations of confusion.</li>
+            </ul>
+        </div>
+        <div class="brand">rantimor.com</div>
+    </div>
+
+    <!-- Slide 5: Key Insight -->
+    <div class="slide" id="slide5">
+        <div class="slide-number">5/7</div>
+        <div class="quote-mark">"</div>
+        <div class="quote">
+            Agentic AI does not amplify your strategy.<br><br>
+            It generates its own strategy based on the signals you give it.
+        </div>
+        <div class="brand">Ran Timor</div>
+    </div>
+
+    <!-- Slide 6: Solution -->
+    <div class="slide" id="slide6">
+        <div class="slide-number">6/7</div>
+        <div class="content">
+            <h2>The Competitive Advantage</h2>
+            <p>
+                Is not who has<br>
+                the <span class="emphasis">best agents.</span>
+            </p>
+            <p style="margin-top: 60px;">
+                It is who has<br>
+                the <span class="emphasis">clearest strategy.</span>
+            </p>
+        </div>
+        <div class="brand">rantimor.com</div>
+    </div>
+
+    <!-- Slide 7: CTA -->
+    <div class="slide" id="slide7">
+        <div class="slide-number">7/7</div>
+        <div class="content">
+            <h2>I wrote about why this matters<br>and what to do about it.</h2>
+            <div class="link-box">
+                <div class="link-text">Full article:</div>
+                <div class="link">Link in comments 👇</div>
+            </div>
+            <div class="author">Ran Timor</div>
+            <div class="author-title">Fractional CMO | B2B Tech Startups</div>
+        </div>
+    </div>
+
+    <script>
+        // Instructions for taking screenshots
+        console.log(`
+=================================================
+BRANDED CAROUSEL - RANTIMOR.COM COLORS
+=================================================
+
+BRAND COLORS APPLIED:
+- Navy Blue (#0A1128, #1A2238): Cover & CTA backgrounds
+- Turquoise (#00D9FF, #00BFD8): Primary accents & highlights
+- Mint Green (#10B981): Solution/positive emphasis
+- Coral Red (#EF4444): Problem/negative indicators
+- Clean whites & grays for professional look
+
+INSTRUCTIONS FOR CREATING LINKEDIN CAROUSEL:
+=================================================
+
+METHOD 1 - Quick Screenshots (5-10 minutes):
+1. Open this file in Chrome/Edge browser
+2. Press Windows+Shift+S (or Mac: Cmd+Shift+4)
+3. Capture each slide at 1080x1080px
+4. Save as: slide-01.png, slide-02.png, etc.
+5. Upload to LinkedIn in order
+
+METHOD 2 - DevTools Screenshot (Professional):
+1. Press F12 to open DevTools
+2. Press Ctrl+Shift+P (Cmd+Shift+P on Mac)
+3. Type "screenshot" → "Capture full size screenshot"
+4. Crop each slide individually
+
+METHOD 3 - PDF Upload (Fastest):
+1. Press Ctrl+P (Cmd+P on Mac)
+2. Save as PDF
+3. Upload directly to LinkedIn
+4. LinkedIn converts to carousel automatically
+
+RECOMMENDED: Method 3 (PDF) - Takes 2 minutes!
+
+=================================================
+        `);
+    </script>
+
+</body>
+</html>

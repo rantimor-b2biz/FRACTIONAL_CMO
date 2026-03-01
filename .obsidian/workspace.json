@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "877b2859c9247bd8",
+    "type": "split",
+    "children": [
+      {
+        "id": "075f19fdcd9efac9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "38b9554b418ea638",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "O-output/02-article-agentic-marketing/article-agentic-marketing-not-automation-2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "article-agentic-marketing-not-automation-2"
+            }
+          },
+          {
+            "id": "530b91f7a0374507",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "O-output/03-authenticity-vs-ai-noise/LINKEDIN-FINAL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LINKEDIN-FINAL"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eabcfcabd491edd5",
+    "type": "split",
+    "children": [
+      {
+        "id": "28428c35fa234640",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c311326cec7c30ad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "471e59a62e179c62",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5afe751bf5c1c8cf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "363184fb20022159",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2e19494b4854126",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c3af0621e0abf06",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "B-brain/target-personas.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for target-personas"
+            }
+          },
+          {
+            "id": "86dcd9ceee94b3b4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "B-brain/target-personas.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from target-personas"
+            }
+          },
+          {
+            "id": "0485174bf6a7d76f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2eafd8d4f658e483",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "74bee4690846c003",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "B-brain/target-personas.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of target-personas"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "530b91f7a0374507",
+  "lastOpenFiles": [
+    "CLAUDE.md.tmp.65644.1772207514128",
+    "CLAUDE.md.tmp.65644.1772207477414",
+    "CLAUDE.md.tmp.65644.1772199391735",
+    "CLAUDE.md.tmp.65644.1772199120265",
+    "A-agents/EFFICIENCY-ANALYSIS.md",
+    "A-agents/AGENT-OVERLAP-ANALYSIS.md",
+    "O-output/04-authenticity-paradox-linkedin/LINKEDIN-FINAL.md",
+    "O-output/04-authenticity-paradox-linkedin/GATEKEEPER-REVIEW.md",
+    "O-output/04-authenticity-paradox-linkedin/LINKEDIN-DRAFT-v1.md",
+    "O-output/04-authenticity-paradox-linkedin",
+    "T-tools/skills/linkedin-engagement-strategy-skill.md",
+    "T-tools/skills/linkedin-copywriting-skill.md",
+    "A-agents/cmo-orchestrator-agent.md",
+    "A-agents/engagement-agent.md.tmp.65644.1772198040627",
+    "A-agents/README.md.tmp.65644.1772198033387",
+    "A-agents/linkedin-generator-agent.md",
+    "A-agents/trends-monitor-agent.md",
+    "A-agents/thought-leader-agent.md",
+    "A-agents/engagement-agent.md",
+    "O-output/03-authenticity-vs-ai-noise/LINKEDIN-FINAL.md",
+    "O-output/03-authenticity-vs-ai-noise/BLOG-FINAL.md",
+    "C-core/brand-colors.md",
+    "O-output/02-article-agentic-marketing/article-agentic-marketing-not-automation-2.md",
+    "O-output/02-article-agentic-marketing/VISUALS-HEBREW.md",
+    "O-output/02-article-agentic-marketing/VISUALS-SPECS.md",
+    "O-output/02-article-agentic-marketing/linkedin-post-01-contrarian-hook.md",
+    "O-output/02-article-agentic-marketing/linkedin-post-02-problem-pattern.md",
+    "O-output/02-article-agentic-marketing/visuals/CAROUSEL-INSTRUCTIONS.md",
+    "O-output/02-article-agentic-marketing/visuals/carousel-post-01-branded.html",
+    "O-output/02-article-agentic-marketing/images/post-1-contrarian-hook.png",
+    "O-output/02-article-agentic-marketing/2026-02-13.md",
+    "M-memory/decisions.md",
+    "M-memory/feedback.md",
+    "O-output/02-article-agentic-marketing/GATEKEEPER-REVIEW.md",
+    "O-output/02-article-agentic-marketing/visuals/carousel-post-01.html",
+    "O-output/02-article-agentic-marketing/visuals",
+    "T-tools/skills/linkedin-strategy-skill/linkedin-strategy-skill.md.old"
+  ]
+}
