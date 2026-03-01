@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "LINKEDIN-FINAL"
             }
+          },
+          {
+            "id": "22c9f04f6de31828",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,7 +210,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "530b91f7a0374507",
+  "active": "22c9f04f6de31828",
   "lastOpenFiles": [
     "CLAUDE.md.tmp.65644.1772207514128",
     "CLAUDE.md.tmp.65644.1772207477414",
