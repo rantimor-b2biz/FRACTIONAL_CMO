@@ -18,9 +18,9 @@
 
 ## Article Details
 
-**Title:** Agility as Competitive Moat: What Israeli Entrepreneurs Know That Others Are Still Learning
+**Title:** Agility as Competitive Moat: What a Week of Crisis Teaches Every Founder
 
-**Hook:** Day 6 of Israel-Iran conflict as real-world example of organizational agility under uncertainty
+**Hook:** Day 7 of Israel-Iran conflict as real-world example of organizational agility under uncertainty
 
 **Key Insight:** Agility is a measurable, buildable organizational muscle-not luck or heroics
 

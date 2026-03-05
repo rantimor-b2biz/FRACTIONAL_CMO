@@ -1,4 +1,6 @@
-# Agility as Competitive Moat: What Israeli Entrepreneurs Know That Others Are Still Learning
+# Agility as Competitive Moat: What a Week of Crisis Teaches Every Founder
+
+> While the world catches up, Israeli entrepreneurs are already executing what comes next. That's not crisis management. That's a competitive advantage worth billions.
 
 ## It's Day Seven
 
