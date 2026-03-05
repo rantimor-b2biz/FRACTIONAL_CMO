@@ -82,7 +82,7 @@ For a simpler, ultra-minimal approach, use large typography with key quotes on s
 
 **AI Prompt:**
 ```
-A minimal typography-focused graphic for LinkedIn, 1200x1200px. Clean white or navy background with lots of white space. Centered text in large bold font (60pt): "Marketing automation executes your strategy. [line break] Agentic AI creates strategy. [line break] The difference matters." Attribution at bottom in smaller text: "— Ran Timor". Ultra-minimal, executive style, professional sans-serif typography, no images, just clean text and negative space.
+A minimal typography-focused graphic for LinkedIn, 1200x1200px. Clean white or navy background with lots of white space. Centered text in large bold font (60pt): "Marketing automation executes your strategy. [line break] Agentic AI creates strategy. [line break] The difference matters." Attribution at bottom in smaller text: "- Ran Timor". Ultra-minimal, executive style, professional sans-serif typography, no images, just clean text and negative space.
 ```
 
 ---

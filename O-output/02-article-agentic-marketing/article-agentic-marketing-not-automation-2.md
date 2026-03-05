@@ -11,7 +11,7 @@
 
 Your marketing team just asked for budget to "implement agentic AI."
 
-The deck looks impressive. Autonomous agents that write content, optimize campaigns, qualify leads, and personalize journeys — all without human intervention.
+The deck looks impressive. Autonomous agents that write content, optimize campaigns, qualify leads, and personalize journeys - all without human intervention.
 
 It sounds like marketing automation, but faster and smarter.
 
@@ -101,7 +101,7 @@ This is your job as a marketing leader or founder. The agent cannot decide this 
 - What is your core narrative? (The story that makes your product make sense)
 - What outcomes matter? (Pipeline, not just MQLs. Enterprise deals, not just volume.)
 
-If you hand ambiguous goals to an autonomous system, it will pursue them with precision — in the wrong direction.
+If you hand ambiguous goals to an autonomous system, it will pursue them with precision - in the wrong direction.
 
 ### Layer 2: Strategic Guardrails (Human + AI)
 
@@ -191,15 +191,15 @@ The role of fractional CMO shifts from executor to architect.
 
 **What fractional CMOs must do now:**
 
-1. **Define strategic clarity before deploying agents** — If positioning is unclear, fix that first. No agent can solve a positioning problem.
+1. **Define strategic clarity before deploying agents** - If positioning is unclear, fix that first. No agent can solve a positioning problem.
 
-2. **Design guardrails, not workflows** — You are not programming steps. You are setting constraints that autonomous systems operate within.
+2. **Design guardrails, not workflows** - You are not programming steps. You are setting constraints that autonomous systems operate within.
 
-3. **Interpret agent behavior as strategic feedback** — When an agent optimizes toward the wrong thing, that tells you something about your goals, messaging, or ICP definition. Use it as a diagnostic.
+3. **Interpret agent behavior as strategic feedback** - When an agent optimizes toward the wrong thing, that tells you something about your goals, messaging, or ICP definition. Use it as a diagnostic.
 
-4. **Bridge the gap between business objectives and machine-readable goals** — "Increase revenue" is a business goal. "Increase qualified pipeline from enterprise accounts with $50M+ revenue in FinTech" is a machine-readable goal.
+4. **Bridge the gap between business objectives and machine-readable goals** - "Increase revenue" is a business goal. "Increase qualified pipeline from enterprise accounts with $50M+ revenue in FinTech" is a machine-readable goal.
 
-5. **Act as ethical guardrails** — Agents optimize for metrics. They do not care about brand integrity, customer trust, or long-term relationships. You do.
+5. **Act as ethical guardrails** - Agents optimize for metrics. They do not care about brand integrity, customer trust, or long-term relationships. You do.
 
 This is not a tactical role. It is strategic systems design.
 
@@ -243,7 +243,7 @@ If any answer is "no," fix that first.
 
 ### Step 2: Start with Tactical Autonomy, Not Strategic Autonomy
 
-Let agents optimize campaigns, budget allocation, and messaging variations — within guardrails you define.
+Let agents optimize campaigns, budget allocation, and messaging variations - within guardrails you define.
 
 Do not let agents decide who to target, what narrative to use, or which metrics matter. That is your job.
 

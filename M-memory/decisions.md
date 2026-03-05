@@ -13,7 +13,7 @@ Document strategic decisions so we remember WHY we made certain choices.
 ## Template
 
 ```markdown
-### [Date] — [Decision Title]
+### [Date] - [Decision Title]
 
 **Context:**
 [What situation led to this decision?]
@@ -41,7 +41,7 @@ Document strategic decisions so we remember WHY we made certain choices.
 
 ### Example Entry (for reference):
 
-### 2026-02-11 — Focus Q1 on "AI vs Strategy" Theme
+### 2026-02-11 - Focus Q1 on "AI vs Strategy" Theme
 
 **Context:**
 Many B2B tech startups are rushing to "AI-enable" their marketing without fixing fundamental positioning problems first.
@@ -61,7 +61,7 @@ Make "AI vs Strategy" the primary content theme for Q1 2026.
 - Authority positioning on strategic clarity
 
 **Review Date:**
-End of Q1 2026 — Assess performance and decide Q2 direction
+End of Q1 2026 - Assess performance and decide Q2 direction
 
 ---
 

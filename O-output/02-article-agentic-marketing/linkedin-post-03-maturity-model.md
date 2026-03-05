@@ -104,7 +104,7 @@ I wrote about the three layers you need in place before deploying agentic AI, an
 - 3-stage maturity model is clear and actionable
 - Each stage has context + definition + outcome
 - Progression makes intuitive sense
-- "That is the mistake." — signature crisp style
+- "That is the mistake." - signature crisp style
 - Framework tease drives article clicks
 - Perfect length and formatting for LinkedIn
 
@@ -125,7 +125,7 @@ This post is ready to publish.
 - Tuesday 10-11 AM (same optimal window as Post #1)
 - Add article link in first comment
 - Ask engagement question: "Where is your company on this maturity model?"
-- **Israeli audience note:** Tuesday week 2 — people have mental space for frameworks after Monday catch-up
+- **Israeli audience note:** Tuesday week 2 - people have mental space for frameworks after Monday catch-up
 
 ---
 

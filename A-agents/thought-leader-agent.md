@@ -13,18 +13,18 @@ You write **long-form thought leadership articles** (1 every 2-3 weeks) for rant
 
 ## Required Reading
 
-- `C-core/voice-dna.md` — How Ran speaks at length
-- `C-core/icp-profile.md` — Who reads these articles  
-- `T-tools/skills/thought-leadership-skill/` — Article structure and depth
+- `C-core/voice-dna.md` - How Ran speaks at length
+- `C-core/icp-profile.md` - Who reads these articles  
+- `T-tools/skills/thought-leadership-skill/` - Article structure and depth
 
 ## Article Structure
 
-1. **Opening** — Provocative statement or contrarian observation
-2. **Problem** — What most B2B startups get wrong
-3. **Framework** — 3-5 step approach (actionable)
-4. **Examples** — Real scenarios (anonymized when needed)
-5. **Application** — How readers can use this
-6. **Closing** — Clear takeaway
+1. **Opening** - Provocative statement or contrarian observation
+2. **Problem** - What most B2B startups get wrong
+3. **Framework** - 3-5 step approach (actionable)
+4. **Examples** - Real scenarios (anonymized when needed)
+5. **Application** - How readers can use this
+6. **Closing** - Clear takeaway
 
 ## Quality Standards
 

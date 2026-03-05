@@ -1,10 +1,10 @@
-# LinkedIn Post — FINAL
+# LinkedIn Post - FINAL
 
 The better AI gets at sounding human, the more valuable actual humans become.
 
 I'm seeing it everywhere.
 
-Three months ago, an AI-polished LinkedIn post could outperform a rough one. Tight copy, clever framework, perfect structure — it worked.
+Three months ago, an AI-polished LinkedIn post could outperform a rough one. Tight copy, clever framework, perfect structure - it worked.
 
 Now? Founders are exhausted by it.
 
@@ -31,7 +31,7 @@ Three things that actually break through:
 
 **1. Specificity beats generality.** Not "B2B startups struggle with positioning." But "I worked with a Series A founder with 12 enterprise customers. Churn hit 40% the moment they tried to scale."
 
-**2. Judgment beats hedging.** Not "here are five approaches." But "positioning before performance marketing — I've seen it destroy two companies and save three others."
+**2. Judgment beats hedging.** Not "here are five approaches." But "positioning before performance marketing - I've seen it destroy two companies and save three others."
 
 **3. Admitting mistakes beats perfection.** Not "we grew pipeline 200%." But "we grew pipeline 200%, but our ICP was still too broad. Took narrowing our focus and saying no to revenue opportunities."
 
@@ -49,4 +49,4 @@ They're the ones willing to say: "Here's what I actually believe. Here's what I 
 
 That's the moat.
 
-What's your take — are you noticing this shift?
+What's your take - are you noticing this shift?

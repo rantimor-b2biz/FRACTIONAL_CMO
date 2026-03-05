@@ -1,4 +1,4 @@
-# LinkedIn Post — FINAL
+# LinkedIn Post - FINAL
 
 People are getting tired of AI.
 
@@ -47,7 +47,7 @@ But "We grew pipeline 200%. But our ICP was still too broad. It took narrowing o
 
 It's not better writing. It's clearer thinking.
 
-And AI can't do that for you — because AI doesn't have skin in the game.
+And AI can't do that for you - because AI doesn't have skin in the game.
 
 You do.
 

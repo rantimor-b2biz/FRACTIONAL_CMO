@@ -13,8 +13,8 @@ You **analyze content performance** and provide insights that help improve futur
 
 ## Required Reading
 
-- `M-memory/learning-log.md` — Past performance data
-- `T-tools/skills/performance-analysis-skill/` — What metrics matter
+- `M-memory/learning-log.md` - Past performance data
+- `T-tools/skills/performance-analysis-skill/` - What metrics matter
 
 ## What to Track
 

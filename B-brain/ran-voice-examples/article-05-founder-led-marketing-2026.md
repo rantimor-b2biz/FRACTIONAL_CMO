@@ -195,7 +195,7 @@ The rest will keep buying attention while wondering why growth feels harder ever
 - Addresses specific objections
 - Clear about fractional CMO value proposition
 - Focused on Israeli B2B scaleups (specific market)
-- No hype about "influencer" or "personal brand" — strategic framing
+- No hype about "influencer" or "personal brand" - strategic framing
 
 **Positioning:**
 - **Another positioning piece for fractional CMO**
@@ -211,9 +211,9 @@ The rest will keep buying attention while wondering why growth feels harder ever
 - 5 fractional CMO roles
 
 **Target audience cues:**
-- "For Israeli B2B scaleups" — specific geography
-- "Founders & CEOs" — in the title
-- References CAC, CRM, pipeline — speaks to commercial leaders
+- "For Israeli B2B scaleups" - specific geography
+- "Founders & CEOs" - in the title
+- References CAC, CRM, pipeline - speaks to commercial leaders
 
 ---
 

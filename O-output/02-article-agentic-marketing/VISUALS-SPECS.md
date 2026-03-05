@@ -295,7 +295,7 @@ creates strategy.
 
 The difference matters."
 
-— Ran Timor
+- Ran Timor
 ```
 
 ---

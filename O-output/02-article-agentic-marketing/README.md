@@ -97,7 +97,7 @@ All posts link to the article using the link-in-comments strategy.
 
 ### Step 2: Schedule LinkedIn Posts
 
-#### Tuesday, Week 1 (10-11 AM) — Post-Monday Rush
+#### Tuesday, Week 1 (10-11 AM) - Post-Monday Rush
 1. Open `linkedin-post-01-contrarian-hook.md`
 2. Copy the post content (under "## The Post")
 3. Post to LinkedIn
@@ -112,7 +112,7 @@ All posts link to the article using the link-in-comments strategy.
 
 ---
 
-#### Thursday, Week 1 (10-11 AM) — End-of-Week Momentum
+#### Thursday, Week 1 (10-11 AM) - End-of-Week Momentum
 1. Open `linkedin-post-02-problem-pattern.md`
 2. Copy the post content
 3. Post to LinkedIn
@@ -127,7 +127,7 @@ All posts link to the article using the link-in-comments strategy.
 
 ---
 
-#### Tuesday, Week 2 (10-11 AM) — Optimal Window Week 2
+#### Tuesday, Week 2 (10-11 AM) - Optimal Window Week 2
 1. Open `linkedin-post-03-maturity-model.md`
 2. Copy the post content
 3. Post to LinkedIn
@@ -142,7 +142,7 @@ All posts link to the article using the link-in-comments strategy.
 
 ---
 
-#### Thursday, Week 2 (10-11 AM) — Final Push
+#### Thursday, Week 2 (10-11 AM) - Final Push
 1. Open `linkedin-post-04-fractional-cmo-positioning.md`
 2. Copy the post content
 3. Post to LinkedIn
@@ -152,7 +152,7 @@ All posts link to the article using the link-in-comments strategy.
 
    I wrote about what this means for marketing leadership and how to position strategic clarity as the foundation in the agentic AI era.
    ```
-5. **Monitor for DMs** — this post likely to drive inquiries about fractional CMO services
+5. **Monitor for DMs** - this post likely to drive inquiries about fractional CMO services
 6. **Why Thursday 10-11 AM:** End-of-week is when decision-makers think about next steps, highest DM conversion
 
 ---
@@ -164,7 +164,7 @@ All posts link to the article using the link-in-comments strategy.
 - **Avoid:** Sunday morning (catch-up mode, low attention for non-work content), Friday-Saturday (weekend)
 - **Audience:** Israeli B2B tech founders selling to US/European enterprise markets
 - **Language:** English (global positioning, even for Israeli founders)
-- **Key insight:** Sunday morning people are in "catch-up" mode (emails, meetings, planning) — Tuesday is when they have bandwidth for strategic content
+- **Key insight:** Sunday morning people are in "catch-up" mode (emails, meetings, planning) - Tuesday is when they have bandwidth for strategic content
 
 ---
 
@@ -279,9 +279,9 @@ This article positions Ran as:
 
 After this campaign completes:
 
-1. **Analyze performance** — Which angles resonated? What topics came up in comments?
-2. **Update memory system** — Capture learnings in M-memory files
-3. **Plan next article** — Based on engagement patterns and ICP questions
+1. **Analyze performance** - Which angles resonated? What topics came up in comments?
+2. **Update memory system** - Capture learnings in M-memory files
+3. **Plan next article** - Based on engagement patterns and ICP questions
 4. **Potential follow-up topics:**
    - "How to Design AI Guardrails for B2B Marketing"
    - "Hiring a VP Marketing Won't Fix Unclear Positioning"

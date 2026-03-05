@@ -13,7 +13,7 @@ Your FRACTIONAL_CMO system is **production-ready** with:
 - **Memory system** (M-memory/) for continuous learning
 - **Knowledge base** (B-brain/) for content planning and persona targeting
 - **Skills & workflows** (T-tools/) for executing content creation
-- **CLAUDE.md** — Session startup that Claude Code reads automatically
+- **CLAUDE.md** - Session startup that Claude Code reads automatically
 
 ---
 
@@ -84,17 +84,17 @@ The system creates 3 LinkedIn posts automatically.
 ## 📖 Key Files to Know
 
 ### Read These First
-- **CLAUDE.md** — How the system works
-- **C-core/voice-dna.md** — How you speak (CRITICAL)
-- **C-core/icp-profile.md** — Who you're targeting
+- **CLAUDE.md** - How the system works
+- **C-core/voice-dna.md** - How you speak (CRITICAL)
+- **C-core/icp-profile.md** - Who you're targeting
 
 ### Use These for Tasks
-- **T-tools/prompts/02-create-linkedin-post.md** — Post creation workflow
-- **T-tools/prompts/01-quarterly-content-plan.md** — Quarterly planning
+- **T-tools/prompts/02-create-linkedin-post.md** - Post creation workflow
+- **T-tools/prompts/01-quarterly-content-plan.md** - Quarterly planning
 
 ### Check These for Insights
-- **M-memory/learning-log.md** — What's working
-- **B-brain/content-calendar.md** — Current plan
+- **M-memory/learning-log.md** - What's working
+- **B-brain/content-calendar.md** - Current plan
 
 ---
 
@@ -170,14 +170,14 @@ M-memory (captures learnings)
 ## 📚 Learn More
 
 **Full documentation:**
-- `README.md` — Complete system guide
-- `CLAUDE.md` — Session startup protocol
-- `A-agents/README.md` — Agent team overview
+- `README.md` - Complete system guide
+- `CLAUDE.md` - Session startup protocol
+- `A-agents/README.md` - Agent team overview
 
 **Agent definitions:**
-- `A-agents/cmo-orchestrator-agent.md` — Coordinator
-- `A-agents/linkedin-generator-agent.md` — Post writer
-- `A-agents/gatekeeper-agent.md` — Quality control
+- `A-agents/cmo-orchestrator-agent.md` - Coordinator
+- `A-agents/linkedin-generator-agent.md` - Post writer
+- `A-agents/gatekeeper-agent.md` - Quality control
 
 ---
 

@@ -1,4 +1,4 @@
-# Engagement Agent [DEPRECATED — Feb 26, 2026]
+# Engagement Agent [DEPRECATED - Feb 26, 2026]
 
 ---
 name: engagement-agent
@@ -19,8 +19,8 @@ You **identify engagement opportunities** on LinkedIn where Ran can add value, b
 
 ## Required Reading
 
-- `C-core/icp-profile.md` — Who we're looking to engage with
-- `T-tools/skills/engagement-strategy-skill/` — How to evaluate opportunities
+- `C-core/icp-profile.md` - Who we're looking to engage with
+- `T-tools/skills/engagement-strategy-skill/` - How to evaluate opportunities
 
 ## What to Look For
 

@@ -186,7 +186,7 @@ Clarity = Competitive Advantage
 │                                     │
 │    The difference matters."         │
 │                                     │
-│    — Ran Timor                      │
+│    - Ran Timor                      │
 │                                     │
 └─────────────────────────────────────┘
 ```

@@ -15,7 +15,7 @@
 **Company Stage:**
 - Product works, early enterprise customers acquired
 - Founder-led sales still closing most deals
-- No marketing leadership — maybe junior marketer running campaigns
+- No marketing leadership - maybe junior marketer running campaigns
 
 **Pain Points:**
 - Sales cycle is 9-12 months (too long)

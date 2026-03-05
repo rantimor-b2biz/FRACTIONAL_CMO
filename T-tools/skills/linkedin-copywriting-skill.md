@@ -19,12 +19,12 @@ This skill contains:
 
 Before using any template, remember these voice principles:
 
-**Executive level** — Speak at CEO/board level, not junior marketer level
-**Direct and crisp** — Short sentences. One idea = one punch.
-**Slightly contrarian** — Challenge conventional wisdom (backed by experience)
-**Specific, not vague** — Use numbers, real situations, actual outcomes
-**No buzzwords** — Avoid: synergy, disruptive, game-changer, leverage, optimize
-**Grounded** — "I've seen this," "At [company]," "What I'm noticing"
+**Executive level** - Speak at CEO/board level, not junior marketer level
+**Direct and crisp** - Short sentences. One idea = one punch.
+**Slightly contrarian** - Challenge conventional wisdom (backed by experience)
+**Specific, not vague** - Use numbers, real situations, actual outcomes
+**No buzzwords** - Avoid: synergy, disruptive, game-changer, leverage, optimize
+**Grounded** - "I've seen this," "At [company]," "What I'm noticing"
 
 ---
 
@@ -36,15 +36,15 @@ Before using any template, remember these voice principles:
 
 **Structure:**
 ```
-[HOOK] — Short contrarian statement that challenges assumption
+[HOOK] - Short contrarian statement that challenges assumption
 
-[PROBLEM STATEMENT] — Why the conventional wisdom is wrong
+[PROBLEM STATEMENT] - Why the conventional wisdom is wrong
 
-[EXPERIENCE] — Specific example of what you've seen
+[EXPERIENCE] - Specific example of what you've seen
 
-[INSIGHT] — What actually works instead
+[INSIGHT] - What actually works instead
 
-[CLOSING THOUGHT] — Why this matters
+[CLOSING THOUGHT] - Why this matters
 ```
 
 **Example (from authenticity post):**
@@ -86,18 +86,18 @@ And the market is starting to notice.
 
 **Structure:**
 ```
-[HOOK] — The problem or insight
+[HOOK] - The problem or insight
 
-[SETUP] — Why this matters
+[SETUP] - Why this matters
 
-[FRAMEWORK] — 3-5 numbered/bulleted items
+[FRAMEWORK] - 3-5 numbered/bulleted items
 - Item 1 (short description)
 - Item 2 (short description)
 - Item 3 (short description)
 
-[APPLICATION] — How to use it
+[APPLICATION] - How to use it
 
-[CLOSING] — Why founders should care
+[CLOSING] - Why founders should care
 ```
 
 **Example (authenticity post framework section):**
@@ -138,15 +138,15 @@ That's what actually moved the needle" (you can defend this).
 
 **Structure:**
 ```
-[HOOK] — The situation or moment
+[HOOK] - The situation or moment
 
-[STORY] — What happened (specific details matter)
+[STORY] - What happened (specific details matter)
 
-[CONSEQUENCE] — What was the result/what did you learn
+[CONSEQUENCE] - What was the result/what did you learn
 
-[INSIGHT] — What this teaches about B2B marketing/GTM
+[INSIGHT] - What this teaches about B2B marketing/GTM
 
-[QUESTION or INVITATION] — Close with engagement
+[QUESTION or INVITATION] - Close with engagement
 ```
 
 **Example structure:**
@@ -177,15 +177,15 @@ What this taught me: [insight that applies broadly to founders]
 
 **Structure:**
 ```
-[DIRECT STATEMENT] — Your contrarian take (no softening)
+[DIRECT STATEMENT] - Your contrarian take (no softening)
 
-[ACKNOWLEDGMENT] — What the other side is saying (credibility)
+[ACKNOWLEDGMENT] - What the other side is saying (credibility)
 
-[BUT] — Why they're missing something
+[BUT] - Why they're missing something
 
-[EVIDENCE] — What you've actually seen
+[EVIDENCE] - What you've actually seen
 
-[CLOSING] — What founders should do differently
+[CLOSING] - What founders should do differently
 ```
 
 **Example:**
@@ -216,15 +216,15 @@ If you're [specific founder scenario], here's what I'd focus on first: [action]
 
 **Structure:**
 ```
-[QUESTION] — Diagnostic question about positioning/GTM
+[QUESTION] - Diagnostic question about positioning/GTM
 
-[OBSERVATION] — What you're seeing in market
+[OBSERVATION] - What you're seeing in market
 
-[SECOND QUESTION] — Deeper follow-up
+[SECOND QUESTION] - Deeper follow-up
 
-[INSIGHT] — Here's what usually goes wrong
+[INSIGHT] - Here's what usually goes wrong
 
-[INVITATION] — Comment with your version
+[INVITATION] - Comment with your version
 ```
 
 **Example:**
@@ -330,13 +330,13 @@ These openings have driven high engagement for Ran:
 - **Hook sentence:** 5-12 words (punchy)
 - **Explanation sentences:** 10-20 words (clear)
 - **Context sentences:** 20-30 words (nuance)
-- **Mix actively** — Short. Then longer. Then short again.
+- **Mix actively** - Short. Then longer. Then short again.
 
 **Example:**
 ```
 Your positioning is unclear.
 
-That's not a judgment — it's a pattern I see across B2B tech startups
+That's not a judgment - it's a pattern I see across B2B tech startups
 at Seed to Series B. The product works, the founding team is strong,
 and early customers validate the need.
 
@@ -346,19 +346,19 @@ But messaging is inconsistent.
 ### Paragraph Length
 - **LinkedIn posts:** 1-3 sentences per paragraph
 - **One idea per paragraph**
-- **White space is strategic** — Use it to control rhythm
-- **Avoid walls of text** — If it looks dense, it won't get read
+- **White space is strategic** - Use it to control rhythm
+- **Avoid walls of text** - If it looks dense, it won't get read
 
 ### Punctuation
-- **Periods for authority** — "Clear statements."
-- **Em dashes for pauses** — "Like this — when adding context."
-- **NO exclamation marks** — Almost never (excitement reads as hype)
-- **Question marks sparingly** — For engagement, not rhetorical fluff
+- **Periods for authority** - "Clear statements."
+- **Em dashes for pauses** - "Like this - when adding context."
+- **NO exclamation marks** - Almost never (excitement reads as hype)
+- **Question marks sparingly** - For engagement, not rhetorical fluff
 
 ### Formatting
-- **Bold for emphasis** — Not underline, not ALL CAPS
-- **Bullets for lists** — Easier to scan
-- **Line breaks create rhythm** — Use intentionally
+- **Bold for emphasis** - Not underline, not ALL CAPS
+- **Bullets for lists** - Easier to scan
+- **Line breaks create rhythm** - Use intentionally
 - **NO emojis** (Ran's style is crisp, professional)
 
 ---
@@ -403,7 +403,7 @@ But messaging is inconsistent.
 
 **What works here:**
 - Opens with specific observation (people tired of AI output)
-- No fluff — gets to the point immediately
+- No fluff - gets to the point immediately
 - Specific example (Series A founder, 40% churn, $200K ARR)
 - Clear framework (specificity, POV, show work)
 - Tells you exactly how to apply it
@@ -432,14 +432,14 @@ But messaging is inconsistent.
 
 **Before writing a post:**
 
-1. **Know your angle** — What's the contrarian take? What's the insight?
-2. **Pick a template** — Which format fits best?
-3. **Write the hook first** — Does it stop the scroll?
-4. **Add specific examples** — Numbers, situations, outcomes
-5. **Check the rhythm** — Short. Longer. Short again.
-6. **Remove buzzwords** — Anything that sounds corporate?
-7. **Read as Ran** — Would he say this in a boardroom?
-8. **Format for LinkedIn** — White space, line breaks, bold for emphasis
+1. **Know your angle** - What's the contrarian take? What's the insight?
+2. **Pick a template** - Which format fits best?
+3. **Write the hook first** - Does it stop the scroll?
+4. **Add specific examples** - Numbers, situations, outcomes
+5. **Check the rhythm** - Short. Longer. Short again.
+6. **Remove buzzwords** - Anything that sounds corporate?
+7. **Read as Ran** - Would he say this in a boardroom?
+8. **Format for LinkedIn** - White space, line breaks, bold for emphasis
 
 **Then:** Pass to Gatekeeper for quality review
 

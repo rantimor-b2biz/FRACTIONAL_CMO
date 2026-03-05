@@ -313,14 +313,14 @@ Happy to discuss your specific situation. Want to hop on a quick call?
 
 ### If engagement is lower than expected:
 
-- **Don't panic** — Quality engagement > quantity
+- **Don't panic** - Quality engagement > quantity
 - Check if ICP personas are engaging (even if overall numbers are low)
 - Review posting time (try different windows)
 - Adjust next post's hook based on what resonated
 
 ### If comments challenge the thesis:
 
-- **This is good** — Debate drives engagement
+- **This is good** - Debate drives engagement
 - Respond thoughtfully, don't be defensive
 - Use it as opportunity to add nuance
 - Consider writing follow-up post addressing the debate

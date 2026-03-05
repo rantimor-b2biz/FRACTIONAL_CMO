@@ -1,4 +1,4 @@
-# Agent Team — FRACTIONAL_CMO
+# Agent Team - FRACTIONAL_CMO
 
 > Your AI team for B2B tech marketing thought leadership.
 

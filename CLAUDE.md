@@ -1,23 +1,23 @@
-# FRACTIONAL_CMO — AI Agent Team for B2B Tech Marketing
+# FRACTIONAL_CMO - AI Agent Team for B2B Tech Marketing
 
 ## Session Start Protocol (MANDATORY)
 
 When starting ANY new conversation from this folder, ALWAYS read these files first before responding:
 
-### 1. Core Files (C-core/) — WHO IS RAN?
-- `C-core/project-brief.md` — What Ran does, who he serves, business goals
-- `C-core/voice-dna.md` — **CRITICAL** — How Ran speaks (executive, crisp, contrarian)
-- `C-core/icp-profile.md` — Who we're targeting (Technical Founder Tom, Growth-Stage CEO Sarah)
+### 1. Core Files (C-core/) - WHO IS RAN?
+- `C-core/project-brief.md` - What Ran does, who he serves, business goals
+- `C-core/voice-dna.md` - **CRITICAL** - How Ran speaks (executive, crisp, contrarian)
+- `C-core/icp-profile.md` - Who we're targeting (Technical Founder Tom, Growth-Stage CEO Sarah)
 
-### 2. Memory Files (M-memory/) — WHAT HAVE WE LEARNED?
-- `M-memory/learning-log.md` — What content has worked (and what hasn't)
-- `M-memory/decisions.md` — Strategic choices made (why we prioritize certain topics)
-- `M-memory/feedback.md` — Audience signals (engagement patterns, lead generation)
+### 2. Memory Files (M-memory/) - WHAT HAVE WE LEARNED?
+- `M-memory/learning-log.md` - What content has worked (and what hasn't)
+- `M-memory/decisions.md` - Strategic choices made (why we prioritize certain topics)
+- `M-memory/feedback.md` - Audience signals (engagement patterns, lead generation)
 
-### 3. Current State (B-brain/) — WHERE ARE WE NOW?
-- `B-brain/content-calendar.md` — Quarterly plan and upcoming topics
+### 3. Current State (B-brain/) - WHERE ARE WE NOW?
+- `B-brain/content-calendar.md` - Quarterly plan and upcoming topics
 
-### 4. Agent Definitions (A-agents/) — HOW DO WE WORK?
+### 4. Agent Definitions (A-agents/) - HOW DO WE WORK?
 - Review agent roles when you need to coordinate multi-agent workflows
 
 ---
@@ -29,14 +29,14 @@ When starting ANY new conversation from this folder, ALWAYS read these files fir
 **Goal:** Generate 3 LinkedIn posts/week + 1 long-form article every 2-3 weeks, all in Ran's voice, serving his ICP, and driving qualified inbound leads.
 
 **The agents (8 active):**
-1. **CMO Orchestrator** — Strategic coordinator (breaks down plans, assigns work)
-2. **Content Strategy Agent** — Quarterly planning specialist
-3. **LinkedIn Generator** — Writes LinkedIn posts (3/week) + LinkedIn Copywriting Skill
-4. **Thought Leader Agent** — Writes long-form articles (1 every 2-3 weeks)
-5. **Trends Monitor** ⭐ — Tracks trending topics, identifies engagement opportunities (daily) + LinkedIn Engagement Strategy Skill
-6. **Brand Monitor** — Tracks cross-channel performance and provides insights
-7. **LinkedIn Analytics Agent** — Deep-dive LinkedIn data analysis (reports to Brand Monitor)
-8. **Gatekeeper** — Quality control (reviews all content before publication)
+1. **CMO Orchestrator** - Strategic coordinator (breaks down plans, assigns work)
+2. **Content Strategy Agent** - Quarterly planning specialist
+3. **LinkedIn Generator** - Writes LinkedIn posts (3/week) + LinkedIn Copywriting Skill
+4. **Thought Leader Agent** - Writes long-form articles (1 every 2-3 weeks)
+5. **Trends Monitor** ⭐ - Tracks trending topics, identifies engagement opportunities (daily) + LinkedIn Engagement Strategy Skill
+6. **Brand Monitor** - Tracks cross-channel performance and provides insights
+7. **LinkedIn Analytics Agent** - Deep-dive LinkedIn data analysis (reports to Brand Monitor)
+8. **Gatekeeper** - Quality control (reviews all content before publication)
 
 **Note:** Engagement Agent consolidated into Trends Monitor (Feb 26, 2026)
 
@@ -150,7 +150,7 @@ O-output/
 ```
 
 **Rules:**
-- Never save directly in `O-output/` — always use folders
+- Never save directly in `O-output/` - always use folders
 - Folder naming: `[number]-[slug]`
 - File naming: `draft-v1.md`, `gatekeeper-review.md`, `final-post.md`
 
@@ -200,8 +200,8 @@ O-output/
 
 ### ALWAYS Read C-core/ First
 Before writing ANY content, read:
-- `C-core/voice-dna.md` — How Ran speaks
-- `C-core/icp-profile.md` — Who we're serving
+- `C-core/voice-dna.md` - How Ran speaks
+- `C-core/icp-profile.md` - Who we're serving
 
 ### NEVER Skip Gatekeeper Review
 All content goes through Gatekeeper before publication.
@@ -219,10 +219,10 @@ Don't try to be multiple agents at once. Activate the right specialist for the j
 For enhanced capability, agents reference these specialized skills:
 
 ### For LinkedIn Generator
-- `T-tools/skills/linkedin-copywriting-skill.md` — Templates, hooks, structure, examples
+- `T-tools/skills/linkedin-copywriting-skill.md` - Templates, hooks, structure, examples
 
 ### For Trends Monitor
-- `T-tools/skills/linkedin-engagement-strategy-skill.md` — Decision tree, timing, comment formulas
+- `T-tools/skills/linkedin-engagement-strategy-skill.md` - Decision tree, timing, comment formulas
 
 ### For Brand Monitor & LinkedIn Analytics
 - Uses M-memory/ files for learning patterns and past performance
@@ -233,11 +233,11 @@ For enhanced capability, agents reference these specialized skills:
 
 For common tasks, use the prompt templates in `T-tools/prompts/`:
 
-- `01-quarterly-content-plan.md` — Create strategic quarterly plan
-- `02-create-linkedin-post.md` — Generate single LinkedIn post
-- `03-create-thought-leadership-article.md` — Write long-form article
-- `04-identify-engagement-opportunities.md` — Find conversations to join
-- `05-analyze-performance.md` — Review content performance
+- `01-quarterly-content-plan.md` - Create strategic quarterly plan
+- `02-create-linkedin-post.md` - Generate single LinkedIn post
+- `03-create-thought-leadership-article.md` - Write long-form article
+- `04-identify-engagement-opportunities.md` - Find conversations to join
+- `05-analyze-performance.md` - Review content performance
 
 ---
 

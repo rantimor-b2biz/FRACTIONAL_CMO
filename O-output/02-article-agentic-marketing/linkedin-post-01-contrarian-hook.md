@@ -113,7 +113,7 @@ This post is ready to publish.
 - Post this to LinkedIn Tuesday 10-11 AM (post-Monday rush)
 - Add article link in first comment immediately after posting
 - Monitor comments and engage with responses
-- **Israeli audience note:** Tuesday mid-morning is optimal — Monday catch-up is done, people have bandwidth for strategic content, not overwhelmed like Sunday morning
+- **Israeli audience note:** Tuesday mid-morning is optimal - Monday catch-up is done, people have bandwidth for strategic content, not overwhelmed like Sunday morning
 
 ---
 

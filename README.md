@@ -16,7 +16,7 @@
 
 This system uses the proven **ABC-TOM** architecture:
 
-### **A-agents** — Your AI Team
+### **A-agents** - Your AI Team
 7 specialized agents that create, coordinate, and review content:
 - CMO Orchestrator (coordinator)
 - Content Strategy Agent (quarterly planning)
@@ -26,28 +26,28 @@ This system uses the proven **ABC-TOM** architecture:
 - Brand Monitor (performance analyst)
 - Gatekeeper (quality control)
 
-### **B-brain** — Knowledge Base
+### **B-brain** - Knowledge Base
 - Research and industry insights
 - Ran's voice examples
 - Writing samples
 - Target personas
 
-### **C-core** — Brand DNA
-- **project-brief.md** — What Ran does, who he serves
-- **voice-dna.md** — How Ran speaks (CRITICAL for all content)
-- **icp-profile.md** — Who we're targeting
+### **C-core** - Brand DNA
+- **project-brief.md** - What Ran does, who he serves
+- **voice-dna.md** - How Ran speaks (CRITICAL for all content)
+- **icp-profile.md** - Who we're targeting
 
-### **T-tools** — Toolkit
-- **Skills** — Domain expertise (LinkedIn strategy, thought leadership, B2B narrative)
-- **Prompts** — Quick-start templates for common tasks
-- **Workflows** — Step-by-step processes
+### **T-tools** - Toolkit
+- **Skills** - Domain expertise (LinkedIn strategy, thought leadership, B2B narrative)
+- **Prompts** - Quick-start templates for common tasks
+- **Workflows** - Step-by-step processes
 
-### **M-memory** — System Learning
-- **learning-log.md** — What content works (and what doesn't)
-- **feedback.md** — Audience engagement patterns
-- **decisions.md** — Strategic choices made
+### **M-memory** - System Learning
+- **learning-log.md** - What content works (and what doesn't)
+- **feedback.md** - Audience engagement patterns
+- **decisions.md** - Strategic choices made
 
-### **O-output** — Generated Content
+### **O-output** - Generated Content
 Numbered project folders for all created content
 
 ---
@@ -267,11 +267,11 @@ Quick-start templates in `T-tools/prompts/`:
 
 **We're winning when:**
 
-1. **Qualified leads** — Inbound inquiries from B2B tech founders
-2. **Quality engagement** — Comments/DMs from ICP (not just likes)
-3. **Thought leadership** — Speaking invitations, advisory opportunities
-4. **System learning** — Gatekeeper approval rate improving
-5. **Strategic impact** — Content driving positioning and pipeline
+1. **Qualified leads** - Inbound inquiries from B2B tech founders
+2. **Quality engagement** - Comments/DMs from ICP (not just likes)
+3. **Thought leadership** - Speaking invitations, advisory opportunities
+4. **System learning** - Gatekeeper approval rate improving
+5. **Strategic impact** - Content driving positioning and pipeline
 
 ---
 
@@ -344,10 +344,10 @@ After each publish:
 
 ### Key Files to Know
 
-**CLAUDE.md** — Session startup (read first)
-**C-core/voice-dna.md** — How Ran speaks (CRITICAL)
-**M-memory/learning-log.md** — What's working
-**B-brain/content-calendar.md** — Current plan
+**CLAUDE.md** - Session startup (read first)
+**C-core/voice-dna.md** - How Ran speaks (CRITICAL)
+**M-memory/learning-log.md** - What's working
+**B-brain/content-calendar.md** - Current plan
 
 ---
 

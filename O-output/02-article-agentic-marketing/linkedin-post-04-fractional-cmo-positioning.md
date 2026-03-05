@@ -99,10 +99,10 @@ I wrote about what this means for marketing leadership and how to position your 
 
 ### What Works Well
 
-- "The opposite is true." — classic Ran contrarian reframe
+- "The opposite is true." - classic Ran contrarian reframe
 - Before/After comparison is clear and credible
 - Three "Not X. Y." structures position fractional CMO value perfectly
-- "Executor to architect" — strong positioning language
+- "Executor to architect" - strong positioning language
 - Zero selling, pure insight
 - Positions strategic clarity as the competitive advantage
 
@@ -136,7 +136,7 @@ This post is ready to publish.
 - Publish 2 days after Post #3
 - Thursday 10-11 AM (end-of-week decision window)
 - Add article link in first comment
-- This post has strongest fractional CMO positioning — may drive DMs
+- This post has strongest fractional CMO positioning - may drive DMs
 - **Israeli audience note:** Thursday end-of-week is when decision-makers think about next steps, highest DM conversion
 
 ---

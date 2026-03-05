@@ -1,17 +1,17 @@
 # LinkedIn Engagement Strategy Skill
 
-> Strategic guide for identifying, evaluating, and engaging in high-value LinkedIn conversations. Use this to decide when to comment, like, share, or DM — and how to do it in Ran's voice.
+> Strategic guide for identifying, evaluating, and engaging in high-value LinkedIn conversations. Use this to decide when to comment, like, share, or DM - and how to do it in Ran's voice.
 
 ---
 
 ## Overview
 
 This skill helps you:
-1. **Evaluate opportunities** — Is this worth engaging on?
-2. **Choose your action** — Comment? Like? Share? DM?
-3. **Write strategic comments** — In Ran's voice, adding value
-4. **Optimize timing** — When to engage for maximum visibility
-5. **Track what works** — Build feedback loop into strategy
+1. **Evaluate opportunities** - Is this worth engaging on?
+2. **Choose your action** - Comment? Like? Share? DM?
+3. **Write strategic comments** - In Ran's voice, adding value
+4. **Optimize timing** - When to engage for maximum visibility
+5. **Track what works** - Build feedback loop into strategy
 
 ---
 
@@ -135,7 +135,7 @@ At [company/experience], we [specific example with outcome].
 
 The pattern I notice: [strategic observation].
 
-Curious — have you seen [related question]?
+Curious - have you seen [related question]?
 ```
 
 Template B: Challenge + Build
@@ -229,10 +229,10 @@ Does this match your experience?
 
 Every comment should follow this structure:
 
-1. **Acknowledgment** (credibility) — Show you read it
-2. **Insight** (value add) — What you know that's relevant
-3. **Evidence** (credibility) — Example, data, or experience
-4. **Invitation** (engagement) — Question or call to response
+1. **Acknowledgment** (credibility) - Show you read it
+2. **Insight** (value add) - What you know that's relevant
+3. **Evidence** (credibility) - Example, data, or experience
+4. **Invitation** (engagement) - Question or call to response
 
 **Word count:** 60-120 words (crisp, not essay)
 
@@ -364,13 +364,13 @@ The problem isn't activity level. It's strategic clarity.
 
 Three things I'd focus on:
 
-1. **ICP clarity** — Can you describe your perfect customer in 2
+1. **ICP clarity** - Can you describe your perfect customer in 2
    sentences? If not, you're too broad.
 
-2. **Positioning lock** — Does sales explain value the same way every
+2. **Positioning lock** - Does sales explain value the same way every
    meeting? If not, messaging is broken.
 
-3. **Sales efficiency** — Are you closing on positioning and timeline?
+3. **Sales efficiency** - Are you closing on positioning and timeline?
    Or are deals stalling on fit questions?
 
 Which of these is your biggest friction point?
@@ -383,9 +383,9 @@ Which of these is your biggest friction point?
 ### Best Times to Engage
 
 **Peak engagement windows (Israeli timezone):**
-- **Tuesday 9-11 AM IST** — Post-Monday catch-up, high attention
-- **Thursday 10-11 AM IST** — End-of-week momentum
-- **Sunday evening IST** (after weekend) → **Monday early US time** — When US founders catching up
+- **Tuesday 9-11 AM IST** - Post-Monday catch-up, high attention
+- **Thursday 10-11 AM IST** - End-of-week momentum
+- **Sunday evening IST** (after weekend) → **Monday early US time** - When US founders catching up
 
 ### When NOT to Engage
 
@@ -477,7 +477,7 @@ You (or CMO Orchestrator):
 ---
 
 ### ❌ Mistake 4: Self-Promotion in Comments
-**Problem:** "We do this at [company] — DM me" is a pitch, not insight
+**Problem:** "We do this at [company] - DM me" is a pitch, not insight
 **Solution:** Add value first, let DMs come naturally
 
 ---

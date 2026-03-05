@@ -68,7 +68,7 @@ I wrote about the three layers you need in place before deploying agentic AI, an
 
 **Voice alignment:**
 - ✅ "Here is the pattern I see..." (observational, pattern recognition)
-- ✅ Timeline structure (Month 1, 2, 3...) — specific, not vague
+- ✅ Timeline structure (Month 1, 2, 3...) - specific, not vague
 - ✅ Diagnosis vs. Reality contrast
 - ✅ "Not X. It is Y." structure: "The fix is not better AI tools. It is clearer strategy first."
 - ✅ Short declarative sentences

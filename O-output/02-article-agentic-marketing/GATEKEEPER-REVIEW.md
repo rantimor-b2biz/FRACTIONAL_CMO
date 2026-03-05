@@ -11,7 +11,7 @@
 
 **Verdict:** APPROVED for publication on rantimor.com
 
-This article successfully positions agentic AI as a strategic topic while maintaining Ran's voice: executive-level, contrarian but grounded, and deeply practical. The core message — "clarity before autonomy" — aligns perfectly with Ran's positioning and provides clear value to the ICP (founders and CEOs of B2B tech startups).
+This article successfully positions agentic AI as a strategic topic while maintaining Ran's voice: executive-level, contrarian but grounded, and deeply practical. The core message - "clarity before autonomy" - aligns perfectly with Ran's positioning and provides clear value to the ICP (founders and CEOs of B2B tech startups).
 
 **Strongest elements:**
 - Clear contrarian thesis: "Agentic AI is not marketing automation 2.0"
@@ -69,7 +69,7 @@ This article successfully positions agentic AI as a strategic topic while mainta
 **What works:**
 - Challenges the "agentic AI = better automation" assumption
 - Takes a clear position backed by experience
-- Not contrarian for attention — contrarian to prevent mistakes
+- Not contrarian for attention - contrarian to prevent mistakes
 - Respectful of technology while questioning implementation approach
 
 **Examples:**
@@ -192,7 +192,7 @@ This article successfully positions agentic AI as a strategic topic while mainta
 
 ### ✅ Words Ran Avoids
 
-**Checked for these — NOT FOUND:**
+**Checked for these - NOT FOUND:**
 - Synergy, disruptive, game-changer, revolutionize ❌ (correctly avoided)
 - Best-in-class, world-class, industry-leading ❌ (correctly avoided)
 - Amazing, incredible, unbelievable ❌ (correctly avoided)
@@ -274,7 +274,7 @@ This article successfully positions agentic AI as a strategic topic while mainta
 Agentic AI is THE conversation in B2B marketing right now (February 2026). This article rides the trend wave while adding strategic depth.
 
 ### 2. Clear Contrarian Thesis
-"Agentic AI is not marketing automation 2.0" immediately differentiates from the hype. Most content says "agentic AI is amazing" — this says "it's different, and here's what that means."
+"Agentic AI is not marketing automation 2.0" immediately differentiates from the hype. Most content says "agentic AI is amazing" - this says "it's different, and here's what that means."
 
 ### 3. Progressive Frameworks
 The maturity model is particularly strong:
@@ -292,7 +292,7 @@ The article positions fractional CMO as:
 - Bridge between business goals and machine-readable objectives
 - Ethical oversight
 
-This is strategic, not tactical — exactly the positioning Ran needs.
+This is strategic, not tactical - exactly the positioning Ran needs.
 
 ### 5. Practical Implementation Path
 The 4-step "How to Start" section is immediately actionable. Readers can audit their foundation, identify gaps, and sequence implementation correctly.

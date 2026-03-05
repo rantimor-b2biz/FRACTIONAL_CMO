@@ -276,7 +276,7 @@ QUICK COMMANDS (Add to CLAUDE.md):
 
 **For YOUR situation right now:**
 
-### Phase 1 (This week): Option C — Add Activation Framework
+### Phase 1 (This week): Option C - Add Activation Framework
 - Simple to implement
 - Reduces friction
 - Keeps your current 8 agents

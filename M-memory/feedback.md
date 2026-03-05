@@ -32,7 +32,7 @@ Track qualitative feedback that helps us understand what resonates with the ICP.
 ## Template
 
 ```markdown
-### [Date] — [Feedback Type]
+### [Date] - [Feedback Type]
 
 **Source:** [LinkedIn post / Article / Comment]
 

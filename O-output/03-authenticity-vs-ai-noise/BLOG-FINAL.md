@@ -6,7 +6,7 @@ Not AI the technology. AI the *output*.
 
 Three months ago, a CEO could post a polished LinkedIn thought leadership piece, and it would land. The copy was tight. The framework was clever. The engagement metrics climbed.
 
-Now? People are skeptical. And they're not saying why — but I see it in the data.
+Now? People are skeptical. And they're not saying why - but I see it in the data.
 
 Lower engagement on perfectly crafted posts. More comments calling out "this sounds AI-generated." Prospects saying "thanks for reaching out" instead of scheduling a call. Deal cycles stretching longer.
 
@@ -56,7 +56,7 @@ Authentic: "I worked with a Series A FinTech founder who had 12 enterprise custo
 
 The difference?
 
-The second one has a specific moment. A specific problem. A specific consequence. Someone could ask you about it and you could tell the full story — because you lived it.
+The second one has a specific moment. A specific problem. A specific consequence. Someone could ask you about it and you could tell the full story - because you lived it.
 
 AI can't do that. AI can *approximate* it. But approximation reads as hollow.
 
@@ -69,7 +69,7 @@ AI can't do that. AI can *approximate* it. But approximation reads as hollow.
 
 Generic: "Positioning is important for go-to-market success."
 
-Authentic: "Positioning before performance marketing. Not because it's a best practice — because I've seen it destroy two companies and save three others. Every founder who skipped positioning spent $500K learning why they shouldn't have."
+Authentic: "Positioning before performance marketing. Not because it's a best practice - because I've seen it destroy two companies and save three others. Every founder who skipped positioning spent $500K learning why they shouldn't have."
 
 The difference?
 
@@ -96,7 +96,7 @@ The difference?
 
 The first is a metric. The second is a lesson.
 
-When you show what didn't work, what you had to sacrifice, and what you learned — that's credible. That's earned wisdom, not marketing copy.
+When you show what didn't work, what you had to sacrifice, and what you learned - that's credible. That's earned wisdom, not marketing copy.
 
 **How to apply this:**
 - Don't just share the win. Share the three things you tried first that failed.

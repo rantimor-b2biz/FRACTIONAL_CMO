@@ -1,12 +1,12 @@
 # Voice DNA
 
-> How Ran Timor sounds — executive-level, crisp, direct, and slightly contrarian. Like a senior advisor who's built this before and knows what actually matters.
+> How Ran Timor sounds - executive-level, crisp, direct, and slightly contrarian. Like a senior advisor who's built this before and knows what actually matters.
 
 ---
 
 ## Voice Overview
 
-**In one sentence:** Ran Timor sounds like an experienced CMO who speaks with boardroom clarity — strategic but grounded, insightful without being fluffy, and willing to challenge conventional marketing wisdom when it doesn't serve B2B tech startups.
+**In one sentence:** Ran Timor sounds like an experienced CMO who speaks with boardroom clarity - strategic but grounded, insightful without being fluffy, and willing to challenge conventional marketing wisdom when it doesn't serve B2B tech startups.
 
 **Not a consultant with a deck. A leader with scar tissue.**
 
@@ -17,7 +17,7 @@
 ### 1. Executive-Level but Accessible
 
 **What this means:**
-- Speaks at the CEO/Board level — strategic thinking, commercial focus
+- Speaks at the CEO/Board level - strategic thinking, commercial focus
 - Uses clear language that anyone in the room can understand
 - No unnecessary jargon, but comfortable with technical concepts
 - Focused on **outcomes** and **ROI**, not just activities
@@ -140,7 +140,7 @@ Tone shifts based on context:
 
 | Context | Tone Dial |
 |---------|-----------|
-| LinkedIn posts | Crisp, insightful, slightly provocative — hook attention fast |
+| LinkedIn posts | Crisp, insightful, slightly provocative - hook attention fast |
 | Long-form articles | Executive depth, frameworks, practical application |
 | Comments/engagement | Professional but human, adds value without selling |
 | About/bio copy | Confident, credentials without ego |
@@ -197,15 +197,15 @@ Tone shifts based on context:
 ## Writing Style Rules
 
 ### Sentence Length
-- **Short sentences for impact** — One idea, one punch.
-- **Longer sentences for explanation** — When context is needed.
-- **Mix them for rhythm** — Short. Then longer. Then short again.
+- **Short sentences for impact** - One idea, one punch.
+- **Longer sentences for explanation** - When context is needed.
+- **Mix them for rhythm** - Short. Then longer. Then short again.
 
 **Example:**
 ```
 Your positioning is unclear.
 
-That's not a judgment — it's a pattern I see across B2B tech startups at Seed to Series B. The product works, the founding team is strong, and early customers validate the need. But messaging is inconsistent, sales cycles are too long, and everyone explains the value differently.
+That's not a judgment - it's a pattern I see across B2B tech startups at Seed to Series B. The product works, the founding team is strong, and early customers validate the need. But messaging is inconsistent, sales cycles are too long, and everyone explains the value differently.
 
 Fix positioning first.
 ```
@@ -213,19 +213,19 @@ Fix positioning first.
 ### Paragraph Length
 - **1-3 sentences per paragraph** (especially on LinkedIn)
 - **One idea per paragraph**
-- **White space is strategic** — makes content scannable
+- **White space is strategic** - makes content scannable
 
 ### Formatting
-- **Bold for emphasis** — not underline, not ALL CAPS
-- **Bullets for lists** — easier to scan than paragraphs
-- **Numbers for frameworks** — "3 reasons" > "several reasons"
-- **Line breaks create rhythm** — especially in LinkedIn posts
+- **Bold for emphasis** - not underline, not ALL CAPS
+- **Bullets for lists** - easier to scan than paragraphs
+- **Numbers for frameworks** - "3 reasons" > "several reasons"
+- **Line breaks create rhythm** - especially in LinkedIn posts
 
 ### Punctuation
-- **Periods for authority** — clear statements.
-- **Em dashes for pauses** — like this — when adding context.
-- **No exclamation marks** — almost never. (Excitement reads as hype.)
-- **Question marks sparingly** — for engagement, not rhetorical fluff.
+- **Periods for authority** - clear statements.
+- **Em dashes sparingly** - only for brief asides in short-form (LinkedIn posts). Avoid in long-form articles.
+- **No exclamation marks** - almost never. (Excitement reads as hype.)
+- **Question marks sparingly** - for engagement, not rhetorical fluff.
 
 ---
 
@@ -277,13 +277,13 @@ At our organization, we believe in leveraging cutting-edge AI technologies to re
 
 Most B2B tech startups get the sequence wrong.
 
-They raise a Series A, hire a Head of Marketing, and immediately spin up performance campaigns — LinkedIn ads, content syndication, webinars, ABM tools.
+They raise a Series A, hire a Head of Marketing, and immediately spin up performance campaigns - LinkedIn ads, content syndication, webinars, ABM tools.
 
 Three months later, CAC is too high, MQLs don't convert, and the CEO questions whether marketing is working.
 
 The problem isn't execution. It's that you skipped the foundation.
 
-Before you spend on performance marketing, you need positioning clarity. Here's why — and how to fix it.
+Before you spend on performance marketing, you need positioning clarity. Here's why - and how to fix it.
 ```
 
 **Why it works:**
@@ -326,13 +326,13 @@ If any answer is "no," revise.
 - [x] Making empty promises or guarantees
 
 **My voice sounds like:**
-> A senior CMO who's built marketing functions at B2B tech startups — someone who knows what actually matters, speaks with boardroom clarity, and isn't afraid to challenge conventional wisdom when it doesn't serve founders.
+> A senior CMO who's built marketing functions at B2B tech startups - someone who knows what actually matters, speaks with boardroom clarity, and isn't afraid to challenge conventional wisdom when it doesn't serve founders.
 
 ---
 
 ## Brand Essence
 
-> Ran Timor exists to bring strategic clarity to B2B tech startups — so they can stop spinning on tactics and start building GTM engines that actually work.
+> Ran Timor exists to bring strategic clarity to B2B tech startups - so they can stop spinning on tactics and start building GTM engines that actually work.
 
 ---
 
@@ -341,17 +341,17 @@ If any answer is "no," revise.
 Tone extends to visual presentation:
 
 ### LinkedIn Posts
-- **Short lines** — 1-2 sentences per line
-- **Strategic white space** — breathing room between ideas
-- **Bold sparingly** — for key phrases only
-- **Emojis rarely** — only when it adds clarity (not decoration)
-- **No ALL CAPS** — except acronyms (GTM, ICP, CMO)
+- **Short lines** - 1-2 sentences per line
+- **Strategic white space** - breathing room between ideas
+- **Bold sparingly** - for key phrases only
+- **Emojis rarely** - only when it adds clarity (not decoration)
+- **No ALL CAPS** - except acronyms (GTM, ICP, CMO)
 
 ### Articles
-- **Clear headers** — guide the reader
-- **Subheaders for structure** — framework sections
-- **Bulleted insights** — easier to scan
-- **Real examples** — anonymized case studies when relevant
+- **Clear headers** - guide the reader
+- **Subheaders for structure** - framework sections
+- **Bulleted insights** - easier to scan
+- **Real examples** - anonymized case studies when relevant
 
 ### Comments & Engagement
 - **Add value, not sales pitches**

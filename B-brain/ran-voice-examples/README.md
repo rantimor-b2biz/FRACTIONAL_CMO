@@ -42,7 +42,7 @@ Use clear, descriptive names:
 1. Copy your existing content into this folder
 2. One file per post/article
 3. Include the date published
-4. No need to format perfectly — agents will learn from your raw style
+4. No need to format perfectly - agents will learn from your raw style
 
 The more examples you add, the better agents will match your voice.
 

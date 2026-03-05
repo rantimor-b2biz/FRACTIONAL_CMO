@@ -15,7 +15,7 @@ Please follow this process:
 
 1. First, read these files:
    - C-core/project-brief.md
-   - C-core/voice-dna.md (CRITICAL — this is how Ran speaks)
+   - C-core/voice-dna.md (CRITICAL - this is how Ran speaks)
    - C-core/icp-profile.md
    - M-memory/learning-log.md (what's worked before)
 

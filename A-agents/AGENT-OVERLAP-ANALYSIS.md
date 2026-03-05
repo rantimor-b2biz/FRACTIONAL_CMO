@@ -1,7 +1,7 @@
-# Agent System Audit — Overlap Analysis & Consolidation Recommendations
+# Agent System Audit - Overlap Analysis & Consolidation Recommendations
 
 **Date:** Feb 26, 2026
-**Status:** ⚠️ Issues Found — Action Required
+**Status:** ⚠️ Issues Found - Action Required
 
 ---
 
@@ -29,7 +29,7 @@ Your agent system has **9 active agents**. There is **significant overlap** betw
 
 ---
 
-## Issue #1: Trends Monitor vs Engagement Agent — MAJOR OVERLAP
+## Issue #1: Trends Monitor vs Engagement Agent - MAJOR OVERLAP
 
 ### The Problem
 
@@ -72,11 +72,11 @@ The Engagement Agent is **severely under-defined** while Trends Monitor is compr
 
 ### My Recommendation
 
-**Go with Option A** — Keep Trends Monitor as your "engagement radar" and remove Engagement Agent from active rotation. Trends Monitor is already mature and comprehensive.
+**Go with Option A** - Keep Trends Monitor as your "engagement radar" and remove Engagement Agent from active rotation. Trends Monitor is already mature and comprehensive.
 
 ---
 
-## Issue #2: Brand Monitor vs LinkedIn Analytics Agent — MODERATE OVERLAP
+## Issue #2: Brand Monitor vs LinkedIn Analytics Agent - MODERATE OVERLAP
 
 ### The Problem
 
@@ -119,7 +119,7 @@ These agents have **overlapping scope but different specificity**:
 
 ### My Recommendation
 
-**Go with Option A** — Keep both, but explicitly separate:
+**Go with Option A** - Keep both, but explicitly separate:
 - LinkedIn Analytics = LinkedIn specialist (deep data)
 - Brand Monitor = overall performance synthesizer (cross-channel)
 
@@ -285,19 +285,19 @@ CMO Orchestrator (strategic)
 
 ## Quick Wins (This Week)
 
-1. **Update A-agents/README.md** — Mention Engagement Agent is deprecated
-2. **Clarify Brand Monitor definition** — Add "cross-channel" language
-3. **Add note to LinkedIn Analytics** — "Reports to Brand Monitor for strategic synthesis"
-4. **Archive engagement-agent.md** — Keep as reference, mark as "deprecated"
+1. **Update A-agents/README.md** - Mention Engagement Agent is deprecated
+2. **Clarify Brand Monitor definition** - Add "cross-channel" language
+3. **Add note to LinkedIn Analytics** - "Reports to Brand Monitor for strategic synthesis"
+4. **Archive engagement-agent.md** - Keep as reference, mark as "deprecated"
 
 ---
 
 ## Medium-term Wins (Next 2 Weeks)
 
-1. **Create LinkedIn Copywriting Skill** — Resource for LinkedIn Generator
-2. **Create LinkedIn Engagement Strategy Skill** — Resource for Trends Monitor
-3. **Document integration points** — When Brand Monitor activates LinkedIn Analytics
-4. **Update CLAUDE.md** — Reflect new agent setup in quick commands
+1. **Create LinkedIn Copywriting Skill** - Resource for LinkedIn Generator
+2. **Create LinkedIn Engagement Strategy Skill** - Resource for Trends Monitor
+3. **Document integration points** - When Brand Monitor activates LinkedIn Analytics
+4. **Update CLAUDE.md** - Reflect new agent setup in quick commands
 
 ---
 
