@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A-agents/linkedin-generator-agent.md",
+                "file": "O-output/05-article-agility-moat/draft-v1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "linkedin-generator-agent"
+              "title": "draft-v1"
             }
           }
         ]
@@ -186,10 +186,12 @@
   },
   "active": "859edf6a5c362b14",
   "lastOpenFiles": [
-    "README.md.tmp.30684.1772724936112",
+    "A-agents/cmo-orchestrator-agent.md",
     "A-agents/herald-newsletter-agent.md",
-    "A-agents/artist-visual-agent.md",
     "A-agents/guardian-gatekeeper-agent.md",
+    "A-agents/linkedin-generator-agent.md",
+    "README.md.tmp.30684.1772724936112",
+    "A-agents/artist-visual-agent.md",
     "A-agents/scribe-copywriter-agent.md",
     "A-agents/scout-research-agent.md",
     "T-tools/skills/linkedin-strategy-skill/SKILL.md",
@@ -209,7 +211,6 @@
     "T-tools/skills/linkedin-strategy-skill/references/sed2jUXBr",
     "sed0xXVI4",
     "sedUYgRPD",
-    "O-output/04-authenticity-paradox-linkedin/sedKv7dd9",
     "O-output/05-article-agility-moat/GATEKEEPER-REVIEW.md",
     "O-output/04-authenticity-paradox-linkedin/GATEKEEPER-REVIEW.md",
     "O-output/05-purim-positioning-linkedin/LINKEDIN-FINAL.md",
@@ -219,8 +220,6 @@
     "A-agents/AGENT-OVERLAP-ANALYSIS.md",
     "T-tools/skills/linkedin-engagement-strategy-skill.md",
     "T-tools/skills/linkedin-copywriting-skill.md",
-    "A-agents/cmo-orchestrator-agent.md",
-    "A-agents/linkedin-generator-agent.md",
     "A-agents/trends-monitor-agent.md",
     "O-output/02-article-agentic-marketing/images/post-1-contrarian-hook.png"
   ]
