@@ -11,10 +11,14 @@
             "id": "859edf6a5c362b14",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "O-output/04-authenticity-paradox-linkedin/GATEKEEPER-REVIEW.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "GATEKEEPER-REVIEW"
             }
           }
         ]
@@ -182,6 +186,8 @@
   },
   "active": "859edf6a5c362b14",
   "lastOpenFiles": [
+    "O-output/04-authenticity-paradox-linkedin/LINKEDIN-FINAL.md",
+    "O-output/05-purim-positioning-linkedin/LINKEDIN-FINAL.md",
     "O-output/02-article-agentic-marketing/article-agentic-marketing-not-automation-2.md",
     "O-output/03-authenticity-vs-ai-noise/LINKEDIN-FINAL.md",
     "CLAUDE.md",
@@ -191,7 +197,6 @@
     "CLAUDE.md.tmp.65644.1772199120265",
     "A-agents/EFFICIENCY-ANALYSIS.md",
     "A-agents/AGENT-OVERLAP-ANALYSIS.md",
-    "O-output/04-authenticity-paradox-linkedin/LINKEDIN-FINAL.md",
     "O-output/04-authenticity-paradox-linkedin/GATEKEEPER-REVIEW.md",
     "O-output/04-authenticity-paradox-linkedin/LINKEDIN-DRAFT-v1.md",
     "O-output/04-authenticity-paradox-linkedin",
@@ -216,7 +221,6 @@
     "O-output/02-article-agentic-marketing/2026-02-13.md",
     "M-memory/decisions.md",
     "M-memory/feedback.md",
-    "O-output/02-article-agentic-marketing/GATEKEEPER-REVIEW.md",
     "O-output/02-article-agentic-marketing/visuals/carousel-post-01.html",
     "O-output/02-article-agentic-marketing/visuals"
   ]
