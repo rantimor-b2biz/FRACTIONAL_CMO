@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "O-output/05-article-agility-moat/README.md",
+                "file": "A-agents/linkedin-generator-agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "linkedin-generator-agent"
             }
           }
         ]
@@ -186,6 +186,8 @@
   },
   "active": "859edf6a5c362b14",
   "lastOpenFiles": [
+    "T-tools/skills/linkedin-strategy-skill/SKILL.md",
+    "O-output/05-article-agility-moat/README.md",
     "O-output/05-article-agility-moat/draft-v1.md",
     "A-agents/EFFICIENCY-ANALYSIS.md",
     "A-agents/gatekeeper-agent.md",
@@ -202,7 +204,6 @@
     "sed0xXVI4",
     "sedUYgRPD",
     "O-output/04-authenticity-paradox-linkedin/sedKv7dd9",
-    "O-output/05-article-agility-moat/README.md",
     "O-output/05-article-agility-moat/GATEKEEPER-REVIEW.md",
     "O-output/04-authenticity-paradox-linkedin/GATEKEEPER-REVIEW.md",
     "O-output/05-purim-positioning-linkedin/LINKEDIN-FINAL.md",
@@ -221,7 +222,6 @@
     "O-output/02-article-agentic-marketing/VISUALS-HEBREW.md",
     "O-output/02-article-agentic-marketing/VISUALS-SPECS.md",
     "O-output/02-article-agentic-marketing/linkedin-post-01-contrarian-hook.md",
-    "O-output/02-article-agentic-marketing/linkedin-post-02-problem-pattern.md",
     "O-output/02-article-agentic-marketing/images/post-1-contrarian-hook.png"
   ]
 }
