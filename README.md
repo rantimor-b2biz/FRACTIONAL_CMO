@@ -1,392 +1,172 @@
-# FRACTIONAL_CMO
+# Fractional CMO - Team & Quick Start
 
-> AI-powered content system for B2B tech marketing thought leadership
-
----
-
-## What This System Does
-
-**FRACTIONAL_CMO** is a multi-agent content engine designed to position Ran Timor as a thought leader in B2B tech marketing and generate qualified inbound leads for Fractional CMO engagements.
-
-**Output:** 3 LinkedIn posts/week + 1 long-form article every 2-3 weeks, all in Ran's executive voice, serving his ICP.
+**Status:** ✅ Active | **Updated:** 2026-03-05 | **Team:** 11 agents | **Voice:** Ran Timor
 
 ---
 
-## The ABC-TOM Framework
+## 🎯 Start Here (In Order)
 
-This system uses the proven **ABC-TOM** architecture:
+### 1. Understand the System
+→ Read [`../CLAUDE.md`](../CLAUDE.md) - How to work with CEO
 
-### **A-agents** - Your AI Team
-7 specialized agents that create, coordinate, and review content:
-- CMO Orchestrator (coordinator)
-- Content Strategy Agent (quarterly planning)
-- LinkedIn Generator (social posts)
-- Thought Leader Agent (articles)
-- Engagement Agent (conversation finder)
-- Brand Monitor (performance analyst)
-- Gatekeeper (quality control)
+### 2. Know This Client
+→ Read `C-core/voice-dna.md` - This is Ran's voice (executive, direct, contrarian)
+→ Read `C-core/icp-profile.md` - Who we're targeting (Israeli founders, growth leaders)
+→ Read `C-core/project-brief.md` - Client goals
 
-### **B-brain** - Knowledge Base
-- Research and industry insights
-- Ran's voice examples
-- Writing samples
-- Target personas
-
-### **C-core** - Brand DNA
-- **project-brief.md** - What Ran does, who he serves
-- **voice-dna.md** - How Ran speaks (CRITICAL for all content)
-- **icp-profile.md** - Who we're targeting
-
-### **T-tools** - Toolkit
-- **Skills** - Domain expertise (LinkedIn strategy, thought leadership, B2B narrative)
-- **Prompts** - Quick-start templates for common tasks
-- **Workflows** - Step-by-step processes
-
-### **M-memory** - System Learning
-- **learning-log.md** - What content works (and what doesn't)
-- **feedback.md** - Audience engagement patterns
-- **decisions.md** - Strategic choices made
-
-### **O-output** - Generated Content
-Numbered project folders for all created content
+### 3. Meet the Team
+→ See `A-agents/README.md` - Team members and how to activate them
 
 ---
 
-## Quick Start
+## 💡 How It Works
 
-### 1. Read the Core Files First
+**CEO is your interface.** Tell CEO what you need:
 
-**Every session starts here:**
+### For Content:
 ```
-C-core/project-brief.md
-C-core/voice-dna.md
-C-core/icp-profile.md
-```
-
-### 2. Use Quick Commands
-
-**Create LinkedIn post:**
-```
-"Create a LinkedIn post about [topic]"
+"CEO, create LinkedIn post about [topic] for Fractional CMO"
+→ Scout researches → Scribe writes → Guardian reviews → Artist creates → Herald distributes
 ```
 
-**Write article:**
+### For Strategy:
 ```
-"Write an article about [topic]"
-```
-
-**Plan quarterly content:**
-```
-"Create Q2 2026 content strategy"
+"CEO, what's our positioning challenge for Fractional CMO?"
+→ CEO analyzes and advises (no execution)
 ```
 
-### 3. Check CLAUDE.md
-
-The `CLAUDE.md` file contains:
-- Session startup protocol
-- Quick commands
-- Common workflows
-- Auto-learning protocol
-
-Claude Code reads this automatically when you open the folder.
+### For Status:
+```
+"CEO, what's our Fractional CMO performance this week?"
+→ CEO reports metrics + learnings
+```
 
 ---
 
-## How the Agents Work
-
-### Strategic Flow
+## 📂 What's Where
 
 ```
-Content Strategy Agent
-    ↓ (creates quarterly plan)
-CMO Orchestrator
-    ↓ (breaks into weekly topics)
-LinkedIn Generator / Thought Leader Agent
-    ↓ (creates content)
-Gatekeeper
-    ↓ (reviews quality)
-Brand Monitor
-    ↓ (tracks performance)
-M-memory
-    ↓ (captures learnings)
-[Improved strategy for next cycle]
+FRACTIONAL_CMO/
+│
+├─ README.md (you are here)
+│
+├─ C-core/
+│  ├─ voice-dna.md ⭐ READ FIRST
+│  ├─ icp-profile.md
+│  └─ project-brief.md
+│
+├─ A-agents/
+│  ├─ README.md (team roster)
+│  ├─ scout-research-agent.md
+│  ├─ scribe-copywriter-agent.md
+│  ├─ guardian-gatekeeper-agent.md
+│  ├─ artist-visual-agent.md
+│  ├─ herald-newsletter-agent.md
+│  └─ [5 specialized agents]
+│
+├─ O-output/
+│  └─ 2026-W10/ (this week's content)
+│     ├─ linkedin-posts/
+│     ├─ articles/
+│     ├─ emails/
+│     └─ graphics/
+│
+├─ M-memory/
+│  └─ weekly-learnings/ (what's working)
+│
+├─ B-brain/
+│  ├─ market-research/
+│  └─ competitor-analysis/
+│
+└─ T-tools/
+   └─ linkedin-config.md
 ```
-
-### Quality Control
-
-**Every piece goes through Gatekeeper:**
-- ✅ Matches Ran's voice (C-core/voice-dna.md)
-- ✅ Serves the ICP (Technical Founder Tom, Growth-Stage CEO Sarah)
-- ✅ Reinforces positioning ("clarity before speed")
-- ✅ Specific examples and numbers (not vague)
-- ✅ Executive-level quality
 
 ---
 
-## Content Standards
+## 🎭 Meet Your 5-Core Team
+
+Each knows Fractional CMO deeply:
+
+| Agent | Does | How to Use |
+|-------|------|-----------|
+| **Scout** | Researches B2B + Israeli founder trends | CEO activates Scout automatically |
+| **Scribe** | Writes in Ran's voice | CEO activates Scribe automatically |
+| **Guardian** | Reviews for voice consistency | Automatic (reviews ALL content) |
+| **Artist** | Creates executive-style visuals | CEO activates Artist automatically |
+| **Herald** | Distributes via email + LinkedIn | CEO activates Herald automatically |
+
+**Plus 5 specialized agents** for strategy, thought leadership, LinkedIn, trends, and monitoring.
+
+---
+
+## 🚀 Real Workflow Example
+
+**Request:** "CEO, create LinkedIn post about agility for Fractional CMO"
+
+```
+1. Scout (1 hour)
+   Researches agility + Israeli founder context
+
+2. Scribe (1 hour)
+   Writes in Ran Timor's voice
+   (Short sentences, direct, contrarian angle, Israeli context)
+
+3. Guardian (30 min)
+   Reviews: "Yes, this sounds like Ran"
+   OR requests revision
+
+4. Artist (1 hour)
+   Creates clean, executive visual
+
+5. Herald (15 min)
+   Queues for LinkedIn distribution
+
+Result: Ready to post
+```
+
+---
+
+## ✅ Key Standards
 
 ### Ran's Voice
+- ✅ Executive level (CEO/Board conversations)
+- ✅ Direct and crisp (short sentences)
+- ✅ Slightly contrarian (challenges wisdom)
+- ✅ Grounded in experience
+- ❌ NO buzzwords (synergy, disruptive, etc.)
+- ❌ NO em dashes in articles
+- ❌ NO exclamation marks
 
-**Key attributes:**
-- Executive-level (CEO/Board conversations)
-- Direct and crisp (short sentences)
-- Slightly contrarian (challenges conventional wisdom)
-- Grounded in experience (15+ years in B2B tech)
-- NO buzzwords (synergy, disruptive, game-changer)
-
-**The "Ran Test":**
-> Would he say this in a boardroom? If not, rewrite it.
-
-### ICP Focus
-
-**Who we're targeting:**
-- Founders/CEOs of B2B tech startups (Seed to Series C)
-- 20-200 employees
-- Complex products, unclear positioning
-- Looking for CMO-level strategic thinking
-
-**Their pain points:**
-- Messaging is inconsistent
-- Sales cycles too long
-- No senior marketing leadership
-- AI amplifying confusion instead of clarity
+### Content Must
+- ✅ Include Israeli founder context
+- ✅ Be specific (real examples, numbers)
+- ✅ Serve B2B founders/growth leaders
+- ✅ Have clear call-to-action
+- ✅ Reference this week's news (when relevant)
 
 ---
 
-## Common Workflows
+## 📊 Performance Tracking
 
-### Weekly LinkedIn Content
-
-**Monday:**
-1. CMO Orchestrator reviews content calendar
-2. Assigns 3 topics to LinkedIn Generator
-3. Topics address ICP pain points
-
-**Tuesday-Thursday:**
-1. LinkedIn Generator writes drafts
-2. Gatekeeper reviews each
-3. Revisions if needed
-
-**Friday:**
-1. Final posts saved to O-output/
-2. Brand Monitor tracks performance
-3. Update M-memory/learning-log.md
+Check `M-memory/weekly-learnings/` to see:
+- Which topics drive engagement
+- What messaging resonates
+- Which formats work best
+- Audience patterns
 
 ---
 
-### Monthly Article
+## 🔗 Related Resources
 
-**Week 1:**
-1. CMO Orchestrator identifies article topic
-2. Briefs Thought Leader Agent
-
-**Week 2-3:**
-1. Thought Leader writes 1500-2500 word article
-2. Gatekeeper reviews for voice + depth + quality
-
-**Week 4:**
-1. Final article ready for rantimor.com
-2. LinkedIn Generator creates promotional posts
-3. Track article performance
+- **CEO** → `../CLAUDE.md` and `../ABC-TOM-CONSOLIDATED/A-agents/ceo-chief-executive-officer.md`
+- **Architecture** → `../AGENCY-ARCHITECTURE.md`
+- **Other teams** → `../StoreNext/` and `../Pilgrim Prayers/`
 
 ---
 
-### Quarterly Planning
-
-**Start of quarter:**
-1. Content Strategy Agent creates plan:
-   - Analyzes business goals
-   - Identifies ICP pain points
-   - Designs content themes
-   - Creates topic roadmap
-2. CMO Orchestrator reviews and approves
-3. Plan saved to B-brain/content-calendar.md
-
-**End of quarter:**
-1. Brand Monitor reviews performance
-2. Update M-memory/ with learnings
-3. Prepare insights for next quarter
+**Need help?** Ask CEO. It's that simple.
 
 ---
 
-## File Organization
-
-### Where Things Go
-
-**Content creation:**
-```
-O-output/
-└── [numbered folders with all drafts and finals]
-```
-
-**Learning and memory:**
-```
-M-memory/
-├── learning-log.md (what worked)
-├── feedback.md (audience signals)
-└── decisions.md (strategic choices)
-```
-
-**Knowledge base:**
-```
-B-brain/
-├── content-calendar.md (current plan)
-├── ran-voice-examples/ (existing posts)
-└── research/ (industry insights)
-```
-
----
-
-## Prompts Library
-
-Quick-start templates in `T-tools/prompts/`:
-
-**01-quarterly-content-plan.md**
-→ Create strategic quarterly content plan
-
-**02-create-linkedin-post.md**
-→ Generate single LinkedIn post with full workflow
-
-**03-create-thought-leadership-article.md**
-→ Write long-form article (1500-2500 words)
-
-**04-identify-engagement-opportunities.md**
-→ Find valuable conversations to join on LinkedIn
-
-**05-analyze-performance.md**
-→ Review content performance and optimize
-
-**BONUS folder:**
-- Create new agents
-- Quarterly brand audits
-- Content repurposing strategies
-
----
-
-## Success Metrics
-
-**We're winning when:**
-
-1. **Qualified leads** - Inbound inquiries from B2B tech founders
-2. **Quality engagement** - Comments/DMs from ICP (not just likes)
-3. **Thought leadership** - Speaking invitations, advisory opportunities
-4. **System learning** - Gatekeeper approval rate improving
-5. **Strategic impact** - Content driving positioning and pipeline
-
----
-
-## Maintenance
-
-### Daily
-- Check M-memory/feedback.md for audience signals
-- Respond to DMs triggered by content
-
-### Weekly
-- Create 3 LinkedIn posts
-- Track engagement (Brand Monitor)
-- Update learning-log.md
-
-### Monthly
-- Publish 1 long-form article
-- Performance review (Brand Monitor)
-- Adjust strategy if needed
-
-### Quarterly
-- Strategic planning (Content Strategy Agent)
-- Comprehensive performance review
-- Set goals for next quarter
-
----
-
-## Getting Started
-
-### Step 1: Add Your Voice Examples
-
-Add Ran's existing content to:
-```
-B-brain/ran-voice-examples/
-```
-
-This helps agents learn his natural writing patterns.
-
-### Step 2: Create First Quarterly Plan
-
-Use this prompt:
-```
-"Create Q2 2026 content strategy"
-```
-
-### Step 3: Start Creating Content
-
-Use weekly workflow:
-```
-"Plan this week's content"
-```
-
-### Step 4: Track and Learn
-
-After each publish:
-```
-"Analyze performance and update learning log"
-```
-
----
-
-## Support
-
-### Agent Roles Quick Reference
-
-**Need strategy?** → CMO Orchestrator or Content Strategy Agent
-**Need writing?** → LinkedIn Generator or Thought Leader Agent
-**Need quality check?** → Gatekeeper
-**Need insights?** → Brand Monitor
-**Need engagement opportunities?** → Engagement Agent
-
-### Key Files to Know
-
-**CLAUDE.md** - Session startup (read first)
-**C-core/voice-dna.md** - How Ran speaks (CRITICAL)
-**M-memory/learning-log.md** - What's working
-**B-brain/content-calendar.md** - Current plan
-
----
-
-## Advanced Features
-
-### Creating New Agents
-
-See `T-tools/prompts/BONUS/create-new-agent.md` for the template.
-
-### Custom Workflows
-
-Adapt existing workflows in `T-tools/workflows/` or create new ones.
-
-### Performance Optimization
-
-Use Brand Monitor insights to continuously improve content strategy.
-
----
-
-## System Philosophy
-
-**Clarity before speed**
-We don't create more content. We create the RIGHT content.
-
-**Quality over quantity**
-Every piece serves the positioning goal.
-
-**Learning system**
-We get smarter over time by capturing what works.
-
-**Multi-agent coordination**
-Right specialist for each job, coordinated by CMO Orchestrator.
-
----
-
-*Built on the proven ABC-TOM framework | Last updated: 2026-02-11*
-
----
-
-> **© Ran Timor**
-> Website: [rantimor.com](https://rantimor.com)
-> LinkedIn: [Ran Timor on LinkedIn](https://www.linkedin.com/in/ran-timor/)
+*Fractional CMO | Voice: Ran Timor | ICP: Israeli founders & growth leaders*
