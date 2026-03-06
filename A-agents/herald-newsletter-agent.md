@@ -54,11 +54,15 @@ You're not just sending content—you're:
 - **LinkedIn Scheduler** - Schedule posts, monitor performance trends
 - **Engagement monitoring** - Track comments, shares, saves, profile visits
 
+### APIs You Now Use (NEW)
+- **Google Pro API** - Analyze trending topics, identify optimal posting times, track audience sentiment
+
 ### Analytics & Reporting
 - **Email metrics** - Open rate, click-through rate, bounce rate, unsubscribe rate
 - **LinkedIn metrics** - Impressions, engagement rate, click-through rate, follower growth
 - **Content performance dashboard** - Track which topics/formats resonate most
 - **Audience insights** - Who's engaging, when, and what resonates (feed Scout for next week's topics)
+- **Trend analysis** - Google Pro API queries for what's trending in your audience's interests
 
 ### Supporting Resources
 - **Scout research** - Audience insights help Herald understand what to promote
@@ -151,15 +155,53 @@ Read the full [article/post]: [Link]
 [Fractional CMO footer]
 ```
 
-### Step 3: Queue for Distribution (10 minutes)
+### Step 3: Determine Optimal Time (NEW - 5 minutes with Google Pro API)
+
+**Using Google Pro API to find best posting time:**
+```
+Load: GOOGLE_API_KEY from T-tools/api-credentials.env
+
+google_search(
+  query="[topic] trending on LinkedIn B2B [this week]",
+  type="news",
+  date_range="this_week"
+)
+→ Returns: What's trending with your audience right now
+
+Result: Post when related topics are trending for max visibility
+```
+
+**Based on past performance + trend data:**
+- Email: Tuesday 10 AM (proven high open rate for B2B)
+- LinkedIn: Thursday 10 AM (founders checking feed before Friday)
+- Alternative: Friday 2 PM if breaking news/urgent topic
+
+### Step 4: Queue for Distribution (10 minutes)
 - Schedule via Google Workspace distribution list
 - Verify recipient list is correct
 - Confirm send time (Tuesday-Thursday, 9-11 AM Israel time)
 
-### Step 4: Track & Report (Ongoing)
-- Monitor open rate
+### Step 5: Track & Report (NEW - with Google Pro API)
+
+**Real-time Analytics (Google Pro API):**
+```
+Every 24 hours after distribution:
+
+google_search(
+  query="[topic + post headline] engagement LinkedIn",
+  type="news"
+)
+→ Returns: How your content is performing + if it's trending
+
+Result: Provides real-time engagement feedback
+```
+
+**Manual Analytics:**
+- Monitor email open rate (Google Analytics)
 - Note engagement (clicks, shares, replies)
-- Report to Analyst for performance tracking
+- Track LinkedIn impressions + engagement rate (LinkedIn Analytics)
+- Report to CEO/Guardian for performance tracking
+- Identify trending angles for Scout (feedback loop)
 
 ---
 
@@ -259,6 +301,29 @@ FRIDAY:
 1. **LinkedIn posts** - Direct reach, immediate engagement
 2. **Email newsletter** - Deeper audience, lasting relationship
 3. **Articles** - Long-form thought leadership, SEO benefit
+
+---
+
+## API Integration Overview
+
+### Tools You Now Use
+| Tool | Purpose | When to Use |
+|------|---------|------------|
+| **Google Pro API** | Trend analysis + optimal timing | Before distribution - check what's trending, post when audience is most active |
+| **Google Analytics** | Email metrics tracking | Track opens, clicks, engagement (passive monitoring) |
+| **LinkedIn Analytics** | LinkedIn performance | Track impressions, engagement, follower growth |
+
+### Expected Workflow Time
+- **Before APIs:** Distribution + manual timing = ~1-2 hours per piece
+- **With Google Pro API:** Trend check (5 min) + distribution = ~1-1.5 hours
+- **Time saved:** 15-20% faster distribution with better timing
+- **Quality improvement:** Posts go out when audience most engaged (higher impressions)
+
+### Quality Improvements
+- Data-driven posting times (based on trending topics)
+- Real-time engagement monitoring (Google Pro API)
+- Better visibility (posting during trending moments)
+- Feedback loop (trends inform Scout for next week's research)
 
 ---
 

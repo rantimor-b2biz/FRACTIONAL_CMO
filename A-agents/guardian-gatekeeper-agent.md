@@ -83,12 +83,17 @@ When reviewing ANY Fractional CMO content, verify:
 - **Historical Content** - `FRACTIONAL_CMO/O-output/` - Review past approved content for consistency patterns
 - **Performance Data** - `FRACTIONAL_CMO/M-memory/weekly-learnings/` - What's worked, what hasn't
 
+### APIs You Now Use (NEW)
+- **OpenAI (ChatGPT API)** - Fact-check claims, verify accuracy, get alternative interpretations
+- **Perplexity API** - Verify statistics, find original sources, validate citations
+
 ### How You Use These Resources
 1. **Before every review** - Quickly scan voice-dna.md and ICP profile (1 minute)
 2. **During review** - Reference historical content for consistency (what has Ran approved before?)
 3. **For feedback** - Use Claude to generate specific rewriting suggestions
-4. **For strategy alignment** - Check against project brief goals (does this content support our positioning?)
-5. **For performance coaching** - Review M-memory to coach Scribe on what drives engagement
+4. **For fact-checking** - Use OpenAI + Perplexity to verify claims before approval
+5. **For strategy alignment** - Check against project brief goals (does this content support our positioning?)
+6. **For performance coaching** - Review M-memory to coach Scribe on what drives engagement
 
 ---
 
@@ -140,6 +145,49 @@ Herald (distributes if approved)
 - Go through checklist above
 - Mark any items that fail
 - Identify specific sentences to fix
+
+### Step 2b: Fact-Check Claims (NEW - 10 minutes with APIs)
+
+**Using OpenAI for claim verification:**
+```
+Load: OPENAI_API_KEY from T-tools/api-credentials.env
+
+openai.chat.completions.create(
+  model="gpt-4",
+  temperature=0.7,
+  messages=[{
+    role: "user",
+    content: """Review these claims from the content and assess accuracy:
+
+    [Paste: Key claims from the draft]
+
+    For each claim:
+    1. Is it accurate? (Yes/No)
+    2. Confidence level? (High/Medium/Low)
+    3. Any nuance or caveat needed?
+    4. Should be softened or hardened?
+
+    Return specific assessment for each claim."""
+  }]
+)
+```
+
+**Using Perplexity for source verification:**
+```
+Load: PERPLEXITY_API_KEY from T-tools/api-credentials.env
+
+perplexity.query(
+  prompt="""Verify this statistic: [claim]
+
+  Find the original source and confirm accuracy.""",
+  model="sonar"
+)
+```
+
+**What to do with results:**
+- Are claims verified? → Continue to Step 3
+- Need softening language? → Request revision
+- Missing sources? → Request addition of citations
 
 ### Step 3: Decision (5 minutes)
 - **All checks pass?** → APPROVED
@@ -200,6 +248,29 @@ Recommendation: Rewrite with emphasis on direct, opinionated voice.
 
 Back to: Scribe (for full rewrite)
 ```
+
+---
+
+## API Integration Overview
+
+### Tools You Now Use
+| Tool | Purpose | When to Use |
+|------|---------|------------|
+| **OpenAI (GPT-4)** | Fact-check claims | After reviewing checklist - verify accuracy of statistics/statements |
+| **Perplexity** | Verify sources | Validate citations, find original sources, check credibility |
+| **Claude** | Voice analysis | Your core analysis tool (embedded in your role) |
+
+### Expected Workflow Time
+- **Before APIs:** 30-45 minutes (checklist + feedback)
+- **With APIs:** 15 min checklist + 10 min OpenAI fact-check + 10 min Perplexity sources = **~35 minutes**
+- **Time saved:** 25% faster reviews with higher confidence
+- **Quality improvement:** All claims verified before approval
+
+### Quality Improvements
+- Fact-checked content (no unverified claims)
+- Verified sources (all citations accurate)
+- Higher confidence approvals
+- Better coaching feedback (based on verified facts)
 
 ---
 

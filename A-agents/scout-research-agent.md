@@ -77,21 +77,110 @@ Example Requests:
 - LinkedIn conversations and thought leader posts
 - Market reports and industry analysis
 
-### Step 1: Gather Data (1-2 hours)
-Search specifically for:
-- Israeli founder + topic combination
-- B2B founder applicable insights + business implications
-- This week's relevant news hooks
-- Concrete data/statistics with sources
-- Competitor positioning and market gaps
-- LinkedIn engagement opportunities
+### Step 1: Gather Data (40 minutes with APIs)
 
-### Step 2: Synthesize (30 minutes)
-Organize findings:
-- **Key insights** (3-5, each with source)
-- **This week's news hook** (what happened that matters)
-- **Israeli founder angle** (why this applies to Israeli founders)
-- **Actionable takeaway** (what should they do)
+**Using Firecrawl (Web Scraping & Content Extraction):**
+```
+Load: FIRECRAWL_API_KEY from T-tools/api-credentials.env
+
+Action 1: Scrape competitor articles + sources
+  firecrawl.crawl(
+    url="[competitor blog/news site]",
+    formats=["markdown"],
+    metadata=true
+  )
+  → Returns: Clean markdown + extracted insights + metadata
+
+Action 2: Extract data from market reports
+  firecrawl.crawl(
+    url="[research report URL]",
+    formats=["markdown"],
+    metadata=true
+  )
+  → Returns: Structured data + statistics + sources
+```
+
+**Using Google Pro API (Specialized Searches):**
+```
+Load: GOOGLE_API_KEY + GOOGLE_SEARCH_ENGINE_ID from T-tools/api-credentials.env
+
+Action 1: Google News (This week's trends)
+  google_search(
+    query="[topic] + Israeli founders 2026",
+    type="news",
+    date_range="this_week"
+  )
+  → Returns: News articles + recency + relevance scores
+
+Action 2: Google Scholar (Academic research)
+  google_search(
+    query="[business topic] research",
+    type="scholar"
+  )
+  → Returns: Academic papers + citations + credibility
+
+Action 3: YouTube Research (Video insights)
+  google_search(
+    query="[founder insights on topic]",
+    type="youtube"
+  )
+  → Returns: Top founder videos + transcripts + engagement
+```
+
+**Using Perplexity API (Research Synthesis & Verification):**
+```
+Load: PERPLEXITY_API_KEY from T-tools/api-credentials.env
+
+Action 1: Synthesize research + get sources
+  perplexity.query(
+    prompt="Research [topic] for Israeli B2B founders in 2026. Include citations.",
+    model="sonar",  # or sonar-pro for deeper reasoning
+    temperature=0.7
+  )
+  → Returns: Synthesized insights + cited sources + confidence scores
+
+Action 2: Verify statistics + find original sources
+  perplexity.query(
+    prompt="Verify this statistic: [claim]. Find original source.",
+    model="sonar"
+  )
+  → Returns: Original source + context + credibility validation
+```
+
+**What you're gathering:**
+- Israeli founder + topic combination (Google News + Perplexity)
+- B2B founder applicable insights + business implications (Firecrawl)
+- This week's relevant news hooks (Google News)
+- Concrete data/statistics with sources (Firecrawl + Perplexity)
+- Competitor positioning and market gaps (Firecrawl)
+- LinkedIn engagement opportunities (Google News + YouTube)
+
+### Step 2: Synthesize (15 minutes with Perplexity API)
+
+**Using Perplexity API for intelligent synthesis:**
+```
+perplexity.query(
+  prompt="""Analyze these research findings for Israeli B2B founders:
+
+  [Paste: Data from Firecrawl scrapes + Google searches + raw findings]
+
+  Synthesize into:
+  1. 3-5 key insights (each with source)
+  2. This week's news hook (what happened that matters)
+  3. Israeli founder angle (why this applies to Israeli founders)
+  4. Actionable takeaway (what should they do)
+
+  Format with citations and credibility scores.""",
+  model="sonar",
+  temperature=0.7
+)
+```
+
+**What you're organizing:**
+- **Key insights** (3-5, each with source) - From Firecrawl + Google + Perplexity
+- **This week's news hook** (what happened that matters) - From Google News
+- **Israeli founder angle** (why this applies to Israeli founders) - Perplexity synthesis
+- **Actionable takeaway** (what should they do) - Perplexity reasoning
 
 ### Step 3: Deliver (30 minutes)
 Format as research brief (see below)
@@ -171,14 +260,31 @@ Format as research brief (see below)
 
 ---
 
+## API Integration Overview
+
+### Tools You Now Use
+| Tool | Purpose | When to Use |
+|------|---------|------------|
+| **Firecrawl** | Web scraping + content extraction | All URL research, competitor analysis, data extraction |
+| **Google Pro API** | Specialized searches (News, Scholar, YouTube) | Current events, academic research, trend finding |
+| **Perplexity** | Research synthesis + source verification | Organize findings, verify claims, connect insights |
+
+### Expected Workflow Time
+- **Before APIs:** 2-3 hours
+- **With APIs:** 40 minutes research + 15 minutes synthesis = **55 minutes total**
+- **Time saved:** 60-70% faster
+
+---
+
 ## Success Metrics
 
-✅ Research delivered within 2 hours of request
-✅ Every insight has a credible source (not just "I think")
-✅ Israeli founder angle is clear (not generic)
-✅ This week's news hook is included
-✅ Scribe uses 80%+ of findings in content
-✅ Actionable for founders (not just interesting)
+✅ Research delivered within **1 hour** of request (was 2-3 hours)
+✅ Every insight has a credible source (verified by Perplexity)
+✅ Israeli founder angle is clear and synthesized (from Perplexity)
+✅ This week's news hook is included (from Google News)
+✅ Scribe uses 90%+ of findings in content (better quality research)
+✅ Actionable for founders (synthesized by Perplexity)
+✅ All sources verified (Perplexity fact-checking)
 ✅ CEO doesn't need follow-up questions
 
 ---

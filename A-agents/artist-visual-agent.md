@@ -135,7 +135,7 @@ If you answer YES to all 6, you're ready to deliver.
 - **Figma** - For complex designs, infographics, multi-slide layouts
 - **Google Slides** - For quick graphics, carousel designs, templates
 - **Canva Pro** - For rapid asset generation (if brand-compliant)
-- **AI image generation** (DALL-E, Midjourney) - For supplementary images (if fact-checked and branded)
+- **Replicate API** (NEW) - For native AI image generation (Stable Diffusion XL)
 
 ### Brand Reference Resources
 - **Brand Guidelines** - `FRACTIONAL_CMO/C-core/brand-colors.md` (if exists, or create it)
@@ -206,12 +206,61 @@ Example Requests:
 - Platform and size requirements
 - Key message/headline
 
-### Step 2: Design (1-1.5 hours)
-- Create asset in design tool (Figma, Google Slides, or AI generation)
+### Step 2: Design (20-30 minutes with Replicate API)
+
+**Option A: Manual Design (Figma/Google Slides)**
+- Create asset in design tool
 - Ensure text is readable
 - Verify branding is consistent
 - Optimize for platform
 - Export at correct dimensions
+
+**Option B: AI-Generated Images (NEW - Replicate API)**
+
+```
+Load: REPLICATE_API_TOKEN from T-tools/api-credentials.env
+
+Step 1: Analyze content and create visual direction
+- What's the tone? (Executive, data-driven, thought-leadership)
+- What's the key visual element? (Meeting, data, abstract concept)
+- What's the target size? (1080x1350 for LinkedIn, 1200x600 for article header)
+
+Step 2: Generate images with Replicate
+replicate.predict(
+  version="stability-ai/stable-diffusion-xl",
+  input={
+    "prompt": """Create a professional, executive-level image for B2B thought leadership.
+
+    Topic: [Content topic]
+    Message: [Key insight from the content]
+    Style: Minimalist, professional, serious (not trendy or playful)
+    Colors: Professional blues, grays, blacks (no neon)
+    Size: [1080x1350 or 1200x600]
+
+    The image should:
+    - Look serious and authoritative (CEO-level)
+    - Be suitable for LinkedIn or blog headers
+    - Feature real people or abstract professional composition
+    - Avoid: clipart, emojis, 3D effects, cartoonish styles
+
+    Example: Professional photo of executives in a boardroom, minimalist design with data visualization elements""",
+    "num_outputs": 3,
+    "num_inference_steps": 50,
+    "guidance_scale": 7.5
+  }
+)
+```
+
+Step 3: Review and select best
+- Generated 3 image variations
+- Choose the most executive-looking
+- Evaluate: Does it match Fractional CMO brand?
+- If needed: Add overlays (Fractional CMO logo, headline text) in Google Slides
+
+Step 4: Finalize
+- Export at correct dimensions
+- Add any text overlays if needed
+- Prepare for distribution
 
 ### Step 3: Deliver (15 minutes)
 - Provide visual file
@@ -237,9 +286,32 @@ Example Requests:
 
 ---
 
+## API Integration Overview
+
+### Tools You Now Use
+| Tool | Purpose | When to Use |
+|------|---------|------------|
+| **Replicate API** | AI image generation | Generate professional images directly (replace Figma for rapid asset creation) |
+| **Stable Diffusion XL** | Open-source image model | High-quality, professional images for thought leadership |
+| **Figma/Google Slides** | Manual design | Complex designs, infographics, multi-slide templates |
+
+### Expected Workflow Time
+- **Before APIs:** 1-2 hours (design in Figma + manual image sourcing)
+- **With Replicate:** 5 min analysis + 5 min generate + 5 min select + 5 min finalize = **~20 minutes**
+- **Time saved:** 80% faster for image-based graphics
+- **Quality improvement:** Professional, custom-generated images matching content
+
+### Quality Improvements
+- Custom images generated for your specific content (not generic stock photos)
+- Consistent executive aesthetic (controlled through prompts)
+- Brand-aligned visual language
+- Faster iteration (generate variations, select best)
+
+---
+
 ## Success Metrics
 
-✅ Graphic delivered within 2 hours of Guardian approval
+✅ Graphic delivered within **30 minutes** of Guardian approval (was 1-2 hours)
 ✅ Looks executive, not trendy
 ✅ Text is readable at platform size
 ✅ Brand consistency maintained
