@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "O-output/05-article-agility-moat/draft-v1.md",
+                "file": "T-tools/skills/linkedin-copywriting-skill.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "draft-v1"
+              "title": "linkedin-copywriting-skill"
             }
           }
         ]
@@ -186,17 +186,22 @@
   },
   "active": "859edf6a5c362b14",
   "lastOpenFiles": [
+    "A-agents/artist-visual-agent.md.tmp.51980.1772777081929",
+    "A-agents/scribe-copywriter-agent.md",
+    "A-agents/thought-leader-agent.md",
+    "T-tools/skills/linkedin-copywriting-skill.md",
+    "T-tools/skills/linkedin-strategy-skill/references/post-formulas.md",
+    "T-tools/skills/linkedin-strategy-skill/references/voice-guidelines.md",
+    "A-agents/linkedin-generator-agent.md",
+    "O-output/05-article-agility-moat/draft-v1.md",
     "A-agents/cmo-orchestrator-agent.md",
     "A-agents/herald-newsletter-agent.md",
     "A-agents/guardian-gatekeeper-agent.md",
-    "A-agents/linkedin-generator-agent.md",
     "README.md.tmp.30684.1772724936112",
     "A-agents/artist-visual-agent.md",
-    "A-agents/scribe-copywriter-agent.md",
     "A-agents/scout-research-agent.md",
     "T-tools/skills/linkedin-strategy-skill/SKILL.md",
     "O-output/05-article-agility-moat/README.md",
-    "O-output/05-article-agility-moat/draft-v1.md",
     "A-agents/EFFICIENCY-ANALYSIS.md",
     "A-agents/gatekeeper-agent.md",
     "A-agents/engagement-agent.md",
@@ -217,10 +222,6 @@
     "O-output/02-article-agentic-marketing/article-agentic-marketing-not-automation-2.md",
     "O-output/03-authenticity-vs-ai-noise/LINKEDIN-FINAL.md",
     "CLAUDE.md",
-    "A-agents/AGENT-OVERLAP-ANALYSIS.md",
-    "T-tools/skills/linkedin-engagement-strategy-skill.md",
-    "T-tools/skills/linkedin-copywriting-skill.md",
-    "A-agents/trends-monitor-agent.md",
     "O-output/02-article-agentic-marketing/images/post-1-contrarian-hook.png"
   ]
 }
