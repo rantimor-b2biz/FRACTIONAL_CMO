@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "vibe-marketing-visual",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "4321", "--directory", "O-output/W10/06-article-vibe-marketing/visual"],
+      "port": 4321
+    }
+  ]
+}

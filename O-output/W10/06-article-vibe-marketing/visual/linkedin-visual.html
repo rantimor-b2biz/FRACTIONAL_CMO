@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    width: 1080px;
+    height: 1080px;
+    background: #070B15;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+    position: relative;
+  }
+
+  canvas {
+    position: absolute;
+    top: 0; left: 0;
+  }
+
+  .layout {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 72px;
+  }
+
+  /* ── TOP LABEL ── */
+  .top-label {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    color: #FF6B35;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+  }
+
+  /* ── MAIN TITLE ── */
+  .title {
+    font-size: 96px;
+    font-weight: 900;
+    line-height: 0.92;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+  }
+
+  .title em {
+    font-style: italic;
+    color: #FF6B35;
+  }
+
+  /* ── DIVIDER ── */
+  .divider {
+    width: 64px;
+    height: 3px;
+    background: #FF6B35;
+    margin-bottom: 40px;
+    opacity: 0.8;
+  }
+
+  /* ── DEFINITION BLOCK ── */
+  .definition {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.55;
+    color: rgba(255,255,255,0.7);
+    max-width: 680px;
+    margin-bottom: 0;
+  }
+
+  .definition strong {
+    color: rgba(255,255,255,0.95);
+    font-weight: 400;
+  }
+
+  /* ── SIGNALS BLOCK ── */
+  .signals {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 52px;
+  }
+
+  .signal-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .signal-row:first-child {
+    border-top: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .signal-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #FF6B35;
+    flex-shrink: 0;
+    box-shadow: 0 0 8px 2px rgba(255,107,53,0.5);
+  }
+
+  .signal-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.55);
+    letter-spacing: 0.01em;
+  }
+
+  .signal-ghost {
+    margin-left: auto;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    color: rgba(255,255,255,0.15);
+    text-transform: uppercase;
+  }
+
+  /* ── BOTTOM ROW ── */
+  .bottom-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .verdict {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.45);
+    font-style: italic;
+    max-width: 500px;
+    line-height: 1.4;
+  }
+
+  .verdict strong {
+    color: rgba(255,255,255,0.75);
+    font-style: normal;
+    font-weight: 600;
+  }
+
+  .brand {
+    text-align: right;
+  }
+
+  .brand-name {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: rgba(255,255,255,0.35);
+    text-transform: uppercase;
+    display: block;
+  }
+
+  .brand-url {
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.2);
+    display: block;
+    margin-top: 4px;
+  }
+
+  /* ── BACKGROUND GLOW ── */
+  .bg-glow {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255,107,53,0.07) 0%, transparent 70%);
+    top: -100px;
+    right: -100px;
+    pointer-events: none;
+  }
+
+  .bg-glow-2 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(100,120,255,0.05) 0%, transparent 70%);
+    bottom: 100px;
+    left: 200px;
+    pointer-events: none;
+  }
+
+  /* ── CORNER DECORATION ── */
+  .corner-art {
+    position: absolute;
+    bottom: 68px;
+    right: 70px;
+    width: 120px;
+    height: 120px;
+    opacity: 0.06;
+  }
+
+</style>
+</head>
+<body>
+
+  <!-- Background glows -->
+  <div class="bg-glow"></div>
+  <div class="bg-glow-2"></div>
+
+  <!-- Corner decorative element -->
+  <svg class="corner-art" viewBox="0 0 120 120">
+    <circle cx="60" cy="60" r="55" fill="none" stroke="white" stroke-width="1"/>
+    <circle cx="60" cy="60" r="40" fill="none" stroke="white" stroke-width="1"/>
+    <circle cx="60" cy="60" r="25" fill="none" stroke="white" stroke-width="1"/>
+    <line x1="5" y1="60" x2="115" y2="60" stroke="white" stroke-width="1"/>
+    <line x1="60" y1="5" x2="60" y2="115" stroke="white" stroke-width="1"/>
+  </svg>
+
+  <!-- Vertical accent line -->
+  <div style="position:absolute; left:72px; top:72px; width:2px; height:calc(100% - 144px); background: linear-gradient(to bottom, #FF6B35 0%, rgba(255,107,53,0.1) 40%, transparent 100%); opacity: 0.4;"></div>
+
+  <div class="layout" style="padding-left: 88px;">
+
+    <div class="top-label">Ran Timor &nbsp;·&nbsp; B2B Marketing</div>
+
+    <div class="title">Vibe<br><em>Marketing</em></div>
+
+    <div class="divider"></div>
+
+    <div class="definition">
+      Running your GTM on instinct, momentum, and AI output<br>
+      <strong>without a clear strategic foundation beneath it.</strong><br><br>
+      It looks like execution. It doesn't build pipeline.
+    </div>
+
+    <!-- Stat block -->
+    <div style="margin: 44px 0 40px; display: flex; align-items: flex-end; gap: 40px;">
+      <div>
+        <div style="font-size: 72px; font-weight: 900; letter-spacing: -0.04em; color: #FF6B35; line-height: 1; opacity: 0.9;">3</div>
+        <div style="font-size: 13px; font-weight: 400; color: rgba(255,255,255,0.3); letter-spacing: 0.05em; margin-top: 6px;">signs you're doing it</div>
+      </div>
+      <div style="width: 1px; height: 60px; background: rgba(255,255,255,0.08); margin-bottom: 4px;"></div>
+      <div>
+        <div style="font-size: 72px; font-weight: 900; letter-spacing: -0.04em; color: rgba(255,255,255,0.12); line-height: 1;">5</div>
+        <div style="font-size: 13px; font-weight: 400; color: rgba(255,255,255,0.2); letter-spacing: 0.05em; margin-top: 6px;">steps to fix it</div>
+      </div>
+    </div>
+
+    <div class="signals">
+      <div class="signal-row">
+        <div class="signal-dot"></div>
+        <div class="signal-text">Positioning changes after every important meeting</div>
+        <div class="signal-ghost">ICP?</div>
+      </div>
+      <div class="signal-row">
+        <div class="signal-dot"></div>
+        <div class="signal-text">AI writes the post before you know what job it should do</div>
+        <div class="signal-ghost">Strategy?</div>
+      </div>
+      <div class="signal-row">
+        <div class="signal-dot"></div>
+        <div class="signal-text">Your sales team doesn't use your marketing content</div>
+        <div class="signal-ghost">Foundation?</div>
+      </div>
+    </div>
+
+    <div class="bottom-row">
+      <div class="verdict">
+        Foundation first.<br>
+        <strong>Then AI amplifies what actually works.</strong>
+      </div>
+      <div class="brand">
+        <span class="brand-name">Ran Timor</span>
+        <span class="brand-url">rantimor.com</span>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
