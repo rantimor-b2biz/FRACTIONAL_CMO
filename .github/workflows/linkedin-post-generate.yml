@@ -16,6 +16,11 @@ on:
         description: "Manual topic override (optional — otherwise trending topic is auto-selected)"
         required: false
 
+# Never run two generations in parallel (they race on the git push)
+concurrency:
+  group: linkedin-generate
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
