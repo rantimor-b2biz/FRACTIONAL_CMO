@@ -1,10 +1,10 @@
-name: Generate LinkedIn Post (auto + review issue)
+name: Generate Article + LinkedIn Post (auto + review issue)
 
 on:
   schedule:
     # GitHub cron is unreliable (runs can be delayed or dropped), so we schedule
     # several attempts per posting day. A guard step ensures only the first
-    # successful run of the day generates a post.
+    # successful run of the day generates content.
     # Posting days: Sunday / Tuesday / Thursday (Israeli work week + LinkedIn B2B peak)
     # ~08:30 Israel time: 05:30 / 06:30 / 07:30 UTC
     - cron: "30 5 * * 0,2,4"
@@ -29,7 +29,7 @@ jobs:
       issues: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout FRACTIONAL_CMO
         uses: actions/checkout@v4
 
       - name: Skip if today already done (scheduled runs only)
@@ -37,11 +37,19 @@ jobs:
         run: |
           DATE=$(date +%Y-%m-%d)
           if [ "${{ github.event_name }}" = "schedule" ] && ls -d "O-output/auto-linkedin/${DATE}-"* 2>/dev/null; then
-            echo "Post for $DATE already exists — a previous run handled today. Skipping."
+            echo "Content for $DATE already exists — a previous run handled today. Skipping."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           else
             echo "skip=false" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Checkout website repo (ran-timor-brand)
+        if: steps.guard.outputs.skip == 'false'
+        uses: actions/checkout@v4
+        with:
+          repository: rantimor-b2biz/ran-timor-brand
+          token: ${{ secrets.SITE_PUSH_TOKEN }}
+          path: site-repo
 
       - name: Set up Python
         if: steps.guard.outputs.skip == 'false'
@@ -51,34 +59,47 @@ jobs:
 
       - name: Install dependencies
         if: steps.guard.outputs.skip == 'false'
-        run: pip install anthropic
+        run: pip install anthropic replicate
 
-      - name: Generate post (research -> draft -> gatekeeper)
+      - name: Generate article + post (research -> article -> gatekeeper -> hero image)
         if: steps.guard.outputs.skip == 'false'
         id: generate
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
         run: |
           if [ -n "${{ github.event.inputs.topic }}" ]; then
-            python3 T-tools/scripts/generate_linkedin_post.py --topic "${{ github.event.inputs.topic }}"
+            python3 T-tools/scripts/generate_article_and_post.py --site-repo site-repo --topic "${{ github.event.inputs.topic }}"
           else
-            python3 T-tools/scripts/generate_linkedin_post.py
+            python3 T-tools/scripts/generate_article_and_post.py --site-repo site-repo
           fi
 
-      - name: Commit output
+      - name: Publish article to website repo
+        if: steps.guard.outputs.skip == 'false'
+        working-directory: site-repo
+        run: |
+          git config user.name "Fractional CMO Bot"
+          git config user.email "rantimor@gmail.com"
+          git add src/pages/Articles.tsx src/pages/ArticleDetail.tsx src/assets/articles/
+          git diff --staged --quiet || git commit -m "New article: ${{ steps.generate.outputs.topic }}"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin main; then break; fi
+            echo "Push attempt $attempt failed, retrying..."
+            sleep 10
+          done
+
+      - name: Commit output to FRACTIONAL_CMO
         if: steps.guard.outputs.skip == 'false'
         run: |
           git config user.name "Fractional CMO Bot"
           git config user.email "rantimor@gmail.com"
           git add O-output/auto-linkedin/ B-brain/topic-history.json
-          git diff --staged --quiet || git commit -m "LinkedIn post $(date +%Y-%m-%d) — ${{ steps.generate.outputs.topic }} (awaiting publish)"
+          git diff --staged --quiet || git commit -m "Article + LinkedIn post $(date +%Y-%m-%d) — ${{ steps.generate.outputs.topic }} (awaiting publish)"
           # Ran's machine auto-syncs this repo every ~10 min, so pushes can race.
-          # Rebase-and-retry until the push lands.
           for attempt in 1 2 3 4 5; do
             git pull --rebase origin main
-            if git push origin main; then
-              break
-            fi
+            if git push origin main; then break; fi
             echo "Push attempt $attempt failed, retrying..."
             sleep 10
           done
@@ -94,12 +115,17 @@ jobs:
             cat "$BODY_FILE"
             echo ""
             echo "---"
-            echo "**To publish:** copy the post above to LinkedIn, add the first comment, then close this issue."
+            echo "## Publish checklist"
+            echo "- [ ] **Lovable:** open the ran-timor-brand project and click **Publish → Update** so the article goes live at ${{ steps.generate.outputs.article_url }}"
+            echo "- [ ] **Verify** the article renders correctly (hero image, sections, CTA)"
+            echo "- [ ] **LinkedIn:** copy the post above, publish, then add the first comment with the article link"
+            echo "- [ ] Close this issue"
+            echo ""
             echo "**Gatekeeper verdict:** ${{ steps.generate.outputs.verdict }}"
           } > /tmp/issue-body.md
           gh label create linkedin-post --color 0A66C2 --description "Automated LinkedIn post awaiting publish" 2>/dev/null || true
           gh issue create \
-            --title "LinkedIn post ready — ${DATE}: ${{ steps.generate.outputs.topic }}" \
+            --title "Article + LinkedIn post ready — ${DATE}: ${{ steps.generate.outputs.topic }}" \
             --body-file /tmp/issue-body.md \
             --label "linkedin-post" \
             --assignee "rantimor-b2biz"
