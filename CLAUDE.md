@@ -10,11 +10,13 @@ Research/summaries → **Haiku** · Drafts → **Sonnet** · Strategy/Gatekeeper
 
 ## LinkedIn Automation (live since July 2026)
 
-3 posts/week are generated automatically (Sun/Tue/Thu ~08:30 IL) by
-`.github/workflows/linkedin-post-generate.yml` → `T-tools/scripts/generate_linkedin_post.py`
-(Trends Researcher + web search → Copywriter → Gatekeeper). Output lands in
-`O-output/auto-linkedin/` + a GitHub issue for Ran to publish. Strategy:
+3 article+post pairs/week are generated automatically (Sun/Tue/Thu ~08:30 IL) by
+`.github/workflows/linkedin-post-generate.yml` → `T-tools/scripts/generate_article_and_post.py`
+(Trends Researcher + web search → Thought Leader article → Gatekeeper → hero image →
+publish to the ran-timor-brand site repo). Output lands in `O-output/auto-linkedin/` +
+a GitHub issue for Ran (Lovable publish + LinkedIn). Strategy:
 `B-brain/linkedin-automation-strategy.md`. Topic dedup: `B-brain/topic-history.json`.
+`generate_linkedin_post.py` is the older post-only pipeline (kept for one-off posts).
 **Do not modify the automation from regular content sessions.**
 
 ## How This System Works
