@@ -22,19 +22,20 @@ The 23 published articles define 4 pillars. Every automated post maps to one:
 slightly-contrarian, experience-backed angle. This keeps the feed timely without drifting
 off-brand.
 
-## The automation (mirrors Pilgrim's pattern)
-- **Cadence:** 3 posts/week — Sunday, Tuesday, Thursday, ~08:30 Israel time.
-- **Pipeline** (`T-tools/scripts/generate_linkedin_post.py`):
-  1. **Trends Researcher** (Sonnet + live web search) — picks a trending topic, avoids repeats via `B-brain/topic-history.json`
-  2. **Copywriter** (Sonnet) — drafts in Ran's voice, loaded live from `C-core/voice-dna.md`
-  3. **Gatekeeper** (Opus) — enforces the full voice checklist; revises if needed
-- **Delivery:** GitHub Action (`.github/workflows/linkedin-post-generate.yml`) commits the
-  post to `O-output/auto-linkedin/` and **opens a GitHub issue** with the publish-ready text
-  → Ran gets an email notification automatically.
-- **Ran's only job:** open the email/issue → copy the post to LinkedIn → paste the first
-  comment → close the issue. Optional: generate the visual with the included prompt
-  (`T-tools/scripts/generate-replicate.py`).
+## The automation (article-first, since 2026-07-02)
+Every LinkedIn post starts from a NEW full article published on rantimor.com.
+
+- **Cadence:** 3 article+post pairs/week — Sunday, Tuesday, Thursday, ~08:30 Israel time.
+- **Pipeline** (`T-tools/scripts/generate_article_and_post.py`):
+  1. **Trends Researcher** (Sonnet + live web search) — trending topic + sourced facts, dedup via `B-brain/topic-history.json`
+  2. **Thought Leader** (Sonnet) — full 1,500-2,200 word article in the site's exact schema, voice from `C-core/voice-dna.md`
+  3. **Gatekeeper** (Opus) — reviews/revises the article AND writes the LinkedIn post that drives to it
+  4. **Artist** (Replicate flux-1.1-pro) — hero image on the site's visual language (dark navy, one metaphor, teal/amber accents, no text)
+  5. **Publish** — injects the article into `rantimor-b2biz/ran-timor-brand` (Lovable site repo) at the `AUTO-ARTICLES` anchors in `Articles.tsx` / `ArticleDetail.tsx` + hero asset, and pushes
+- **Delivery:** GitHub Action (`.github/workflows/linkedin-post-generate.yml`) pushes the article to the site repo, commits process files to `O-output/auto-linkedin/`, and **opens a GitHub issue assigned to Ran** (email arrives automatically) with the post + publish checklist.
+- **Ran's job (~5-7 min):** open Lovable → Publish/Update (makes the article live) → verify it renders → copy post to LinkedIn → paste first comment (article link) → close issue.
 - **Manual override:** run the workflow manually with a `topic` input for reactive/news posts.
+- **Secrets in the FRACTIONAL_CMO repo:** `ANTHROPIC_API_KEY`, `REPLICATE_API_TOKEN`, `SITE_PUSH_TOKEN` (PAT with push access to ran-timor-brand).
 
 ## Human-in-the-loop by design (not a limitation)
 Like Pilgrim's daily prayer (auto-generate → manual send), publishing stays manual:
