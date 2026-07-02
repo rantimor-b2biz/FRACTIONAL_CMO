@@ -1,0 +1,95 @@
+name: Generate LinkedIn Post (auto + review issue)
+
+on:
+  schedule:
+    # GitHub cron is unreliable (runs can be delayed or dropped), so we schedule
+    # several attempts per posting day. A guard step ensures only the first
+    # successful run of the day generates a post.
+    # Posting days: Sunday / Tuesday / Thursday (Israeli work week + LinkedIn B2B peak)
+    # ~08:30 Israel time: 05:30 / 06:30 / 07:30 UTC
+    - cron: "30 5 * * 0,2,4"
+    - cron: "30 6 * * 0,2,4"
+    - cron: "30 7 * * 0,2,4"
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "Manual topic override (optional — otherwise trending topic is auto-selected)"
+        required: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Skip if today already done (scheduled runs only)
+        id: guard
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          if [ "${{ github.event_name }}" = "schedule" ] && ls -d "O-output/auto-linkedin/${DATE}-"* 2>/dev/null; then
+            echo "Post for $DATE already exists — a previous run handled today. Skipping."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        if: steps.guard.outputs.skip == 'false'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        if: steps.guard.outputs.skip == 'false'
+        run: pip install anthropic
+
+      - name: Generate post (research -> draft -> gatekeeper)
+        if: steps.guard.outputs.skip == 'false'
+        id: generate
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "${{ github.event.inputs.topic }}" ]; then
+            python3 T-tools/scripts/generate_linkedin_post.py --topic "${{ github.event.inputs.topic }}"
+          else
+            python3 T-tools/scripts/generate_linkedin_post.py
+          fi
+
+      - name: Commit output
+        if: steps.guard.outputs.skip == 'false'
+        run: |
+          git config user.name "Fractional CMO Bot"
+          git config user.email "rantimor@gmail.com"
+          git add O-output/auto-linkedin/ B-brain/topic-history.json
+          git diff --staged --quiet || git commit -m "LinkedIn post $(date +%Y-%m-%d) — ${{ steps.generate.outputs.topic }} (awaiting publish)"
+          git push origin main
+
+      - name: Open review issue (email notification to Ran)
+        if: steps.guard.outputs.skip == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          BODY_FILE="${{ steps.generate.outputs.outdir }}/final-post.md"
+          {
+            cat "$BODY_FILE"
+            echo ""
+            echo "---"
+            echo "**To publish:** copy the post above to LinkedIn, add the first comment, then close this issue."
+            echo "**Gatekeeper verdict:** ${{ steps.generate.outputs.verdict }}"
+          } > /tmp/issue-body.md
+          gh label create linkedin-post --color 0A66C2 --description "Automated LinkedIn post awaiting publish" 2>/dev/null || true
+          gh issue create \
+            --title "LinkedIn post ready — ${DATE}: ${{ steps.generate.outputs.topic }}" \
+            --body-file /tmp/issue-body.md \
+            --label "linkedin-post"
+
+      - name: Show post in run summary
+        if: steps.guard.outputs.skip == 'false'
+        run: |
+          cat "${{ steps.generate.outputs.outdir }}/final-post.md" >> "$GITHUB_STEP_SUMMARY"

@@ -8,6 +8,15 @@
 ### Model selection (cost rule)
 Research/summaries → **Haiku** · Drafts → **Sonnet** · Strategy/Gatekeeper final → **Opus**. Cheapest that fits; escalate only on failure.
 
+## LinkedIn Automation (live since July 2026)
+
+3 posts/week are generated automatically (Sun/Tue/Thu ~08:30 IL) by
+`.github/workflows/linkedin-post-generate.yml` → `T-tools/scripts/generate_linkedin_post.py`
+(Trends Researcher + web search → Copywriter → Gatekeeper). Output lands in
+`O-output/auto-linkedin/` + a GitHub issue for Ran to publish. Strategy:
+`B-brain/linkedin-automation-strategy.md`. Topic dedup: `B-brain/topic-history.json`.
+**Do not modify the automation from regular content sessions.**
+
 ## How This System Works
 
 **FRACTIONAL_CMO** is a multi-agent content system designed to position Ran Timor as a B2B tech marketing thought leader.
