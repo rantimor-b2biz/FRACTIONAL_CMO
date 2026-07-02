@@ -101,7 +101,8 @@ jobs:
           gh issue create \
             --title "LinkedIn post ready — ${DATE}: ${{ steps.generate.outputs.topic }}" \
             --body-file /tmp/issue-body.md \
-            --label "linkedin-post"
+            --label "linkedin-post" \
+            --assignee "rantimor-b2biz"
 
       - name: Show post in run summary
         if: steps.guard.outputs.skip == 'false'
