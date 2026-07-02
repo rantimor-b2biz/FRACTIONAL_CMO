@@ -1,26 +1,12 @@
 # FRACTIONAL_CMO - AI Agent Team for B2B Tech Marketing
 
-## Session Start Protocol (MANDATORY)
+## Session Start Protocol (MANDATORY — token-optimized)
 
-When starting ANY new conversation from this folder, ALWAYS read these files first before responding:
+1. **Read `C-core/session-brief.md`** — voice, ICP, and rules distilled. Replaces the full C-core for most sessions.
+2. **Full files on demand only:** Gatekeeper final review → full `voice-dna.md` + brand files; strategy work → `M-memory/`; agent coordination → the specific A-agents/ file.
 
-### 1. Core Files (C-core/) - WHO IS RAN?
-- `C-core/project-brief.md` - What Ran does, who he serves, business goals
-- `C-core/voice-dna.md` - **CRITICAL** - How Ran speaks (executive, crisp, contrarian)
-- `C-core/icp-profile.md` - Who we're targeting (Technical Founder Tom, Growth-Stage CEO Sarah)
-
-### 2. Memory Files (M-memory/) - WHAT HAVE WE LEARNED?
-- `M-memory/learning-log.md` - What content has worked (and what hasn't)
-- `M-memory/decisions.md` - Strategic choices made (why we prioritize certain topics)
-- `M-memory/feedback.md` - Audience signals (engagement patterns, lead generation)
-
-### 3. Current State (B-brain/) - WHERE ARE WE NOW?
-- `B-brain/content-calendar.md` - Quarterly plan and upcoming topics
-
-### 4. Agent Definitions (A-agents/) - HOW DO WE WORK?
-- Review agent roles when you need to coordinate multi-agent workflows
-
----
+### Model selection (cost rule)
+Research/summaries → **Haiku** · Drafts → **Sonnet** · Strategy/Gatekeeper final → **Opus**. Cheapest that fits; escalate only on failure.
 
 ## How This System Works
 
