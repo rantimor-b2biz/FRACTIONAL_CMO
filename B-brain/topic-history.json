@@ -1,8 +1,44 @@
 [
-  {"date": "2026-01-19", "topic": "Founder-Led Marketing: The 2026 Playbook", "pillar": "Founder-Led Marketing & Leadership", "angle": "Founders who win are not outsourcing their voice — they use it deliberately as a GTM engine"},
-  {"date": "2026-01-28", "topic": "Agentic AI, Autonomous Agents, and the Next Era of B2B Marketing", "pillar": "AI vs Strategy", "angle": "Agentic AI is a transformation in how buying decisions are made, not a tool upgrade"},
-  {"date": "2026-02-09", "topic": "Agentic Marketing Is Not Marketing Automation 2.0", "pillar": "AI vs Strategy", "angle": "Deploying powerful technology on unclear strategy amplifies the confusion"},
-  {"date": "2026-02-25", "topic": "Authenticity in an AI-Saturated Market", "pillar": "AI vs Strategy", "angle": "The market isn't rejecting AI — it's rejecting emptiness dressed up as insight"},
-  {"date": "2026-03-04", "topic": "Agility as Competitive Moat: What a Week of Crisis Teaches Every Founder", "pillar": "Founder-Led Marketing & Leadership", "angle": "Israeli entrepreneurs execute what comes next while the world catches up — a billion-dollar advantage"},
-  {"date": "2026-03-08", "topic": "Vibe Marketing / W10 article", "pillar": "AI vs Strategy", "angle": "See O-output/W10/06-article-vibe-marketing"}
+  {
+    "date": "2026-01-19",
+    "topic": "Founder-Led Marketing: The 2026 Playbook",
+    "pillar": "Founder-Led Marketing & Leadership",
+    "angle": "Founders who win are not outsourcing their voice — they use it deliberately as a GTM engine"
+  },
+  {
+    "date": "2026-01-28",
+    "topic": "Agentic AI, Autonomous Agents, and the Next Era of B2B Marketing",
+    "pillar": "AI vs Strategy",
+    "angle": "Agentic AI is a transformation in how buying decisions are made, not a tool upgrade"
+  },
+  {
+    "date": "2026-02-09",
+    "topic": "Agentic Marketing Is Not Marketing Automation 2.0",
+    "pillar": "AI vs Strategy",
+    "angle": "Deploying powerful technology on unclear strategy amplifies the confusion"
+  },
+  {
+    "date": "2026-02-25",
+    "topic": "Authenticity in an AI-Saturated Market",
+    "pillar": "AI vs Strategy",
+    "angle": "The market isn't rejecting AI — it's rejecting emptiness dressed up as insight"
+  },
+  {
+    "date": "2026-03-04",
+    "topic": "Agility as Competitive Moat: What a Week of Crisis Teaches Every Founder",
+    "pillar": "Founder-Led Marketing & Leadership",
+    "angle": "Israeli entrepreneurs execute what comes next while the world catches up — a billion-dollar advantage"
+  },
+  {
+    "date": "2026-03-08",
+    "topic": "Vibe Marketing / W10 article",
+    "pillar": "AI vs Strategy",
+    "angle": "See O-output/W10/06-article-vibe-marketing"
+  },
+  {
+    "date": "2026-07-02",
+    "topic": "The Dark Funnel Is Now the Whole Funnel: Your Pipeline Metrics Are Measuring a Buying Journey That No Longer Exists",
+    "pillar": "Demand Generation — beyond leads, measuring what matters",
+    "angle": "Israeli founders are still reporting MQLs and funnel conversion like it's 2019, but the funnel they're tracking covers a shrinking minority of the actual buying journey. Ran's contrarian take: stop building better lead-scoring dashboards and start obsessing over whether AI chatbots recommend you at all — because by the time a 'lead' hits your CRM, the vendor shortlist was often already decided in a conversation you'll never see. This is a positioning problem wearing a demand-gen costume."
+  }
 ]
