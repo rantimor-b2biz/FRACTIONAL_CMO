@@ -67,7 +67,16 @@ jobs:
           git config user.email "rantimor@gmail.com"
           git add O-output/auto-linkedin/ B-brain/topic-history.json
           git diff --staged --quiet || git commit -m "LinkedIn post $(date +%Y-%m-%d) — ${{ steps.generate.outputs.topic }} (awaiting publish)"
-          git push origin main
+          # Ran's machine auto-syncs this repo every ~10 min, so pushes can race.
+          # Rebase-and-retry until the push lands.
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase origin main
+            if git push origin main; then
+              break
+            fi
+            echo "Push attempt $attempt failed, retrying..."
+            sleep 10
+          done
 
       - name: Open review issue (email notification to Ran)
         if: steps.guard.outputs.skip == 'false'
