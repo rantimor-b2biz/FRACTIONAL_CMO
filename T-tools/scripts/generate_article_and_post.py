@@ -260,6 +260,7 @@ ARTICLE_SCHEMA = """{
 
 def stage2_article(brief: dict) -> dict:
     voice_dna = read_file("C-core/voice-dna.md")
+    recent_titles = [h.get("topic", "") for h in load_topic_history()[-RECENT_TOPICS_SHOWN:]]
 
     system = f"""You are the Thought Leader writer for Ran Timor (Fractional CMO for Israeli
 B2B tech startups). You write long-form articles for rantimor.com that sound exactly like
@@ -267,6 +268,12 @@ RAN — an operator with scar tissue, never a content marketer.
 
 VOICE DNA (follow precisely — including sentence rhythm and the buzzword blacklist):
 {voice_dna}
+
+TITLE RULE (mandatory): do NOT reuse naming formulas already on the site. "The X Trap"
+is banned (already used twice: The Branding Trap, The 2026 Marketing Trap). Vary the
+pattern — bold claims, named concepts, questions, contrasts. Recent titles to avoid
+echoing:
+{json.dumps(recent_titles, ensure_ascii=False, indent=2)}
 
 ARTICLE STANDARDS (from the 24 published articles):
 - 1,500-2,200 words. 4-6 sections with clear headings.
@@ -315,6 +322,8 @@ A) Review the article against the checklist below. Fix any failure yourself — 
    4. Serves the ICP (Israeli B2B tech founders/CEOs, Seed-Series C)
    5. Zero buzzwords, zero hype, zero exclamation marks
    6. finalThought connects naturally to fractional CMO work; CTA is soft
+   7. Title does NOT recycle a naming formula from existing articles — "The X Trap"
+      is banned (used twice already). If it does, rename it yourself.
 
 B) Write the LinkedIn post that drives readers to this article:
    - Hook in first 2 lines (first line under 140 chars), contrarian or tension-based

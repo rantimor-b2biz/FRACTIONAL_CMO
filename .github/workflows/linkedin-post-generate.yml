@@ -5,11 +5,11 @@ on:
     # GitHub cron is unreliable (runs can be delayed or dropped), so we schedule
     # several attempts per posting day. A guard step ensures only the first
     # successful run of the day generates content.
-    # Posting days: Sunday / Tuesday / Thursday (Israeli work week + LinkedIn B2B peak)
+    # Posting days: Sunday / Thursday (2 per week, per Ran 2026-07-02)
     # ~08:30 Israel time: 05:30 / 06:30 / 07:30 UTC
-    - cron: "30 5 * * 0,2,4"
-    - cron: "30 6 * * 0,2,4"
-    - cron: "30 7 * * 0,2,4"
+    - cron: "30 5 * * 0,4"
+    - cron: "30 6 * * 0,4"
+    - cron: "30 7 * * 0,4"
   workflow_dispatch:
     inputs:
       topic:

@@ -10,7 +10,7 @@ Research/summaries → **Haiku** · Drafts → **Sonnet** · Strategy/Gatekeeper
 
 ## LinkedIn Automation (live since July 2026)
 
-3 article+post pairs/week are generated automatically (Sun/Tue/Thu ~08:30 IL) by
+2 article+post pairs/week are generated automatically (Sun/Thu ~08:30 IL) by
 `.github/workflows/linkedin-post-generate.yml` → `T-tools/scripts/generate_article_and_post.py`
 (Trends Researcher + web search → Thought Leader article → Gatekeeper → hero image →
 publish to the ran-timor-brand site repo). Output lands in `O-output/auto-linkedin/` +

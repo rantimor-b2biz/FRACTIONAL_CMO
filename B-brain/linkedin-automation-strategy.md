@@ -25,7 +25,7 @@ off-brand.
 ## The automation (article-first, since 2026-07-02)
 Every LinkedIn post starts from a NEW full article published on rantimor.com.
 
-- **Cadence:** 3 article+post pairs/week — Sunday, Tuesday, Thursday, ~08:30 Israel time.
+- **Cadence:** 2 article+post pairs/week — Sunday and Thursday, ~08:30 Israel time (reduced from 3, per Ran 2026-07-02 — quality over volume).
 - **Pipeline** (`T-tools/scripts/generate_article_and_post.py`):
   1. **Trends Researcher** (Sonnet + live web search) — trending topic + sourced facts, dedup via `B-brain/topic-history.json`
   2. **Thought Leader** (Sonnet) — full 1,500-2,200 word article in the site's exact schema, voice from `C-core/voice-dna.md`
