@@ -54,5 +54,12 @@
     "pillar": "Positioning & GTM",
     "angle": "Every vendor report this month is screaming that B2B buying committees have exploded to 16 stakeholders, so the 'fix' being sold is more personalization tools, more content variants, more ABM tech. Ran's contrarian take: that's the wrong lesson. A 16-person buying committee is not a personalization problem, it's a positioning stress test — if your narrative isn't sharp enough for one stakeholder to repeat it accurately to fifteen others without you in the room, no amount of AI-generated content variants will save the deal. He'll use fractional-CMO scar tissue to show founders that the 'elevator retell' test matters more than the deck.",
     "article_slug": "buying-committee-positioning-stress-test"
+  },
+  {
+    "date": "2026-07-09",
+    "topic": "GEO Isn't an SEO Tactic — It's a Positioning Stress Test",
+    "pillar": "AI vs Strategy (with a direct bridge to Positioning & GTM)",
+    "angle": "Marketers are treating Generative Engine Optimization (GEO) as a new checklist — structured data, 'fact density,' citation-bait content. Ran's contrarian take: GEO doesn't reward better SEO hygiene, it ruthlessly exposes companies with no real positioning. When an LLM synthesizes an answer instead of listing ten blue links, it collapses vague, me-too messaging into nothing — you either own a sharp, distinct claim in the model's training and retrieval data, or you disappear into the generic average. The fix was never a GEO tactic; it was the positioning work most founders skipped in 2023.",
+    "article_slug": "geo-positioning-stress-test"
   }
 ]
