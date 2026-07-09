@@ -13,7 +13,8 @@ Research/summaries → **Haiku** · Drafts → **Sonnet** · Strategy/Gatekeeper
 2 article+post pairs/week are generated automatically (Sun/Thu ~08:30 IL) by
 `.github/workflows/linkedin-post-generate.yml` → `T-tools/scripts/generate_article_and_post.py`
 (Trends Researcher + web search → Thought Leader article → Gatekeeper → hero image →
-publish to the ran-timor-brand site repo). Output lands in `O-output/auto-linkedin/` +
+publish to the ran-timor-brand site repo). Output lands in `O-output/W[NN]/[slug]/`
+(final-article.md, linkedin-post.md, process/, visual/ — same convention as W10) +
 a GitHub issue for Ran (Lovable publish + LinkedIn). Strategy:
 `B-brain/linkedin-automation-strategy.md`. Topic dedup: `B-brain/topic-history.json`.
 `generate_linkedin_post.py` is the older post-only pipeline (kept for one-off posts).

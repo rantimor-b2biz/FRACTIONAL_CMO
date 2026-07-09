@@ -32,7 +32,12 @@ Every LinkedIn post starts from a NEW full article published on rantimor.com.
   3. **Gatekeeper** (Opus) — reviews/revises the article AND writes the LinkedIn post that drives to it
   4. **Artist** (Replicate flux-1.1-pro) — hero image on the site's visual language (dark navy, one metaphor, teal/amber accents, no text)
   5. **Publish** — injects the article into `rantimor-b2biz/ran-timor-brand` (Lovable site repo) at the `AUTO-ARTICLES` anchors in `Articles.tsx` / `ArticleDetail.tsx` + hero asset, and pushes
-- **Delivery:** GitHub Action (`.github/workflows/linkedin-post-generate.yml`) pushes the article to the site repo, commits process files to `O-output/auto-linkedin/`, and **opens a GitHub issue assigned to Ran** (email arrives automatically) with the post + publish checklist.
+- **Output structure (since 2026-07-09):** `O-output/W[NN]/[slug]/` — matches the pre-automation
+  W10 convention. `final-article.md`, `linkedin-post.md` (POST CAPTION + FIRST COMMENT +
+  GATEKEEPER CHECK), `process/` (research-brief.md, draft-v1.md, gatekeeper-review.md,
+  article.json), `visual/` (hero jpg + visual-prompt.md). Not nested under a separate
+  "linkedin automation" folder — week folders are shared with any other content for that week.
+- **Delivery:** GitHub Action (`.github/workflows/linkedin-post-generate.yml`) pushes the article to the site repo, commits `O-output/` + `B-brain/topic-history.json`, and **opens a GitHub issue assigned to Ran** (email arrives automatically) with the post + publish checklist. The daily-run guard checks `topic-history.json` for today's date (not a folder glob, since the folder name no longer encodes the date).
 - **Ran's job (~5-7 min):** open Lovable → Publish/Update (makes the article live) → verify it renders → copy post to LinkedIn → paste first comment (article link) → close issue.
 - **Manual override:** run the workflow manually with a `topic` input for reactive/news posts.
 - **Secrets in the FRACTIONAL_CMO repo:** `ANTHROPIC_API_KEY`, `REPLICATE_API_TOKEN`, `SITE_PUSH_TOKEN` (PAT with push access to ran-timor-brand).
