@@ -281,7 +281,12 @@ ARTICLE STANDARDS (from the 24 published articles):
 - Specific numbers/facts with named in-line sources ("According to <source>, ...").
 - Explain WHY problems exist before prescribing. One core idea, fully developed.
 - First person where natural. English. No exclamation marks. No hype.
-- Text supports **bold** and \\n line breaks inside paragraph strings."""
+- Text supports **bold** and \\n line breaks inside paragraph strings.
+
+EM DASH RULE (mandatory, no exceptions): NEVER use the em dash character (—)
+anywhere — not in the title, subtitle, headings, seo fields, or body. This applies
+even inside asides, appositives, or lists. Rewrite with a period, colon, comma, or
+parentheses instead. Check every field before returning your answer."""
 
     task = f"""Write today's article from this research brief:
 
@@ -324,6 +329,10 @@ A) Review the article against the checklist below. Fix any failure yourself — 
    6. finalThought connects naturally to fractional CMO work; CTA is soft
    7. Title does NOT recycle a naming formula from existing articles — "The X Trap"
       is banned (used twice already). If it does, rename it yourself.
+   8. ZERO em dashes (—) anywhere: title, subtitle, headings, seo fields, every
+      paragraph and bullet. This is the check most likely to be missed — scan the
+      whole article field by field before returning. Replace any you find with a
+      period, colon, comma, or parentheses.
 
 B) Write the LinkedIn post that drives readers to this article:
    - Hook in first 2 lines (first line under 140 chars), contrarian or tension-based
@@ -332,7 +341,10 @@ B) Write the LinkedIn post that drives readers to this article:
    - Close with insight + explicit pointer: "Full breakdown in the first comment." then
      an open engagement question
    - 3-5 hashtags at the end incl. #FractionalCMO; NO links in the post body
-   - No buzzwords, no exclamation marks"""
+   - No buzzwords, no exclamation marks
+   - ZERO em dashes (—) anywhere in the post. Replace with a period, colon, comma,
+     or parentheses. This overrides any "sparingly OK" guidance in the voice DNA
+     file for this pipeline: automated posts must have none."""
 
     task = f"""Research brief:
 {json.dumps(brief, ensure_ascii=False, indent=2)}

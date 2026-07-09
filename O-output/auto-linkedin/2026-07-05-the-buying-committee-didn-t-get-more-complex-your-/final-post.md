@@ -40,4 +40,4 @@ What's the last deal you lost inside a committee you never got to address direct
 
 ## First comment
 
-Full article: https://rantimor.com/articles/buying-committee-positioning-stress-test — includes the elevator retell test and the one-sentence, three-proof-point framework I use with founders before we touch a single campaign.
+Full article: https://rantimor.com/articles/buying-committee-positioning-stress-test. Includes the elevator retell test and the one-sentence, three-proof-point framework I use with founders before we touch a single campaign.
