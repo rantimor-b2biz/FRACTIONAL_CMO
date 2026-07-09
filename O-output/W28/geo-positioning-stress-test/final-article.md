@@ -1,0 +1,86 @@
+# GEO Isn't an SEO Tactic. It's a Positioning Stress Test.
+
+Every marketing team I talk to right now is asking some version of the same question: what's our GEO strategy?
+
+They mean Generative Engine Optimization, the emerging discipline of getting cited by ChatGPT, Perplexity, and Gemini instead of ranked by Google. Vendors are selling it as the next SEO. Structure your data. Increase your fact density. Write content that's easy for a model to quote. Get your name into the answer.
+
+Most of this advice isn't wrong. It's just beside the point.
+
+GEO doesn't reward better content hygiene. It rewards companies that already have something distinct to say, and it ruthlessly exposes the ones that don't. When a search engine returns ten blue links, a mediocre positioning can still show up, get a click, and let a human sort out the difference. When an LLM synthesizes one answer, there's no list to hide in. You either own a sharp claim in the data the model pulled from, or you get averaged into the generic middle and never appear at all.
+
+This isn't a future problem. The numbers say it's already reshaping how B2B buyers form their first impression of you, often before you know they exist.
+
+---
+
+## The Panic Is Real. The Diagnosis Is Usually Wrong.
+
+The shift underneath this is not speculative. According to Cognism's '12 B2B Marketing Trends and Predictions for 2026' report, published November 26, 2025, Google's search market share dropped below 90% for the first time in a decade. LLMs are now influencing buying decisions before a prospect ever lands on a vendor's site.
+
+Cognism's own site data shows the mechanics of that shift up close: organic sessions down 33.6% year-over-year, organic clicks down 23% year-over-year. They describe it correctly: not as a drop in demand, but as a reallocation of where the buying journey actually happens. Self-reported attribution from AI and LLM sources is up 9.25% year-over-year, and some studies now put ChatGPT alone at close to 80% of chatbot referral traffic.
+
+The instinct, when a marketing leader sees numbers like that, is to treat it as a channel problem. New channel, new tactics, new checklist. That instinct is what's driving the current rush toward GEO-as-a-service: structured data markup, entity tagging, 'answer engine optimization' playbooks that read like SEO guides with the word 'Google' swapped out.
+
+But a channel shift only explains where the audience went. It doesn't explain why some companies show up in the AI's answer with a clear, differentiated description, and others don't show up at all, or worse, show up described identically to three competitors. That's not a distribution problem. That's a positioning problem that distribution used to paper over.
+
+---
+
+## GEO-as-Checklist Is the New 'More Blog Posts'
+
+I've seen this pattern before. In 2015 it was 'we need more content.' In 2019 it was 'we need better SEO.' Now it's 'we need to optimize for AI citations.' Same instinct every time: when results are weak, add more activity rather than question the foundation.
+
+The current GEO playbook (structured data, FAQ schema, 'fact density,' citation-bait blog posts) treats the model like a slightly smarter search index. Feed it more parseable facts, and it will supposedly reward you with more citations.
+
+That works, at the margins, if you already have a distinct claim to feed it. It does nothing if your positioning is 'we help companies streamline their operations with an innovative, end-to-end platform.' You can structure that sentence in perfect schema markup and an LLM still has nothing to differentiate you on. Structured vagueness is still vagueness. The model just processes it faster.
+
+This is the part most marketing teams skip past, because it's uncomfortable. GEO tactics are easy to buy and implement. Positioning work requires the CEO and the leadership team to agree on what the company actually is, who it's actually for, and what it does that a named competitor genuinely doesn't. That's a harder conversation than adding schema tags. So teams reach for the tactic instead.
+
+---
+
+## How the Model Actually 'Sees' Your Company
+
+A search engine indexes. It ranks pages against a query and returns the closest matches, in order, and lets the human do the comparison. A generative engine synthesizes. It reads across everything it has ingested about your category (your site, your competitors' sites, review platforms, analyst notes, forum threads) and compresses it into one answer.
+
+That compression step is the whole story. When ten companies in a category all describe themselves with the same words ('AI-powered,' 'end-to-end,' 'enterprise-grade,' 'seamless integration'), the model doesn't have ten distinct data points. It has one blurred cluster. Ask it to compare vendors in that category and it will either name the two or three with the strongest independent signal (real customer language, analyst mentions, a specific claim repeated consistently across sources), or it will give a generic answer that doesn't name anyone specific at all.
+
+Vague positioning doesn't get ranked lower in this system. It gets averaged away. There's no page eleven for an LLM's answer. There's only 'in the answer' or 'not in the answer.' Cognism's report frames the fix as optimizing 'for citations, not just clicks': clear, concise answers, entity-rich content, authoritative proof points. That framing is right, but it only works on top of a point of view that's already distinct. Citation-bait content amplifies a sharp claim. It cannot manufacture one.
+
+---
+
+## Two Startups, One Question, One Model
+
+I've watched this play out with two Israeli B2B startups in adjacent categories (similar product maturity, similar funding stage, similar target buyer). One had done the positioning work: a specific category claim, consistent language across the site, sales deck, and case studies, repeated the same way for over a year. The other had a strong product and a founder who could explain it brilliantly in a live meeting. But the messaging shifted every quarter depending on which feature the team was excited about.
+
+A prospect evaluating both asked ChatGPT to compare them for a specific use case. The first company came back with a specific, attributable claim, a category description that matched almost word for word what was on their homepage and in their customer case studies. The second didn't come back with a description at all. It came back folded into a general paragraph about 'several vendors in this space' with no distinguishing detail, because the model had nothing consistent to lock onto across the sources it had ingested.
+
+Nobody on the second team did anything wrong tactically. Their site was fast, their content was decent, their SEO was fine. What they didn't have was a claim stable enough, and repeated often enough across enough surfaces, for a model to compress into a citation. The gap wasn't a GEO gap. It was the same positioning gap that would have shown up in a sales call, a pitch deck review, or an analyst briefing. AI search just made it visible faster and with no human in the room to compensate for it.
+
+---
+
+## When the Human Correction Step Disappears
+
+This matters more than it would have three years ago because the human correction step in the buying journey is shrinking. Forrester's 2025 B2B Marketing and Sales Predictions, cited via Pipeline360, project that more than half of large B2B transactions of $1 million or more will move through digital self-serve channels rather than sales reps.
+
+That means the first impression a buyer forms (often from an AI-synthesized answer, not your homepage) increasingly stands unchallenged. A good salesperson used to be able to walk into a vague-positioning meeting and clarify the value in real time. If half of large deals are moving through self-serve motions, that correction opportunity is gone for a growing share of your pipeline.
+
+Adobe and Oxford Economics' '2026 AI and Digital Trends in B2B Journey Orchestration' report, based on research fielded October–November 2025, found that most B2B organizations expect agentic AI to manage at least half of customer interactions in the near future, and 56% believe agentic AI will soon coordinate sales, marketing, and service journeys in real time. The same research flags real gaps in the data infrastructure and measurement frameworks needed to support that ambition, which tells you the industry is moving toward more AI-mediated buying faster than it's building the positioning discipline to survive it.
+
+Put simply: the room where a human used to save a weak pitch is getting smaller. Positioning has to do more of the selling now, because there's less opportunity to do it live.
+
+---
+
+## What to Actually Do This Quarter
+
+None of this requires a GEO vendor. It requires the positioning work most founders skipped when they were racing to ship product and close the next round.
+
+Start with a test I use with every client before touching a single tactic: can your team say, in one sentence, what category you own and what specific outcome you deliver that a named competitor doesn't? If that sentence takes thirty seconds and three qualifiers, you don't have a positioning problem you can content-market your way out of. You have a decision the leadership team hasn't made yet.
+
+From there, the work is about consistency and proof, not clever prompting:
+
+- Pick one category claim and repeat it identically across your site, deck, case studies, and executive LinkedIn, for a full year, not a quarter.
+- Get that claim into third-party sources the models actually pull from: analyst mentions, review platforms, customer-written case studies, podcast transcripts, not just your own owned content.
+- Audit what ChatGPT, Perplexity, and Gemini currently say about you and your top two competitors for your core use case. If you're missing or generic, that's your real GEO backlog, not a schema markup ticket.
+- Stop shipping messaging that changes every time a new feature ships. A model needs repetition across sources to lock onto a claim. Constant repositioning guarantees you get averaged away.
+
+---
+
+I've built marketing functions through three or four platform shifts now, and the pattern repeats every time. The new channel gets blamed for a problem the old channel was quietly covering for. GEO isn't different. It's just faster and less forgiving than Google ever was, because there's no page two to hide a vague claim in. If you want to know whether your positioning actually holds up, don't hire a GEO consultant first. Ask an AI model to describe your company to a prospect, and see if it can say anything about you that it couldn't say about your closest competitor. That answer will tell you more than any schema audit.

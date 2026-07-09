@@ -1,8 +1,12 @@
-# LinkedIn Post — 2026-07-02 — The AI Budget Illusion: Why Spending More on AI Won't Fix a Broken Foundation
+# LinkedIn Post: The AI Budget Illusion
 
-> Pillar: AI vs Strategy · Gatekeeper: REVISED · Article: https://rantimor.com/articles/ai-budget-illusion-foundation-before-spend · Hero: generated (receipt-from-smartphone concept, per Ran)
+**Status:** Published (migrated from O-output/auto-linkedin/)
+**Date:** 2026-07-02 (W27)
+**Article link:** Goes in FIRST COMMENT (not in caption): https://rantimor.com/articles/ai-budget-illusion-foundation-before-spend
 
-## Post (copy-paste to LinkedIn)
+---
+
+## POST CAPTION
 
 Your board is celebrating that 15.3% of marketing budget now goes to AI.
 
@@ -36,7 +40,9 @@ What's driving your AI spend right now: a foundation that's ready, or a foundati
 
 #FractionalCMO #B2BMarketing #GTM #Positioning #AIStrategy
 
-## First comment
+---
+
+## FIRST COMMENT (post immediately after publishing)
 
 Full article: https://rantimor.com/articles/ai-budget-illusion-foundation-before-spend
 

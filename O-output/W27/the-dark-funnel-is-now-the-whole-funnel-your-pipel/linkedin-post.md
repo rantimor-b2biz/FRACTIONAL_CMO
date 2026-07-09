@@ -1,8 +1,12 @@
-# LinkedIn Post — 2026-07-02 — The Dark Funnel Is Now the Whole Funnel: Your Pipeline Metrics Are Measuring a Buying Journey That No Longer Exists
+# LinkedIn Post: The Dark Funnel Is Now the Whole Funnel: Your Pipeline Metrics Are Measuring a Buying Journey That No Longer Exists
 
-> Pillar: Demand Generation — beyond leads, measuring what matters · Gatekeeper: REVISED
+**Status:** Published (migrated from O-output/auto-linkedin/)
+**Date:** 2026-07-02 (W27)
+**Article link:** none (post-only, no article was generated for this topic)
 
-## Post (copy-paste to LinkedIn)
+---
+
+## POST CAPTION
 
 Your CRM says the funnel is healthy.
 
@@ -36,7 +40,9 @@ When did you last check what ChatGPT or Perplexity actually says about your comp
 
 #DemandGeneration #B2BMarketing #GTM #FractionalCMO #Positioning
 
-## First comment
+---
+
+## FIRST COMMENT (post immediately after publishing)
 
 Related read on why positioning clarity matters more than ever before you scale demand gen: rantimor.com
 

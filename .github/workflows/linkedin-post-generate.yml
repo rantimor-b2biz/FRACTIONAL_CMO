@@ -36,7 +36,7 @@ jobs:
         id: guard
         run: |
           DATE=$(date +%Y-%m-%d)
-          if [ "${{ github.event_name }}" = "schedule" ] && ls -d "O-output/auto-linkedin/${DATE}-"* 2>/dev/null; then
+          if [ "${{ github.event_name }}" = "schedule" ] && grep -q "\"date\": \"$DATE\"" B-brain/topic-history.json 2>/dev/null; then
             echo "Content for $DATE already exists — a previous run handled today. Skipping."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           else
@@ -94,7 +94,7 @@ jobs:
         run: |
           git config user.name "Fractional CMO Bot"
           git config user.email "rantimor@gmail.com"
-          git add O-output/auto-linkedin/ B-brain/topic-history.json
+          git add O-output/ B-brain/topic-history.json
           git diff --staged --quiet || git commit -m "Article + LinkedIn post $(date +%Y-%m-%d) — ${{ steps.generate.outputs.topic }} (awaiting publish)"
           # Ran's machine auto-syncs this repo every ~10 min, so pushes can race.
           for attempt in 1 2 3 4 5; do
@@ -110,7 +110,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           DATE=$(date +%Y-%m-%d)
-          BODY_FILE="${{ steps.generate.outputs.outdir }}/final-post.md"
+          BODY_FILE="${{ steps.generate.outputs.outdir }}/linkedin-post.md"
           {
             cat "$BODY_FILE"
             echo ""
@@ -133,4 +133,4 @@ jobs:
       - name: Show post in run summary
         if: steps.guard.outputs.skip == 'false'
         run: |
-          cat "${{ steps.generate.outputs.outdir }}/final-post.md" >> "$GITHUB_STEP_SUMMARY"
+          cat "${{ steps.generate.outputs.outdir }}/linkedin-post.md" >> "$GITHUB_STEP_SUMMARY"

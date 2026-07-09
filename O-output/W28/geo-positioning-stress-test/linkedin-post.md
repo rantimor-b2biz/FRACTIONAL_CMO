@@ -1,8 +1,12 @@
-# LinkedIn Post — 2026-07-09 — GEO Isn't an SEO Tactic — It's a Positioning Stress Test
+# LinkedIn Post: GEO Isn't an SEO Tactic. It's a Positioning Stress Test.
 
-> Pillar: AI vs Strategy (with a direct bridge to Positioning & GTM) · Gatekeeper: REVISED · Article: https://rantimor.com/articles/geo-positioning-stress-test · Hero: generated
+**Status:** Published (migrated from O-output/auto-linkedin/)
+**Date:** 2026-07-09 (W28)
+**Article link:** Goes in FIRST COMMENT (not in caption): https://rantimor.com/articles/geo-positioning-stress-test
 
-## Post (copy-paste to LinkedIn)
+---
+
+## POST CAPTION
 
 Everyone's asking me for a GEO strategy.
 
@@ -40,7 +44,9 @@ What does ChatGPT say about your company today, and could it say the exact same 
 
 #FractionalCMO #B2BMarketing #Positioning #GEO #GTM
 
-## First comment
+---
+
+## FIRST COMMENT (post immediately after publishing)
 
 Full article: https://rantimor.com/articles/geo-positioning-stress-test
 

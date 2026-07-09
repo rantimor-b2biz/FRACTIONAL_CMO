@@ -1,8 +1,12 @@
-# LinkedIn Post — 2026-07-05 — The Buying Committee Didn't Get More Complex — Your Positioning Did
+# LinkedIn Post: The Buying Committee Didn't Get More Complex. Your Positioning Did.
 
-> Pillar: Positioning & GTM · Gatekeeper: REVISED · Article: https://rantimor.com/articles/buying-committee-positioning-stress-test · Hero: generated
+**Status:** Published (migrated from O-output/auto-linkedin/)
+**Date:** 2026-07-05 (W27)
+**Article link:** Goes in FIRST COMMENT (not in caption): https://rantimor.com/articles/buying-committee-positioning-stress-test
 
-## Post (copy-paste to LinkedIn)
+---
+
+## POST CAPTION
 
 Every B2B report this month says buying committees exploded to 16 people.
 
@@ -38,6 +42,8 @@ What's the last deal you lost inside a committee you never got to address direct
 
 #FractionalCMO #B2BMarketing #Positioning #GTM #SaaS
 
-## First comment
+---
+
+## FIRST COMMENT (post immediately after publishing)
 
 Full article: https://rantimor.com/articles/buying-committee-positioning-stress-test. Includes the elevator retell test and the one-sentence, three-proof-point framework I use with founders before we touch a single campaign.

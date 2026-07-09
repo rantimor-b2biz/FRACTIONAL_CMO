@@ -27,6 +27,7 @@ import datetime
 import json
 import os
 import re
+import shutil
 import sys
 import urllib.request
 from pathlib import Path
@@ -140,6 +141,10 @@ def slugify(topic: str) -> str:
     return slug[:60] or "article"
 
 
+def iso_week(d: datetime.date) -> str:
+    return f"W{d.isocalendar()[1]:02d}"
+
+
 def camelize(slug: str) -> str:
     parts = re.split(r"[^a-zA-Z0-9]+", slug)
     parts = [p for p in parts if p]
@@ -147,6 +152,22 @@ def camelize(slug: str) -> str:
     if name and name[0].isdigit():
         name = "a" + name
     return name
+
+
+def article_to_markdown(article: dict) -> str:
+    """Human-readable rendering of the article JSON, matching the W10 final-article.md style."""
+    c = article.get("content", {})
+    blocks = [f"# {article.get('title', '')}", c.get("intro", "")]
+    for section in c.get("sections", []):
+        blocks.append("---")
+        blocks.append(f"## {section.get('heading', '')}")
+        blocks += section.get("paragraphs", [])
+        if section.get("bullets"):
+            blocks.append("\n".join(f"- {b}" for b in section["bullets"]))
+    if c.get("finalThought"):
+        blocks.append("---")
+        blocks.append(c["finalThought"])
+    return "\n\n".join(b for b in blocks if b).strip() + "\n"
 
 
 def word_count(article: dict) -> int:
@@ -525,7 +546,9 @@ def main() -> int:
         print(f"site repo not found at {site_repo}", file=sys.stderr)
         return 1
 
-    date = args.date or datetime.date.today().isoformat()
+    d = datetime.date.fromisoformat(args.date) if args.date else datetime.date.today()
+    date = d.isoformat()
+    week = iso_week(d)
 
     brief = stage1_research(args.topic)
     article_draft = stage2_article(brief)
@@ -547,33 +570,63 @@ def main() -> int:
     if slug not in first_comment:
         first_comment = f"Full article: {article_url}\n\n{first_comment}"
 
-    # --- write outputs to O-output
-    outdir = ROOT / "O-output" / "auto-linkedin" / f"{date}-{slugify(brief.get('topic', 'post'))[:50]}"
-    outdir.mkdir(parents=True, exist_ok=True)
-    (outdir / "research-brief.md").write_text(
+    # --- write outputs to O-output/W[NN]/[slug]/ (matches the W10 precedent:
+    # final-article.md, linkedin-post.md, process/, visual/)
+    outdir = ROOT / "O-output" / week / slug
+    process_dir = outdir / "process"
+    visual_dir = outdir / "visual"
+    process_dir.mkdir(parents=True, exist_ok=True)
+    visual_dir.mkdir(parents=True, exist_ok=True)
+
+    (outdir / "final-article.md").write_text(article_to_markdown(article), encoding="utf-8")
+
+    verdict = review.get("verdict", "")
+    gatekeeper_notes = "\n".join(f"| {n} | {'✅' if verdict == 'APPROVED' else '✅ (fixed)'} |" for n in review.get("review_notes", []))
+    (outdir / "linkedin-post.md").write_text(
+        f"# LinkedIn Post: {article.get('title', brief.get('topic', ''))}\n\n"
+        f"**Status:** Ready for publication\n"
+        f"**Date:** {date} ({week})\n"
+        f"**Article link:** Goes in FIRST COMMENT (not in caption): {article_url}\n\n"
+        f"---\n\n"
+        f"## POST CAPTION\n\n{review.get('post_text', '')}\n\n"
+        f"---\n\n"
+        f"## FIRST COMMENT (post immediately after publishing)\n\n{first_comment}\n\n"
+        f"---\n\n"
+        f"## GATEKEEPER CHECK\n\n"
+        f"| Note | Status |\n|------|--------|\n{gatekeeper_notes}\n"
+        f"| Gatekeeper verdict | {'✅ ' + verdict if verdict else '—'} |\n",
+        encoding="utf-8",
+    )
+
+    (process_dir / "research-brief.md").write_text(
         f"# Research Brief — {date}\n\n```json\n{json.dumps(brief, ensure_ascii=False, indent=2)}\n```\n",
         encoding="utf-8",
     )
-    (outdir / "article.json").write_text(
-        json.dumps(article, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
-    (outdir / "gatekeeper-review.md").write_text(
-        f"# Gatekeeper Review — {date}\n\n**Verdict:** {review.get('verdict')}\n\n"
+    (process_dir / "draft-v1.md").write_text(article_to_markdown(article_draft), encoding="utf-8")
+    (process_dir / "gatekeeper-review.md").write_text(
+        f"# Gatekeeper Review: {article.get('title', brief.get('topic', ''))}\n\n"
+        f"**Date:** {date}\n"
+        f"**Verdict:** {verdict}\n\n---\n\n## Notes\n\n"
         + "\n".join(f"- {n}" for n in review.get("review_notes", [])) + "\n",
         encoding="utf-8",
     )
-    (outdir / "final-post.md").write_text(
-        f"# LinkedIn Post — {date} — {brief.get('topic')}\n\n"
-        f"> Pillar: {brief.get('pillar')} · Gatekeeper: {review.get('verdict')} · "
-        f"Article: {article_url} · Hero: {'generated' if hero_ok else 'FALLBACK (reused asset) — generate manually'}\n\n"
-        f"## Post (copy-paste to LinkedIn)\n\n{review.get('post_text', '')}\n\n"
-        f"## First comment\n\n{first_comment}\n",
+    # keep the full structured article as an archival artifact for the site-publish step
+    (process_dir / "article.json").write_text(
+        json.dumps(article, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    if hero_ok and hero_path.exists():
+        shutil.copy2(hero_path, visual_dir / hero_path.name)
+    (visual_dir / "visual-prompt.md").write_text(
+        f"# Hero Visual Prompt\n\n**Status:** {'generated' if hero_ok else 'FAILED — fallback asset reused, generate manually'}\n\n"
+        f"```\n{article.get('heroPrompt', '')}\n```\n",
         encoding="utf-8",
     )
 
     history = load_topic_history()
     history.append({
         "date": date,
+        "week": week,
         "topic": brief.get("topic"),
         "pillar": brief.get("pillar"),
         "angle": brief.get("angle"),
@@ -585,14 +638,15 @@ def main() -> int:
     if gh_output:
         with open(gh_output, "a", encoding="utf-8") as f:
             f.write(f"outdir={outdir.relative_to(ROOT)}\n")
+            f.write(f"week={week}\n")
             f.write(f"topic={brief.get('topic')}\n")
-            f.write(f"verdict={review.get('verdict')}\n")
+            f.write(f"verdict={verdict}\n")
             f.write(f"slug={slug}\n")
             f.write(f"article_url={article_url}\n")
 
     print(f"\nDone. Article: {article_url}")
     print(f"Output: {outdir}")
-    print(f"Verdict: {review.get('verdict')}")
+    print(f"Verdict: {verdict}")
     return 0
 
 
