@@ -61,5 +61,12 @@
     "pillar": "AI vs Strategy (with a direct bridge to Positioning & GTM)",
     "angle": "Marketers are treating Generative Engine Optimization (GEO) as a new checklist — structured data, 'fact density,' citation-bait content. Ran's contrarian take: GEO doesn't reward better SEO hygiene, it ruthlessly exposes companies with no real positioning. When an LLM synthesizes an answer instead of listing ten blue links, it collapses vague, me-too messaging into nothing — you either own a sharp, distinct claim in the model's training and retrieval data, or you disappear into the generic average. The fix was never a GEO tactic; it was the positioning work most founders skipped in 2023.",
     "article_slug": "geo-positioning-stress-test"
+  },
+  {
+    "date": "2026-07-12",
+    "topic": "The AI Readiness Gap: Why 70% of CMOs Want to Lead With AI and Only 30% Actually Can",
+    "pillar": "AI vs Strategy",
+    "angle": "Everyone assumes AI readiness is a budget or tooling problem — buy the stack, hire an AI person, done. Ran's contrarian take: readiness has almost nothing to do with how much you spend on AI and everything to do with the marketing discipline you built before AI showed up — the same discipline most Israeli B2B startups skip because they never hired real marketing leadership in the first place. For founders without a CMO, AI doesn't fix the missing foundation; it just executes the chaos faster and at scale.",
+    "article_slug": "ai-readiness-gap-30-percent-cmo-foundation"
   }
 ]
