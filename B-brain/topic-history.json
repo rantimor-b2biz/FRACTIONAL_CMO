@@ -96,5 +96,12 @@
     "pillar": "Positioning & GTM (crosses into Founder-Led Marketing & Leadership)",
     "angle": "B2B marketers are panicking that LinkedIn reach collapsed and blaming the algorithm. Ran's contrarian take: the algorithm didn't break anything — it just stopped rewarding volume and started rewarding a distinct point of view, which is exactly what positioning work should have given you years ago. If your reach died, the algorithm didn't fail you; your messaging was never differentiated enough to survive scrutiny.",
     "article_slug": "linkedin-algorithm-exposed-your-positioning"
+  },
+  {
+    "date": "2026-07-30",
+    "topic": "The $1M Deal With No Salesperson in the Room",
+    "pillar": "Positioning & GTM",
+    "angle": "Ran's contrarian take: founders think self-serve buying is a SMB/PLG phenomenon, but Forrester now says over half of $1M+ enterprise deals will close through digital self-serve channels. Israeli B2B founders keep hiring more SDRs and building longer sales decks to handle 'complex enterprise deals' — when the real gap is that their website and content can't survive a buyer evaluating them with zero human contact. Scar-tissue point: he's seen deals stall not because the rep was bad, but because nothing on the site could answer the CFO's question at 11pm without a call.",
+    "article_slug": "the-1m-deal-with-no-salesperson-in-the-room"
   }
 ]
