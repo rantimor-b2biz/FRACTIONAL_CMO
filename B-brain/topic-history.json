@@ -131,5 +131,12 @@
     "pillar": "Positioning & GTM",
     "angle": "Ran's contrarian take: founders think the AI era rewards the fastest adopters, but the market is actually sorting companies into two buckets — infrastructure-critical 'must-have' and easily-substituted 'nice-to-have' — and no amount of AI tooling, demand gen spend, or GTM velocity rescues you from the wrong bucket. He'll argue this is a positioning failure disguised as a market condition: Israeli B2B startups selling into enterprise have the natural advantage (stickier, harder-to-displace category) but keep marketing themselves like SMB tools, which is why they feel the squeeze despite strong product.",
     "article_slug": "great-b2b-bifurcation-must-have-vs-nice-to-have"
+  },
+  {
+    "date": "2026-08-16",
+    "topic": "The New Gatekeeper: AI Agents Are Now Building Your Shortlist Before a Human Ever Sees It",
+    "pillar": "AI vs Strategy — agentic AI/marketing",
+    "angle": "Everyone's obsessing over 'GEO' and getting cited by ChatGPT, but that's yesterday's fight. The real shift is that Salesforce, ServiceNow, SAP, and Microsoft are building autonomous agents that will select and recommend vendors directly inside enterprise workflows — no search box involved. Ran's contrarian take: founders panicking about AI-optimizing their content are solving the wrong problem. Agents recommend on the exact same signals humans use to trust a vendor — category clarity, sharp proof, a narrow claim you can defend — not more content volume. Positioning is still the moat; the buyer just got replaced by a machine that's even less patient with vague pitches.",
+    "article_slug": "new-gatekeeper-ai-agents-build-shortlist"
   }
 ]
