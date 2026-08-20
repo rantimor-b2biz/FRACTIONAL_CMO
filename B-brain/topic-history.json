@@ -138,5 +138,12 @@
     "pillar": "AI vs Strategy — agentic AI/marketing",
     "angle": "Everyone's obsessing over 'GEO' and getting cited by ChatGPT, but that's yesterday's fight. The real shift is that Salesforce, ServiceNow, SAP, and Microsoft are building autonomous agents that will select and recommend vendors directly inside enterprise workflows — no search box involved. Ran's contrarian take: founders panicking about AI-optimizing their content are solving the wrong problem. Agents recommend on the exact same signals humans use to trust a vendor — category clarity, sharp proof, a narrow claim you can defend — not more content volume. Positioning is still the moat; the buyer just got replaced by a machine that's even less patient with vague pitches.",
     "article_slug": "new-gatekeeper-ai-agents-build-shortlist"
+  },
+  {
+    "date": "2026-08-20",
+    "topic": "The Buyer You're Selling To Doesn't Exist Anymore: The Millennial/Gen Z Takeover of B2B Buying Committees",
+    "pillar": "Positioning & GTM",
+    "angle": "This isn't a demographic footnote — it's proof most GTM motions are built for a buyer that no longer sits in the room. Founders keep optimizing nurture sequences and rep enablement for a formal, patient enterprise committee, when the actual buying group now researches like consumers, punishes generic outreach, and self-serves until they've already formed an opinion. The fix isn't better sales tactics or more AI tooling in the funnel — it's positioning sharp enough to do the convincing before a rep ever gets a call.",
+    "article_slug": "buyer-youre-selling-to-doesnt-exist-anymore"
   }
 ]

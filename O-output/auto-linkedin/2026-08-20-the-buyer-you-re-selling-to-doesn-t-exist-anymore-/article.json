@@ -1,0 +1,76 @@
+{
+  "title": "The Buyer You're Selling To Doesn't Exist Anymore",
+  "subtitle": "Millennials and Gen Z now run B2B buying committees, and most GTM motions are still built for someone else",
+  "excerpt": "Your nurture sequences, your rep enablement, your sales cycle assumptions were all built for a formal, patient enterprise buyer. That buyer is mostly gone. Here's what replaced them, and why positioning has to do the convincing before your rep ever picks up the phone.",
+  "category": "Positioning & GTM",
+  "slug": "buyer-youre-selling-to-doesnt-exist-anymore",
+  "seo": {
+    "titleTag": "The B2B Buyer You're Selling To Doesn't Exist Anymore",
+    "metaDescription": "64% of B2B buyers are now Millennials or Gen Z, and 67% want a rep-free buying experience. Why positioning, not sales tactics, has to close the gap.",
+    "ogTitle": "The Buyer You're Selling To Doesn't Exist Anymore",
+    "ogDescription": "GTM motions are built for a patient, formal enterprise committee that no longer sits in the room. Here's what actually needs to change."
+  },
+  "content": {
+    "intro": "Your sales deck was built for a buyer who no longer exists.\n\nNot as an insult. As a fact. According to Forrester's Buyers' Journey Survey, 2025, 64% of business buyers at manager level and above are now Millennials or Gen Zers. They didn't inherit the enterprise buying committee their predecessors built. They rebuilt it in their own image: self-guided, skeptical of outreach, and allergic to being sold to.\n\nMost B2B startups haven't caught up. Nurture sequences are still paced for someone who reads a whitepaper, waits for a follow-up call, and sits patiently through three discovery meetings before forming an opinion. Rep enablement still assumes the sales conversation is where the buyer makes up their mind. Neither assumption holds anymore.\n\nThis isn't a demographic footnote you file under 'interesting trend.' It's a structural mismatch between how your GTM motion is built and who is actually sitting in the room making the decision. Fixing it isn't about better sales tactics or bolting more AI tools onto the funnel. It's about positioning sharp enough to do the convincing before your rep ever opens their mouth.",
+    "pullQuote": "If your positioning can't convince someone with zero human interaction, no amount of sales training will save the deal.",
+    "sections": [
+      {
+        "heading": "The Committee You're Pitching Isn't the Committee You Think You're Pitching",
+        "paragraphs": [
+          "For twenty years, B2B GTM has been designed around a specific mental model: a formal buying committee, largely Gen X and Boomer, moving deliberately through a linear process. RFP, vendor shortlist, procurement, legal, signature. Marketing's job was to generate a lead. Sales' job was to walk that lead down a patient, structured path.",
+          "That model assumed the buyer needed the vendor to educate them. Forrester's data says otherwise. Digital-native buyers bring B2C expectations into B2B decisions: they research the way they'd research a flight or a mattress, comparing, reading reviews, forming a shortlist, before anyone from your company knows they exist.",
+          "The committee is still there. It's just not waiting for you anymore. It's already halfway through its own research process by the time your SDR sends the first email, and that email is being judged against the standard of a well-designed consumer app, not a legacy enterprise sales cycle."
+        ]
+      },
+      {
+        "heading": "Self-Guided Doesn't Mean Low-Intent. It Means Pre-Convinced or Pre-Rejected",
+        "paragraphs": [
+          "The most dangerous misread of this shift is treating self-guided buyers as passive or unengaged. Gartner's newest B2B sales survey found 67% of buyers prefer a rep-free buying experience entirely. That's not disengagement. That's confidence.",
+          "Gartner's data also shows confident, self-guided buyers are twice as likely to report a high-quality deal compared to low-confidence buyers. In other words, the buyers avoiding your reps aren't struggling to decide. They're deciding faster, and more accurately, without you.",
+          "Digital Commerce 360, reporting on Forrester's research, found that 48% of first-time B2B buyers, 63% of solo decision-makers, and 47% of C-suite buyers already have a preferred vendor in mind before formally starting the buying process. Read that again: nearly half of first-time buyers, and almost two-thirds of solo decision-makers, have already picked a favorite before your GTM motion officially begins.",
+          "This means the buying process most founders are optimizing for, the one where marketing nurtures and sales closes, is increasingly a formality layered on top of a decision that already happened. If your positioning wasn't strong enough to earn preferred-vendor status in that silent research phase, no amount of rep skill recovers the deal later."
+        ]
+      },
+      {
+        "heading": "Generic Outreach Isn't Ignored Anymore. It's a Disqualifier",
+        "paragraphs": [
+          "There used to be a tolerance for mediocre outreach. Buyers might delete a generic email, but they wouldn't hold it against you. That tolerance is gone. Gartner data shows 73% of B2B buyers actively avoid suppliers that send irrelevant outreach.",
+          "That's not a minor conversion drag. That's active punishment. A generic email, a templated LinkedIn message, a discovery call that opens with questions your prospect already answered on your website, these don't just fail to convert. They actively remove you from consideration.",
+          "This is the sharpest edge of the demographic shift. Digital-native buyers have been trained by consumer product experience to expect relevance by default. Netflix knows what they watched last. Amazon knows what they bought last. When a vendor's outreach shows no evidence of understanding their specific business, it doesn't read as 'still learning about us.' It reads as 'not worth my time,' and they move on to a competitor who did the homework."
+        ]
+      },
+      {
+        "heading": "Why Throwing More Budget (or AI Tools) at This Won't Fix It",
+        "paragraphs": [
+          "The instinctive founder response to declining rep effectiveness is to add more: more SDRs, more sequences, more AI-powered personalization tools promising to fix relevance at scale. According to Gartner's 2026 CMO Spend Survey, CMOs are already allocating an average of 15.3% of marketing budgets to AI for 2026. But overall marketing budgets remain nearly flat at 7.8% of company revenue, and 56% of CMOs admit their organization lacks the budget to deliver their 2026 strategy.",
+          "That combination, more AI spend inside a flat or shrinking budget, tells you something important: teams are shifting existing dollars toward tools, not adding net new capability. And AI tools built to personalize outreach at scale can't manufacture relevance that isn't there in the underlying positioning. They just produce more polished versions of a message that still doesn't answer why a self-guided buyer should care.",
+          "This is the same pattern I've written about before with AI and messaging generally: AI amplifies what you feed it. If your positioning is generic, AI-personalized outreach is just faster, better-written generic outreach. It will still get filtered by the 73% of buyers who've learned to spot irrelevance instantly, because the tool improved the packaging, not the substance."
+        ]
+      },
+      {
+        "heading": "The Real Fix: Positioning That Sells Before Your Rep Ever Opens Their Mouth",
+        "paragraphs": [
+          "If the buying committee has already formed a strong opinion before your team gets involved, and it now has, per Forrester's preferred-vendor data, in nearly half of first-time deals, then the actual battleground has moved. It's no longer the sales call. It's whatever a self-guided buyer encounters when they research you with zero human interaction: your website, your product pages, your case studies, your reviews, your LinkedIn presence.",
+          "This is where positioning does the heavy lifting that rep enablement used to do. Positioning has to answer, unassisted, the questions a buyer used to ask on a discovery call: What do you actually do? Who is this built for? Why you instead of the three tabs I have open right now? If a self-guided buyer can't get clear answers to those questions without talking to anyone, you've already lost consideration you'll never know you lost.",
+          "In practice, this means auditing your GTM assets the way a skeptical, impatient, digital-native buyer would use them: no hand-holding, no explanatory call to fall back on, just the page, the deck, or the demo video on its own. If it requires a human to clarify what the product does or who it's for, that's not a sales enablement gap. That's a positioning gap, and it's the one costing you deals you never even see in the pipeline.",
+          "I've seen this play out directly. When we sharpened positioning at Tactile Mobility from a technical feature story to a clear business outcome, sales cycles shortened by 40%, not because reps got better at selling, but because buyers arrived already understanding the value. That's the model now, not the exception."
+        ]
+      },
+      {
+        "heading": "What This Means for Your Next Quarter, Not Your Next Deck",
+        "paragraphs": [
+          "This shift isn't theoretical, and it isn't slow-moving. It's already the majority behavior among the people making decisions on your product. Treating it as a future trend to plan for is itself a strategic mistake.",
+          "Three practical shifts for the next quarter: First, audit your top-of-funnel assets for whether they can convince someone with zero rep interaction. Second, stop measuring outreach success by volume and start measuring it by relevance, since irrelevant outreach isn't neutral anymore, it's actively disqualifying you. Third, move positioning work earlier in your roadmap than the next sales training or AI tool purchase. The committee has already changed. The only open question is whether your GTM motion changes with it, or keeps optimizing for a buyer who's no longer in the room."
+        ]
+      }
+    ],
+    "finalThought": "I work with founders who are still fighting the last war: better sequences, better reps, better AI-assisted personalization, all pointed at a buying committee that's already moved past the sales conversation entirely. The founders who get ahead of this aren't the ones with the most tooling. They're the ones willing to rebuild positioning around a buyer who researches like a consumer, decides before they're contacted, and punishes anything generic. That's the work I do as a fractional CMO: not adding more motion to a broken foundation, but fixing the foundation so the motion actually converts.",
+    "cta": {
+      "heading": "Is your positioning strong enough to win before your rep ever gets on a call?",
+      "text": "Let's Talk Strategy",
+      "description": "If you're not sure whether your GTM motion is built for the buyer you actually have, let's talk. No deck, no pitch, just a direct conversation about where the gap is."
+    }
+  },
+  "heroPrompt": "An empty, formal boardroom conference table with untouched chairs and a projector screen still displaying a traditional sales pitch deck, while in the foreground a single smartphone lies on the table showing a decision already being made, a checkmark or selected option glowing on its screen, symbolizing the buying decision happening outside the room before the meeting even starts.",
+  "readTime": "8 min read"
+}
