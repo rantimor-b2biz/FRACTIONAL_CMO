@@ -1,0 +1,77 @@
+{
+  "title": "Rename the CMO All You Want. The Chair Is Still Empty.",
+  "subtitle": "BCG and Gartner are pushing a bigger title for marketing leaders. Israeli founders are avoiding a smaller, harder question: are you willing to be told no.",
+  "excerpt": "BCG wants to rename the CMO 'Chief Growth Architect.' Gartner says the role's remit is exploding. None of it matters if the founder never gives the job real authority in the first place, and that's exactly what's happening across Israeli B2B startups heading into 2026.",
+  "category": "Leadership & GTM",
+  "slug": "chief-growth-officer-rebrand-cmo-israeli-founders",
+  "seo": {
+    "titleTag": "The CMO Rebrand Won't Fix Israeli Founders' Real Problem",
+    "metaDescription": "BCG and Gartner want to rename the CMO. Ran Timor on why the title change is meaningless without founders willing to give the role real authority.",
+    "ogTitle": "Rename the CMO All You Want. The Chair Is Still Empty.",
+    "ogDescription": "A new title doesn't fix a leadership vacuum. Why Israeli founders avoiding real marketing authority is the actual 2026 problem, not the CMO's job description."
+  },
+  "content": {
+    "intro": "In the span of one month, three of the industry's loudest voices landed on the same idea. BCG wants to rename the CMO a **Chief Growth Architect**. Gartner published a survey warning that the CMO's remit is expanding faster than anyone can staff for it. Marketing Brew closed out the year calling the CMO's evolution into a growth-oriented seat the single biggest story of 2025.\n\nThree different organizations, three different formats, one converging narrative: the CMO job is being reborn. Bigger scope. Cross-functional authority. AI as the forcing function.\n\nThis lands at the exact moment Israeli founders are building their 2026 org charts. Which makes it worth asking a question none of these reports actually answer: what happens when you give someone a bigger title and the same amount of real authority they had before?\n\nNothing. That's what happens. I've watched it happen at three different companies this year alone. A new title doesn't fix a leadership vacuum. It just gives the vacuum a longer name.\n\nHere's what's actually going on, and why the fix Israeli founders need has nothing to do with what marketing leadership is called.",
+    "pullQuote": "Growth doesn't come from renaming the seat. It comes from a founder willing to be told no.",
+    "sections": [
+      {
+        "heading": "Everyone's Renaming the CMO. Nobody's Fixing the Job.",
+        "paragraphs": [
+          "The rebrand is real, at least on paper. According to Business Chief, BCG is publicly repositioning the CMO as a Chief Growth Architect, arguing that AI is turning marketing from a support function into a cross-functional growth engine. Days later, BCG followed up with a piece titled 'The Agentic Marketing Race Is On,' framing how fast a company adopts agentic AI as the new competitive line CMOs have to defend.",
+          "That's a lot of urgency for a title change. And it's not just BCG. Gartner's newsroom, releasing survey data from 413 marketing technology leaders fielded over the summer, found that 65 percent of CMOs believe AI will dramatically change their role within two years, while their remit keeps growing faster than their budget or headcount does.",
+          "Then Marketing Brew closed the loop in December, rounding up CMOs on the year's most overhyped trends. One growth executive named the CMO's evolution from support function to growth-oriented seat as the story that will only accelerate into 2026.",
+          "Read those three pieces back to back and the message is clear: the job is changing, the scope is expanding, and the label needs to catch up. What none of them address is whether the person sitting in that seat has the authority to act on any of it. That's a different problem, and it's the one Israeli founders keep skipping."
+        ]
+      },
+      {
+        "heading": "The Data Nobody's Quoting Alongside the Rebrand",
+        "paragraphs": [
+          "Here's the part that gets buried under the 'growth architect' headline. In that same Gartner survey, only 5 percent of marketing leaders who hadn't yet piloted AI agents reported significant gains on business outcomes. The AI-driven growth story everyone's excited about is barely proven at the ground level, even inside organizations with real marketing budgets and real technical teams behind them.",
+          "IBM's Institute for Business Value ran a global CMO survey with Oxford Economics earlier in 2025 and found something even more direct: 71 percent of CMOs believe AI's success depends more on people's buy-in than on the technology itself. Trust, not tooling, is still the bottleneck.",
+          "Put those two data points together and you get a very different story than the one being sold. The role isn't being transformed by AI capability. It's being stress-tested by a much older problem: does the person in this seat have enough trust and authority in the room to make anything stick.",
+          "A bigger title doesn't answer that question. It just raises the stakes for getting the answer wrong."
+        ]
+      },
+      {
+        "heading": "Where Israeli Founders Get This Wrong",
+        "paragraphs": [
+          "I've built marketing functions at Israeli B2B startups for over 15 years, and I see the same pattern on repeat. Founders skip senior marketing leadership entirely through Series A, because the product is technical and the founder assumes marketing can wait. Or they hire someone with an inflated title, VP Marketing, sometimes CMO, and give them almost none of the authority the title implies.",
+          "Both moves come from the same place: the founder isn't ready to be told no. Not by sales, not by the board, and especially not by marketing.",
+          "So when a founder in 2026 reads that the CMO is being reborn as a Chief Growth Architect with a bigger cross-functional remit, the instinct is to update the job req. New title, more responsibilities listed, same reporting structure, same lack of real decision rights.",
+          "The result is predictable. The new hire spends their first quarter discovering that 'growth architect' means 'run the campaigns the founder already decided on.' They either quit within a year, or they stop pushing back entirely and become another execution layer with a fancy title. I've seen both outcomes at companies that had strong products and real market pull. The marketing function wasn't the constraint. The founder's willingness to share authority was.",
+          "This is what the BCG and Gartner narratives miss. They're describing the job's evolving scope from the outside. They're not asking whether the founder issuing the title is prepared to be overruled by the person holding it."
+        ]
+      },
+      {
+        "heading": "What Actually Drives Growth",
+        "paragraphs": [
+          "Growth doesn't come from a job title. It comes from someone in the room who can say, 'that positioning is wrong, and here's the data,' and have that carry weight even when it contradicts what the founder wants to hear.",
+          "I've built this three times now, and the pattern holds every time. The startups that grew fastest weren't the ones with the most senior title on the org chart. They were the ones where the founder had already decided, before the hire, that marketing leadership would get real authority over positioning, messaging, and go-to-market sequencing, even when it meant the founder's own instincts got challenged.",
+          "At one company I worked with, the founder wanted to lead every pitch with the technical differentiation his team had spent two years building. It was impressive engineering. It was also the wrong story for the buying committee actually signing the check. Repositioning around the business outcome instead of the feature set wasn't popular internally at first. Sales cycles shortened by roughly 40 percent within two quarters. That only happened because the founder let marketing win an argument he initially disagreed with.",
+          "That's the actual growth engine. Not agentic AI adoption speed. Not a cross-functional remit on a slide. A founder who built in a real check on his own instincts, and a marketing leader with enough standing to use it."
+        ],
+        "bullets": [
+          "A title with no veto power over positioning is decoration, not leadership",
+          "AI amplifies whatever authority structure already exists, it doesn't create one",
+          "Trust between founder and marketing leader has to be built before the AI roadmap, not after"
+        ]
+      },
+      {
+        "heading": "The Real Test for 2026",
+        "paragraphs": [
+          "Before you write a new title into your 2026 org chart, ask a smaller, sharper question: if this person told you your pricing story is confusing your ICP, or your latest pitch deck contradicts your positioning, would you actually change course?",
+          "If the honest answer is no, the title doesn't matter. Chief Growth Architect, VP Growth, fractional CMO, it's all the same empty chair with a different nameplate.",
+          "If the answer is yes, you don't need the rebrand at all. You need to be clear, in writing if necessary, about what decisions that person actually owns: positioning, messaging, ICP definition, GTM sequencing. Scope without decision rights is just more work assigned to a title, not more growth."
+        ]
+      }
+    ],
+    "finalThought": "I work with founders who are honest about where they are on this. Some aren't ready to give a marketing leader real authority yet, and that's a legitimate stage to be in, as long as they're not pretending a fancy title solves it. Others are ready, and just need someone who's built this function enough times to know where positioning breaks first. Either way, the conversation starts with the authority question, not the job description.",
+    "cta": {
+      "heading": "Building your 2026 marketing leadership plan?",
+      "text": "Let's Talk Strategy",
+      "description": "If you're deciding whether to hire, upgrade, or finally empower marketing leadership for 2026, I'd rather have that conversation before the org chart is final than after."
+    }
+  },
+  "heroPrompt": "A polished executive office nameplate on a desk, freshly engraved with 'Chief Growth Architect,' sitting on an otherwise completely empty desk chair with no one in it, stark overhead lighting, minimal composition, everything else in the frame bare and unused",
+  "readTime": "7 min read"
+}

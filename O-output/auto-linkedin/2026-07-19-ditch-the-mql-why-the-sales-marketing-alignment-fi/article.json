@@ -1,0 +1,84 @@
+{
+  "title": "Ditch the MQL: Why the \"Sales-Marketing Alignment\" Fight Is a Distraction",
+  "subtitle": "The problem isn't a broken relationship between two teams. It's that marketing agreed to keep score using sales' scoreboard.",
+  "excerpt": "New data shows a third of B2B marketers are in open conflict with sales, and half feel like a lead-gen service function. Founders keep prescribing 'better alignment.' The real fix is a mandate: marketing owns revenue quality, not lead quantity.",
+  "category": "Demand Generation",
+  "slug": "ditch-the-mql-sales-marketing-alignment-distraction",
+  "seo": {
+    "titleTag": "Ditch the MQL: The Real Sales-Marketing Problem",
+    "metaDescription": "A third of B2B marketers are in conflict with sales. New data shows why 'better alignment' won't fix it, and what founders should do instead.",
+    "ogTitle": "Ditch the MQL: Why the Sales-Marketing Alignment Fight Is a Distraction",
+    "ogDescription": "The fight isn't about handoff meetings. It's about whose scoreboard marketing plays to. Here's what changes when a founder rewrites it."
+  },
+  "content": {
+    "intro": "Marketing Week published its State of B2B Marketing 2025 report at the end of October. The headline numbers are blunt: more than a third of B2B marketers say they're often in open conflict with sales. Half work at companies where marketing exists, structurally, to serve the sales team. Over a third are told to deliver leads regardless of quality.\n\nNone of this is news to anyone who has sat in a GTM leadership meeting. What's new is that it's now documented, quoted, and being webinar'd across the industry this week. Founders are reading it and asking the same question they always ask when this comes up: how do we get sales and marketing more aligned?\n\nWrong question. Alignment assumes two teams are rowing toward the same finish line but out of sync on timing. That's not what's happening. Marketing has quietly adopted sales' definition of winning (MQL volume, pipeline count, lead handoff speed) and is now being graded on a scoreboard it didn't design and shouldn't own.\n\nYou don't fix that with better meetings. You fix it by changing who sets the score.",
+    "pullQuote": "Alignment assumes two teams agree on the scoreboard. The real problem is marketing borrowed sales' scoreboard and forgot to build its own.",
+    "sections": [
+      {
+        "heading": "The Report That Confirms What Every Founder Already Feels",
+        "paragraphs": [
+          "According to Marketing Week's State of B2B Marketing 2025 report, the conflict between sales and marketing isn't a minor friction point. It's structural. A third of marketers describe the relationship as often adversarial. Half say their function is treated as a service arm to sales, not a peer function with its own mandate.",
+          "The same report tells marketers to ditch the MQL and stop obsessing over attribution, pushing instead toward strategic influence as the metric that matters. That's a significant shift in framing from an industry publication that has spent a decade helping build the MQL machine in the first place.",
+          "Separately, Improvado's 2026 trends research found that 44% of B2B marketing leaders name sales-marketing alignment as their single biggest operational challenge, ahead of budget, ahead of headcount, ahead of tooling. Everyone agrees something is broken. Almost everyone reaches for the same fix: more alignment meetings, shared dashboards, tighter SLAs on lead handoff.",
+          "I've sat through those SLA negotiations. They produce cleaner spreadsheets and the same underlying resentment. Because the meetings never address the actual dispute, which is about definitions, not process."
+        ]
+      },
+      {
+        "heading": "Why 'Better Alignment' Is the Wrong Prescription",
+        "paragraphs": [
+          "Alignment, as a word, implies parity. Two functions with equal standing, negotiating shared goals. That's not the dynamic in most B2B startups I've walked into as a fractional CMO.",
+          "What actually happens: sales has a number. That number is visible to the board every month. Marketing doesn't have an equivalent number of its own, so it inherits sales' number as a proxy for its own performance. MQLs delivered. Pipeline sourced. SQLs converted. These aren't marketing's metrics. They're sales' metrics, measured on marketing's activity.",
+          "Once that happens, every conversation between the two functions is really a negotiation over how much of sales' scoreboard marketing has to carry, and how much slack sales gets when the leads don't convert. That's not alignment. That's marketing operating inside sales' org chart while reporting to a different manager.",
+          "Improving the handoff process (better lead scoring, faster SLA response times, tighter CRM hygiene) makes this dynamic more efficient. It doesn't change who's keeping score or what's being measured. You end up with a beautifully aligned process that still optimizes for the wrong outcome."
+        ]
+      },
+      {
+        "heading": "The Scoreboard Problem: Whose Definition of Success Wins?",
+        "paragraphs": [
+          "Here's the pattern I see most often at Series A to Series B B2B startups. The CEO hires a VP of Sales first, or the founder is the first salesperson. Pipeline becomes the language of the company before marketing exists as a function. When marketing gets hired, it inherits a scoreboard that was built for a different job.",
+          "MQL volume made sense when the buying journey ran through a predictable funnel: awareness, form fill, MQL, SQL, opportunity, close. Forrester's 2025 B2B predictions put a number on how much that journey has changed: more than half of large B2B deals, worth $1M or more, will close through digital self-serve channels without a sales rep in the room at all. The funnel marketing is still being scored against doesn't match the funnel buyers are actually using.",
+          "Meanwhile, attribution is quietly falling apart under its own weight. Improvado's research found that while 56% of marketers expect budget growth next year, 90% still struggle to prove attribution and a quarter can't measure ROI at all. Marketing is being asked to deliver more leads on a scoreboard that increasingly can't even confirm whether those leads mattered.",
+          "This is the actual fight. Not 'sales and marketing don't talk enough.' It's that marketing hasn't been given, or hasn't claimed, a definition of success that reflects what marketing actually influences: how buyers perceive the company before they ever talk to a rep, how fast a deal moves once it's in motion, whether the message holds up without a salesperson translating it in real time."
+        ]
+      },
+      {
+        "heading": "What Happens When Marketing Owns Revenue Quality, Not Lead Quantity",
+        "paragraphs": [
+          "I've seen this play out both ways. At one company, marketing was scored purely on MQL volume. The team hit target every quarter. Sales complained constantly that the leads were unqualified. Marketing pointed at the number on the dashboard and said, target met. Both sides were technically right and the company was losing.",
+          "When we rebuilt the scoreboard around revenue quality instead (sales cycle length, win rate on marketing-sourced pipeline, deal size, expansion revenue from accounts marketing had touched) the conversation changed completely. Marketing stopped optimizing for volume and started optimizing for fit. Lead count actually dropped. Win rate on those leads roughly doubled within two quarters. Sales stopped complaining because the leads that showed up were ones they could close.",
+          "That shift didn't come from a better handoff meeting. It came from the CEO explicitly telling both functions: marketing is no longer scored on how many leads it hands off. It's scored on whether the pipeline it touches closes, and closes well. That's a mandate, not a process improvement."
+        ],
+        "bullets": [
+          "Sales cycle length on marketing-influenced deals, not just deal count",
+          "Win rate on marketing-sourced pipeline, not volume of leads generated",
+          "Deal size and expansion revenue from accounts marketing engaged pre-sale",
+          "Message consistency across the buyer journey, measurable in how long sales spends re-explaining positioning"
+        ]
+      },
+      {
+        "heading": "The Fractional CMO's Job: Renegotiating the Scoreboard, Not the Meeting Cadence",
+        "paragraphs": [
+          "This is precisely the gap a fractional CMO is brought in to close, and it's also the part of the job founders least expect. They think they're hiring someone to run campaigns or fix the funnel. What they actually need is someone with enough standing in the room to go to the CEO and say: the scoreboard marketing is being measured against isn't the right one, and here's what should replace it.",
+          "That conversation only works with CEO backing. A marketing leader can't unilaterally decide to stop reporting MQLs if the board deck still has an MQL slide and the VP of Sales still expects a weekly lead count. The mandate has to come from the top, framed not as marketing getting a pass on accountability, but as marketing being held accountable to a better measure of the same thing everyone actually wants: revenue.",
+          "In practice, this means the fractional CMO's first 30 days often look less like campaign planning and more like an audit: what is marketing currently measured on, who decided that, and does it correlate with revenue outcomes the board actually cares about. Half the time, nobody can answer where the current metrics came from. They were inherited from a previous stage of the company and never revisited."
+        ]
+      },
+      {
+        "heading": "A 90-Day Test for Founders: Kill One Vanity Metric This Quarter",
+        "paragraphs": [
+          "You don't need to overhaul your entire GTM measurement stack to test this. Pick one metric this quarter that marketing is currently graded on purely for volume (MQLs, form fills, webinar registrations) and replace it with a quality-based equivalent tied to actual revenue behavior.",
+          "If marketing currently reports MQL count, report win rate on marketing-sourced opportunities instead for one quarter. If marketing reports content downloads, report sales cycle length on deals where that content was used. Small change, but it forces a real conversation between the CEO, sales, and marketing about what's actually being optimized for.",
+          "The fight you're trying to end isn't between two departments who need to talk more. It's between two scoreboards that were never reconciled. Founders who fix that get a marketing function that finally has skin in the same game as sales, measured on the same outcome, just a different, earlier part of the path to it."
+        ]
+      }
+    ],
+    "finalThought": "I've built this function three times, and the pattern repeats: the sales-marketing fight looks like a people problem or a process problem, and it's neither. It's a measurement problem that only the CEO has the authority to fix. That's the work I do as a fractional CMO. Walk in, audit what marketing is actually being scored on, and rebuild it around revenue quality before we touch a single campaign.",
+    "cta": {
+      "heading": "Is marketing in your company scored on sales' definition of success?",
+      "text": "Let's Talk Strategy",
+      "description": "If your marketing team is measured on lead volume instead of revenue quality, that's a mandate problem, not a process problem. Happy to walk through what a different scoreboard would look like for your stage."
+    }
+  },
+  "heroPrompt": "Two identical scoreboards mounted side by side on a wall, one glowing brightly and covered in tally marks labeled with generic counting symbols (representing volume), the other dark and blank except for a single small dial or gauge (representing quality and revenue). A hand reaches toward the dark scoreboard to switch it on. Clean, minimal composition, high contrast between the cluttered lit board and the sparse dark one.",
+  "readTime": "8 min read"
+}

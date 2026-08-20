@@ -1,0 +1,76 @@
+{
+  "title": "AI Blanding: Why Every B2B Brand Suddenly Sounds the Same",
+  "subtitle": "AI didn't create the sameness epidemic in B2B marketing. It just found a faster way to mass-produce it.",
+  "excerpt": "B2B homepages, decks, and LinkedIn posts are converging on the same generic voice. The AI tools are getting blamed, but they're not the root cause. They're just exposing positioning that was already vague, at industrial speed.",
+  "category": "Strategy & AI",
+  "slug": "ai-blanding-b2b-brands-sound-the-same",
+  "seo": {
+    "titleTag": "AI Blanding: Why B2B Brands All Sound the Same",
+    "metaDescription": "AI isn't causing B2B sameness. It's exposing vague positioning at scale. Here's why blanding is spreading, and what to fix before you automate content.",
+    "ogTitle": "AI Blanding: Why Every B2B Brand Suddenly Sounds the Same",
+    "ogDescription": "The tool isn't the problem. If your positioning was already generic, AI just mass-produces that vagueness faster than any junior marketer could."
+  },
+  "content": {
+    "intro": "Open ten B2B SaaS homepages right now. Read the hero lines back to back.\n\n\"Empowering teams to unlock actionable insights at scale.\" \"Transform your workflow with intelligent automation.\" \"The platform teams trust to move faster.\"\n\nSwap the logos and nobody would notice.\n\nThis isn't a coincidence, and it isn't a design trend. It's what happens when hundreds of marketing teams feed the same vague positioning into the same handful of AI models and expect a different output. Marketing Week's State of B2B Marketing 2025 report captured this exact moment: marketers openly naming \"the risk of blanding\" as something they're navigating right now, while scaling AI-generated content and creative and trying to build trust with buyers at the same time.\n\nNot a future risk. A live one, named by the people making the content. The tools didn't invent this problem. They just made it faster, cheaper, and easier to reproduce at scale.",
+    "pullQuote": "AI doesn't create blanding. It industrializes whatever positioning you feed it.",
+    "sections": [
+      {
+        "heading": "What Blanding Actually Looks Like Right Now",
+        "paragraphs": [
+          "Blanding isn't a new word for bad copy. It's a specific, measurable pattern: brands that used to sound different now converge on the same vocabulary, the same claims, the same sentence structure, because they're all drawing from the same training data and the same prompting habits.",
+          "Marketing Tech News reported in November 2025 that despite most CMOs already using or trialling AI tools, half of them still worry about data quality and integrity, and a third worry AI is diluting the human touch in their marketing. That's not a fringe concern from AI skeptics. That's roughly a third to half of the people running the function saying the output doesn't feel like theirs anymore.",
+          "Gartner's survey of 413 marketing technology leaders, published the same month, framed the shift bluntly: CMOs need to move from being an \"influencer\" role to a \"designer of business impact,\" building authentic, differentiated value. The report also noted that AI's full business value remains elusive for most organizations. Read those two findings together and you get the real story. Companies are adopting AI faster than they're solving the differentiation problem it's supposed to help with."
+        ]
+      },
+      {
+        "heading": "AI Didn't Create the Sameness. It Industrialized It.",
+        "paragraphs": [
+          "Here's the part most of the AI-blaming misses. AI models are trained on the collective output of an industry that was already generic before ChatGPT existed. \"Empowering teams,\" \"unlocking value,\" \"driving outcomes\" were not invented by large language models. They were invented by marketing teams with no real point of view, writing copy that sounded safe because nobody had done the harder work of deciding what made them different.",
+          "AI doesn't know your product is different. It knows what similar products in your category usually say about themselves, because that's the training data. If your brief is \"write a homepage for a B2B analytics platform,\" you will get the analytics-platform version of average. That's not the model failing. That's the model doing exactly its job: predicting the most statistically likely next sentence, given a vague input.",
+          "This is the contrarian part founders don't want to hear: the AI didn't expose a new problem. It exposed a problem your positioning already had, one that used to be hidden by the slowness of human content production. When it took a junior marketer three days to write a landing page, the vagueness leaked out slowly, one page at a time, and nobody noticed the pattern. Now it takes three minutes and you can generate fifty variations before lunch. The vagueness that used to trickle now floods, and floods are visible.",
+          "Boston Consulting Group's \"Art and Algorithms\" report, published in November 2025, frames this as the tail end of a decade-long shift: marketing moving from creative storytelling toward data-driven campaign finalization. AI is the accelerant on a fire that was already burning. Blanding is what a decade of optimizing for efficiency over distinctiveness looks like once you remove the last bottleneck, which was how fast a human could type."
+        ]
+      },
+      {
+        "heading": "Two Briefs, Two Outputs",
+        "paragraphs": [
+          "I've watched this play out inside actual companies, not hypotheticals. Two founders, same funding stage, same category, same AI tools. One handed the content pipeline a brief that said: \"We help enterprises automate compliance workflows.\" True. Also true of roughly forty other companies. Every output the AI generated for them, across dozens of pieces, sounded like every compliance-automation vendor on the internet, because that's what the training data overwhelmingly contains.",
+          "The other founder had already done the unglamorous work before touching any AI tool. Their positioning wasn't \"we automate compliance.\" It was: \"Compliance teams at mid-market insurers lose two weeks per audit cycle to manual evidence-gathering across six disconnected systems. We collapse that to two days by connecting directly into the systems of record, not by adding another dashboard on top of them.\" Specific buyer. Specific pain, with a number attached. Specific mechanism, stated as a contrast to how competitors solve it.",
+          "Same AI model. Same tool. The second brief produced content that sounded like nobody else in the category, because the input wasn't generic. The model had something to differentiate against. It could write in contrast to \"another dashboard\" because the brief told it what the alternative was. The first brief gave it nothing to push against, so it defaulted to the industry average, which is exactly what averages are for.",
+          "This is the pattern I keep seeing across engagements: founders scale AI content production before fixing the narrative, and the result isn't more leads. It's a faster, cheaper way to sound like every competitor in the category."
+        ]
+      },
+      {
+        "heading": "Positioning as the Prompt",
+        "paragraphs": [
+          "The fix isn't slower content or fewer AI tools. It's sequencing. Positioning has to exist before the content pipeline goes live, because positioning is the actual prompt. Everything else, the AI tool, the content calendar, the ad copy, is downstream execution of a decision that should already be made.",
+          "IBM's Institute for Business Value, in its global CMO study with Oxford Economics, found that 71% of CMOs say AI's success depends more on people's buy-in than on the technology itself, and that uniquely human insight remains the key differentiator. That insight has to be captured and encoded before you automate anything. AI can't manufacture a point of view you never had. It can only scale the one you give it.",
+          "Before any AI content pipeline goes live, three things need to be locked, in writing, agreed by whoever owns the narrative:",
+          "Once those three are locked, the AI tool becomes a force multiplier for a real position, instead of a faster photocopier for a fuzzy one. This is also why the old SEO logic is breaking down. Marketing Brew reported CMOs naming the assumption that strong SEO alone would guarantee visibility in AI-driven search environments as one of 2025's most overhyped, now-collapsing beliefs. Generic content optimized for generic keywords doesn't survive contact with AI-mediated discovery any better than it survives contact with a skeptical buyer. Distinctiveness, not keyword density, is what gets cited, quoted, and remembered, by AI systems and by humans."
+        ],
+        "bullets": [
+          "The specific buyer you're built for, named narrowly enough that a competitor could not claim the same sentence",
+          "The specific mechanism that makes you different, stated as a contrast to how the category solves the problem today",
+          "The specific proof point, a number or outcome, that makes the claim falsifiable instead of aspirational"
+        ]
+      },
+      {
+        "heading": "Three Moves Before You Scale AI Content This Quarter",
+        "paragraphs": [
+          "If you're a founder or CEO watching your marketing team ramp up AI-generated output, here's what I'd check before approving more volume.",
+          "First, pull ten pieces of content your team has published in the last quarter and read them against a direct competitor's. If you can't tell which company wrote which without checking the logo, you have a positioning problem, not a content problem. Fix that before producing piece eleven.",
+          "Second, ask your team to write your positioning statement from memory, separately, without looking at a deck. If you get five different answers, AI is about to encode five different vague brands into your content library, and it will do it fast.",
+          "Third, before your next AI-assisted campaign, put the specific buyer, the specific mechanism, and the specific proof point at the top of the brief, every time, not just once in an onboarding doc. Treat it like a constraint the model has to write inside of, not background context it might reference. That's the difference between a tool that industrializes clarity and one that industrializes noise."
+        ]
+      }
+    ],
+    "finalThought": "I've built and rebuilt marketing functions inside B2B startups for over fifteen years, and the pattern with AI is the same pattern I saw with every other tool that promised to solve marketing by producing more of it faster. The teams that win aren't the ones with the best AI stack. They're the ones who did the unglamorous positioning work first, so that whatever tool they point at content production has something real to amplify. If your content already reads like everyone else's, more AI volume won't fix that. It will just get you there faster. That's the conversation I have with founders before we touch a single content calendar.",
+    "cta": {
+      "heading": "Is your content sounding like everyone else in your category?",
+      "text": "Let's Talk Strategy",
+      "description": "If your team is scaling AI content production and you're not sure your positioning can carry the volume, let's talk before you publish another quarter of it."
+    }
+  },
+  "heroPrompt": "A factory conveyor belt of identical plain beige boxes moving down the line, each box exactly the same shape and size, with a robotic arm stamping a different generic logo stencil onto each one just before it exits the frame. The boxes underneath the stamps are indistinguishable. Overhead, harsh industrial lighting. Composition emphasizes repetition and uniformity, with the stamping arm as the only point of visible motion.",
+  "readTime": "8 min read"
+}

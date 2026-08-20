@@ -1,0 +1,80 @@
+{
+  "title": "LinkedIn's Algorithm Didn't Kill Your Reach. It Exposed Your Positioning",
+  "subtitle": "The platform stopped rewarding volume. It never stopped rewarding a distinct point of view.",
+  "excerpt": "B2B marketers are blaming LinkedIn's algorithm for a reach collapse this November. The real story is simpler and harder to hear: the algorithm just stopped hiding weak positioning behind posting frequency.",
+  "category": "Positioning & GTM",
+  "slug": "linkedin-algorithm-exposed-your-positioning",
+  "seo": {
+    "titleTag": "LinkedIn Reach Collapse 2025: It's Positioning, Not the Algorithm",
+    "metaDescription": "LinkedIn views are down 50% and marketers are panicking. Ran Timor explains why the algorithm change exposed weak positioning, not broken distribution.",
+    "ogTitle": "LinkedIn's Algorithm Didn't Kill Your Reach. It Exposed Your Positioning",
+    "ogDescription": "Reach collapsed 50% this November. The algorithm isn't the problem. Your one-sentence positioning was never strong enough to survive it."
+  },
+  "content": {
+    "intro": "Every B2B marketing leader I talk to this month has the same chart open in another tab. Views down. Engagement down. Follower growth down. And the same question: what happened to LinkedIn?\n\nAccording to the Algorithm InSights 2025 report by Richard van der Blom, views are down roughly 50%, engagement down 25%, and follower growth down 59% across the platform. That's not noise. That's a structural shift, and it landed right as LinkedIn rolled out a new User Agreement and Privacy Policy in November 2025.\n\nSo the panic is understandable. It's also solving the wrong problem.\n\nMost of the advice circulating right now is about winning the algorithm back: post more native video, stop linking out, comment within the first hour, chase the new format. All tactical. All missing the actual signal LinkedIn just sent.\n\nThe algorithm didn't break your reach. It stopped rewarding volume and started rewarding relevance. And if your reach depended on volume, that tells you something about your positioning that the algorithm just made impossible to ignore.",
+    "pullQuote": "LinkedIn didn't take away your distribution. It took away the thing that let you fake having a point of view.",
+    "sections": [
+      {
+        "heading": "The Numbers Are Real. The Diagnosis Is Wrong.",
+        "paragraphs": [
+          "Let's not dismiss the data. A 50% drop in views and a 59% drop in follower growth, per Agorapulse's analysis of the same InSights report, is a genuine shift in how content moves through the platform. Anyone telling you 'just post consistently and it'll come back' hasn't looked at the mechanics.",
+          "But here's what the panic conversations keep skipping: LinkedIn didn't reduce total attention on the platform. Forrester's B2B Social Media Benchmark Report 2025 puts LinkedIn at 78% of all B2B leads generated, up 23% versus 2023. Buyers are on LinkedIn more than ever. The platform isn't shrinking. It's getting more selective about what it shows them.",
+          "That's the part most GTM teams don't want to hear, because it means the problem isn't distribution. It's what you're saying once you get the attention."
+        ]
+      },
+      {
+        "heading": "What Actually Changed, in Plain English",
+        "paragraphs": [
+          "Strip away the jargon and the shift is straightforward. LinkedIn used to reward engagement volume: likes, comments, shares, regardless of why people were engaging. According to Brixon Group's breakdown of the 2025 changes, the algorithm now evaluates engagement quality instead. Saves and time spent reading are weighted above likes and follows.",
+          "ValueYourNetwork's analysis from early November puts it directly: the new ranking prioritizes transparency, relevance and authenticity, and success now depends on dialogue, not promotion. LinkedIn is trying to separate posts that generate a genuine reaction from posts that generate a reflexive one.",
+          "There's also a quieter mechanical shift. As of November 2025, per Definition Consulting, posts with outbound links now see reduced reach under the new User Agreement, because LinkedIn wants engagement to stay on-platform rather than sending people elsewhere.",
+          "None of this is a punishment. It's LinkedIn trying to make the feed useful again, because a feed full of generic 'thought leadership' engagement-baiting posts stops being useful to the buyers Forrester says are spending more time there. The algorithm is doing what a good filter should do: making it harder for undifferentiated content to fake relevance."
+        ]
+      },
+      {
+        "heading": "Why Your Reach Cratered: It Was Never Distribution, It Was Always Positioning",
+        "paragraphs": [
+          "Here's the pattern I've seen across a dozen B2B founders and marketing leaders since this news broke. The ones panicking hardest are the ones who were posting frequently, tagging the right hashtags, following every 'LinkedIn growth hack' thread, and getting decent reach on volume alone. Their content wasn't bad. It just wasn't distinct.",
+          "That's exactly the kind of content the old algorithm rewarded and the new one filters out. If your post could have been written by three other companies in your category with the names swapped, it was never going to survive a relevance-based ranking. The algorithm just made that visible faster than a sales call would have.",
+          "This is the same failure pattern I see in positioning work generally. When a founder's pitch deck changes after every sales meeting, that's not a sales problem, it's a positioning problem. When a LinkedIn post needs a trending format to get seen, that's not an algorithm problem, it's the same positioning problem wearing a different hat.",
+          "Positioning was always the thing that determined whether your message survived scrutiny. LinkedIn just removed the scrutiny-free zone that volume-based ranking used to provide."
+        ]
+      },
+      {
+        "heading": "Company Pages Are Dying. Founders Are Winning. That's a Trust Signal, Not a Content Trend.",
+        "paragraphs": [
+          "The Content Marketing Institute's read on the 2025 algorithm shift is blunt: employee-driven, personal content now outperforms company page content. This gets reported as a tactical tip: get your employees posting. That's the shallow version.",
+          "The deeper story is that LinkedIn's relevance signal is really a trust signal. A company page post is inherently one step removed from a real point of view, it's institutional by design. A founder or executive post carries a name, a face, and accountability for the opinion in it. When the algorithm rewards dialogue over promotion, it's rewarding content that a real person is willing to stand behind.",
+          "This is why founder-led marketing keeps outperforming brand-led marketing on this platform, and it's not a fad. It's the same reason buyers trust a specific person's take over a generic vendor claim. The algorithm change didn't invent that preference. It just stopped letting company pages route around it with volume."
+        ]
+      },
+      {
+        "heading": "Stop Chasing Algorithm Hacks. Fix the One-Sentence Problem First.",
+        "paragraphs": [
+          "If your reach dropped and your instinct is to find the new format that works, you're optimizing the wrong layer. The question that actually matters: can you say, in one sentence, what makes your point of view different from the five other people in your category posting this week?",
+          "If the answer takes 30 seconds and three qualifiers, that's your reach problem. Not the algorithm. I've watched this exact test fail in board meetings, sales calls, and now, apparently, in LinkedIn's feed ranking. The venue changes. The diagnosis doesn't.",
+          "The fix isn't more content. It's sharper content, built on positioning that was done properly before anyone opened a content calendar. Founders who've done that work are seeing this shift as an opportunity, not a threat, because relevance-based ranking is finally rewarding the thing they've been saying all along."
+        ]
+      },
+      {
+        "heading": "What to Actually Do This Week",
+        "paragraphs": [
+          "You don't need a content overhaul. You need three honest checks."
+        ],
+        "bullets": [
+          "Pull your last 10 LinkedIn posts and ask: could a competitor have posted this word for word? If yes on more than half, that's a positioning gap, not a format gap.",
+          "Check who's posting on your company's behalf. If it's only the company page, and no named executive has a consistent point of view, you're fighting the algorithm's new bias for nothing.",
+          "Before you write the next post, write the one sentence that explains what you believe that most of your category doesn't. If you can't write it, don't post yet. Fix that sentence first."
+        ]
+      }
+    ],
+    "finalThought": "I've had this exact conversation with founders about sales decks, pitch meetings, and investor updates long before LinkedIn's algorithm made it a content problem too. The venue keeps changing. The root cause doesn't. When I work with a founder on positioning, the LinkedIn reach conversation usually resolves itself in the first month, not because we cracked the algorithm, but because we finally gave the market something distinct to engage with. If your reach collapsed this November and you're tempted to blame the platform, ask the harder question first. It's usually the cheaper fix.",
+    "cta": {
+      "heading": "Is your LinkedIn reach problem actually a positioning problem?",
+      "text": "Let's Talk Strategy",
+      "description": "If your team is chasing algorithm tactics instead of fixing the one-sentence problem underneath them, let's talk before you spend another quarter on content that isn't landing."
+    }
+  },
+  "heroPrompt": "A single spotlight beam cutting through a crowded stage full of identical microphones on stands, all silent and unlit, while one microphone off to the side, slightly different in shape, stands illuminated and clearly distinct. Clean, minimal composition, high contrast between the uniform crowd and the one distinct object catching the light.",
+  "readTime": "6 min read"
+}
