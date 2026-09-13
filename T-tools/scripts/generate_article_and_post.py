@@ -455,6 +455,51 @@ def render_sections(sections: list, indent: str) -> str:
     return "\n".join(out)
 
 
+IMPORTS_ANCHOR = "// AUTO-ARTICLES:IMPORTS"
+LIST_ANCHOR = "// AUTO-ARTICLES:LIST"
+DETAIL_ANCHOR = "// AUTO-ARTICLES:DETAIL"
+
+
+def find_anchor_file(site_repo: Path, anchor: str) -> Path:
+    """Return the single .ts/.tsx file under src/ carrying `anchor`.
+
+    Hardcoded paths break every time the site gets refactored; the anchor
+    comment is the contract, so follow the anchor rather than the filename.
+    """
+    matches = sorted(
+        f
+        for ext in ("*.ts", "*.tsx")
+        for f in (site_repo / "src").rglob(ext)
+        if anchor in f.read_text(encoding="utf-8", errors="ignore")
+    )
+    if not matches:
+        raise RuntimeError(
+            f"anchor {anchor} not found anywhere under src/ — the site was likely "
+            f"refactored; re-add the anchor comment to the file that now holds the articles"
+        )
+    if len(matches) > 1:
+        rels = ", ".join(str(m.relative_to(site_repo)) for m in matches)
+        raise RuntimeError(f"anchor {anchor} found in multiple files ({rels}) — aborting publish")
+    return matches[0]
+
+
+def insert_hero_import(text: str, import_line: str, where: str) -> str:
+    """Add the hero import, preferring the anchor but surviving without it.
+
+    Lovable drops the anchor comment when it refactors a file, which used to
+    abort the whole publish. Falling back to the end of the import block keeps
+    the pipeline running instead.
+    """
+    if IMPORTS_ANCHOR in text:
+        return text.replace(IMPORTS_ANCHOR, f"{import_line}\n{IMPORTS_ANCHOR}", 1)
+    imports = list(re.finditer(r"^(?:import .*?;|const \w+ = \w+Asset\.url;)$", text, re.M))
+    if not imports:
+        raise RuntimeError(f"no import block found in {where} — aborting publish")
+    end = imports[-1].end()
+    print(f"  !  {IMPORTS_ANCHOR} missing in {where}; appending to the import block instead", flush=True)
+    return text[:end] + "\n" + import_line + text[end:]
+
+
 def publish_to_site(site_repo: Path, article: dict, date: str, hero_ok: bool) -> None:
     slug = article["slug"]
     camel = camelize(slug) + "Hero"
@@ -471,15 +516,15 @@ def publish_to_site(site_repo: Path, article: dict, date: str, hero_ok: bool) ->
     seo = article.get("seo", {})
     cta = c.get("cta", {})
 
-    list_entry = f"""    {{
-      title: {js_str(article["title"])},
-      excerpt: {js_str(article["excerpt"])},
-      date: {js_str(date)},
-      category: {js_str(article["category"])},
-      readTime: {js_str(read_time)},
-      slug: {js_str(slug)},
-      heroImage: {camel},
-    }},"""
+    list_entry = f"""  {{
+    title: {js_str(article["title"])},
+    excerpt: {js_str(article["excerpt"])},
+    date: {js_str(date)},
+    category: {js_str(article["category"])},
+    readTime: {js_str(read_time)},
+    slug: {js_str(slug)},
+    heroImage: {camel},
+  }},"""
 
     detail_entry = f"""  {js_str(slug)}: {{
     title: {js_str(article["title"])},
@@ -509,25 +554,22 @@ def publish_to_site(site_repo: Path, article: dict, date: str, hero_ok: bool) ->
     }},
   }},"""
 
-    IMPORTS_ANCHOR = "// AUTO-ARTICLES:IMPORTS"
-    LIST_ANCHOR = "// AUTO-ARTICLES:LIST"
-    DETAIL_ANCHOR = "// AUTO-ARTICLES:DETAIL"
-
-    for page, anchor, entry in (
-        ("Articles.tsx", LIST_ANCHOR, list_entry),
-        ("ArticleDetail.tsx", DETAIL_ANCHOR, detail_entry),
-    ):
-        p = site_repo / "src" / "pages" / page
-        t = p.read_text(encoding="utf-8")
-        if anchor not in t or IMPORTS_ANCHOR not in t:
-            raise RuntimeError(f"anchor missing in {page} — aborting publish")
+    # The site is a Lovable project: it periodically refactors files (e.g. on
+    # 2026-08-20 the article list moved from src/pages/Articles.tsx into
+    # src/lib/articles.ts). So locate each anchor by searching the source tree
+    # instead of hardcoding a path, and report the concrete file we found.
+    for anchor, entry in ((LIST_ANCHOR, list_entry), (DETAIL_ANCHOR, detail_entry)):
+        target = find_anchor_file(site_repo, anchor)
+        rel = target.relative_to(site_repo)
+        t = target.read_text(encoding="utf-8")
         if f'"{slug}"' in t or f"slug: {js_str(slug)}" in t:
-            raise RuntimeError(f"slug '{slug}' already exists in {page} — aborting publish")
-        # import goes ABOVE the imports anchor; entry goes BELOW its anchor line
-        t = t.replace(IMPORTS_ANCHOR, f"{import_line}\n{IMPORTS_ANCHOR}", 1)
+            raise RuntimeError(f"slug '{slug}' already exists in {rel} — aborting publish")
+        t = insert_hero_import(t, import_line, str(rel))
+        # entry goes BELOW its anchor line
         anchor_line_end = t.index("\n", t.index(anchor))
         t = t[: anchor_line_end + 1] + entry + "\n" + t[anchor_line_end + 1 :]
-        p.write_text(t, encoding="utf-8")
+        target.write_text(t, encoding="utf-8")
+        print(f"  -> {anchor} injected into {rel}", flush=True)
 
     print(f"Stage 5: article injected into site repo (slug: {slug})", flush=True)
 
@@ -563,7 +605,23 @@ def main() -> int:
     hero_path = site_repo / "src" / "assets" / "articles" / f"{slug}-hero.jpg"
     hero_ok = stage4_hero_image(article, hero_path)
 
-    publish_to_site(site_repo, article, date, hero_ok)
+    # readTime is also set inside publish_to_site, but the O-output files below
+    # need it even when the site publish fails.
+    article["readTime"] = f"{max(4, round(word_count(article) / 200))} min read"
+
+    # A broken site publish must never cost us the article: the expensive work
+    # (research, writing, gatekeeper, hero image) is already done, so record the
+    # failure and keep going. The workflow fails the job at the end, after the
+    # content has been committed and the review issue opened.
+    site_published = True
+    site_error = ""
+    try:
+        publish_to_site(site_repo, article, date, hero_ok)
+    except RuntimeError as e:
+        site_published = False
+        site_error = str(e)
+        print(f"WARNING: site publish failed — {e}", file=sys.stderr)
+        print("Continuing: the article is still saved to O-output/ for manual publishing.", file=sys.stderr)
 
     # ensure the first comment carries the real URL
     first_comment = review.get("first_comment", "")
@@ -643,10 +701,15 @@ def main() -> int:
             f.write(f"verdict={verdict}\n")
             f.write(f"slug={slug}\n")
             f.write(f"article_url={article_url}\n")
+            f.write(f"site_published={'true' if site_published else 'false'}\n")
+            # GITHUB_OUTPUT is line-based: keep the error on one line
+            f.write(f"site_error={' '.join(site_error.split())}\n")
 
     print(f"\nDone. Article: {article_url}")
     print(f"Output: {outdir}")
     print(f"Verdict: {verdict}")
+    if not site_published:
+        print(f"Site publish: FAILED — {site_error}")
     return 0
 
 

@@ -75,12 +75,14 @@ jobs:
           fi
 
       - name: Publish article to website repo
-        if: steps.guard.outputs.skip == 'false'
+        if: steps.guard.outputs.skip == 'false' && steps.generate.outputs.site_published == 'true'
         working-directory: site-repo
         run: |
           git config user.name "Fractional CMO Bot"
           git config user.email "rantimor@gmail.com"
-          git add src/pages/Articles.tsx src/pages/ArticleDetail.tsx src/assets/articles/
+          # Stage everything the script touched. Explicit paths broke silently
+          # when Lovable moved the article list to src/lib/articles.ts.
+          git add -A
           git diff --staged --quiet || git commit -m "New article: ${{ steps.generate.outputs.topic }}"
           for attempt in 1 2 3 4 5; do
             git pull --rebase origin main
@@ -116,6 +118,11 @@ jobs:
             echo ""
             echo "---"
             echo "## Publish checklist"
+            if [ "${{ steps.generate.outputs.site_published }}" != "true" ]; then
+              echo "> ⚠️ **The article was NOT injected into the website repo.** The post above is ready, but the site needs a manual fix first."
+              echo "> Error: \`${{ steps.generate.outputs.site_error }}\`"
+              echo ""
+            fi
             echo "- [ ] **Lovable:** open the ran-timor-brand project and click **Publish → Update** so the article goes live at ${{ steps.generate.outputs.article_url }}"
             echo "- [ ] **Verify** the article renders correctly (hero image, sections, CTA)"
             echo "- [ ] **LinkedIn:** copy the post above, publish, then add the first comment with the article link"
@@ -134,3 +141,11 @@ jobs:
         if: steps.guard.outputs.skip == 'false'
         run: |
           cat "${{ steps.generate.outputs.outdir }}/linkedin-post.md" >> "$GITHUB_STEP_SUMMARY"
+
+      # Runs last, so a broken site publish is reported without discarding the
+      # article the run already generated and committed.
+      - name: Fail if the site publish was skipped
+        if: steps.guard.outputs.skip == 'false' && steps.generate.outputs.site_published != 'true'
+        run: |
+          echo "::error::Article generated and committed, but NOT injected into the site: ${{ steps.generate.outputs.site_error }}"
+          exit 1
