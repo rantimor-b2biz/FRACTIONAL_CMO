@@ -20,11 +20,15 @@ The problem is what that same Gartner data also shows.
 
 The companies putting MORE budget into retention are the ones that are MORE AI-mature. Not less.
 
-That's not a coincidence.
+Correlation, not proof. But the operating model explains it.
 
-AI runs on customer data. Usage patterns. Renewal history. Expansion signals. Churn behavior.
+Acquisition generates signals. Retention generates outcomes.
 
-None of that comes from a new logo. It comes from the retention and customer success motion you just defunded to look AI-forward.
+Signals are real, and your models use them. Which segments respond. Which channels convert. But all of it is measured before the customer has proven anything.
+
+Outcomes are what happened next. Who stayed. Who expanded. Who churned quietly at month fourteen after looking healthy the whole way.
+
+Without that history, AI learns what a good prospect looks like. Never what a good customer looks like.
 
 So you cut the exact function that generates the fuel your AI depends on, and call it acceleration.
 
