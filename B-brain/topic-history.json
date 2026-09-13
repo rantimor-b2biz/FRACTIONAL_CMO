@@ -145,5 +145,13 @@
     "pillar": "Positioning & GTM",
     "angle": "This isn't a demographic footnote — it's proof most GTM motions are built for a buyer that no longer sits in the room. Founders keep optimizing nurture sequences and rep enablement for a formal, patient enterprise committee, when the actual buying group now researches like consumers, punishes generic outreach, and self-serves until they've already formed an opinion. The fix isn't better sales tactics or more AI tooling in the funnel — it's positioning sharp enough to do the convincing before a rep ever gets a call.",
     "article_slug": "buyer-youre-selling-to-doesnt-exist-anymore"
+  },
+  {
+    "date": "2026-09-13",
+    "week": "W37",
+    "topic": "The Retention Retreat: Why CMOs Are Gutting Loyalty Budgets to Chase AI-Fueled New Logos — And Making Themselves Less AI-Ready in the Process",
+    "pillar": "AI vs Strategy (with strong overlap into Demand Generation and Positioning & GTM)",
+    "angle": "Boards are pushing CMOs to prove 'AI-led growth' by funding new-logo acquisition and cutting the loyalty/retention budget that used to fund it. The irony: the data shows the opposite correlation — the CMOs starving retention are the same ones failing to become AI-mature, because customer, CS, and expansion data is the fuel AI needs to work. Ran's take: you can't buy your way to an 'AI-first' GTM motion by defunding the one function that actually generates the structured, high-fidelity customer data your AI stack depends on — that's not acceleration, it's cannibalizing your own foundation for a vanity metric (new logos) while your board applauds.",
+    "article_slug": "retention-retreat-ai-readiness-new-logos"
   }
 ]
