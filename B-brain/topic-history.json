@@ -153,5 +153,13 @@
     "pillar": "AI vs Strategy (with strong overlap into Demand Generation and Positioning & GTM)",
     "angle": "Boards are pushing CMOs to prove 'AI-led growth' by funding new-logo acquisition and cutting the loyalty/retention budget that used to fund it. The irony: the data shows the opposite correlation — the CMOs starving retention are the same ones failing to become AI-mature, because customer, CS, and expansion data is the fuel AI needs to work. Ran's take: you can't buy your way to an 'AI-first' GTM motion by defunding the one function that actually generates the structured, high-fidelity customer data your AI stack depends on — that's not acceleration, it's cannibalizing your own foundation for a vanity metric (new logos) while your board applauds.",
     "article_slug": "retention-retreat-ai-readiness-new-logos"
+  },
+  {
+    "date": "2026-09-17",
+    "week": "W38",
+    "topic": "The 'GTM Engineer' Hire Won't Fix Your Pipeline — It'll Just Automate Your Confusion Faster",
+    "pillar": "AI vs Strategy (crosses into Founder-Led Marketing & Leadership and Demand Generation)",
+    "angle": "A new job title — 'GTM Engineer' — is spreading through B2B sales orgs to own the AI-agent stack that now runs prospecting, scoring, and outreach. Ran's contrarian take: hiring someone to manage the agents is a staffing decision disguised as a strategy decision — agentic AI doesn't create a clearer story, it just executes whatever positioning already exists at machine speed. For Israeli founders, buying a GTM Engineer (or an agent subscription) before fixing the narrative means paying to automate confusion faster and at greater volume, not to fix the actual bottleneck.",
+    "article_slug": "gtm-engineer-hire-wont-fix-pipeline"
   }
 ]
