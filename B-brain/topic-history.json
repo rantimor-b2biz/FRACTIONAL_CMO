@@ -185,5 +185,13 @@
     "pillar": "Positioning & GTM (with AI vs Strategy crossover)",
     "angle": "Everyone's blaming budget cuts, AI disruption, or 'sales-marketing misalignment' for falling win rates — but the real cause is that positioning is being tested in two rooms the founder is never in: the internal buying-committee debate, and now the AI chatbot conversation that happens before a human ever replies to a cold email. Ran's contrarian take: if your pitch can't survive being repeated by a champion who half-remembers it, or summarized by an LLM that's never spoken to you, you don't have positioning — you have a slide deck. Fix the sentence that survives your absence, not the deck that only works when you're presenting it.",
     "article_slug": "room-youre-never-in-b2b-win-rates-ai-chatbots"
+  },
+  {
+    "date": "2026-10-01",
+    "week": "W40",
+    "topic": "The CMO AI Blind Spot: Why 96% AI Adoption Is Making B2B Marketing Less Strategic, Not More",
+    "pillar": "AI vs Strategy — AI amplifies clarity or confusion; agentic AI/marketing; GEO",
+    "angle": "Every CMO survey this quarter is bragging about adoption percentages, but Gartner's own data shows the 65% of CMOs who expect AI to upend their role are the same group that thinks they need almost no new skills to survive it — that's not readiness, that's denial. Ran's take: tool adoption is now table stakes and worthless as a differentiator; the only thing that still separates winners is strategic judgment about WHERE to point the tool, which is exactly the positioning work most Israeli founders skip because a dashboard full of AI logos feels like progress. I've watched startups install six AI tools in a quarter and still not be able to answer 'why us' in one sentence — the tool never fixes that, only clarity does.",
+    "article_slug": "cmo-ai-blind-spot-adoption-without-strategy"
   }
 ]
